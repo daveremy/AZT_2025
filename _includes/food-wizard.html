@@ -50,62 +50,28 @@
   </div>
 
   <div class="wizard-step" id="stepMealPlan" style="display: none;">
-    <h3>Step 3: Select Meal Preferences</h3>
-    <div class="meal-preferences">
-      <div class="meal-type">
-        <h4>Breakfast Options</h4>
-        <select id="breakfastPlan" class="wizard-input" multiple>
-          <option value="oatmeal">Instant Oatmeal + Dried Fruit</option>
-          <option value="granola">Granola + Powdered Milk</option>
-          <option value="bars">Breakfast Bars + Nuts</option>
-        </select>
-      </div>
-      <div class="meal-type">
-        <h4>Lunch Options</h4>
-        <select id="lunchPlan" class="wizard-input" multiple>
-          <option value="wraps">Tortilla Wraps + Toppings</option>
-          <option value="tuna">Tuna + Crackers</option>
-          <option value="pb">Peanut Butter + Tortillas</option>
-        </select>
-      </div>
-      <div class="meal-type">
-        <h4>Dinner Options</h4>
-        <select id="dinnerPlan" class="wizard-input" multiple>
-          <option value="ramen">Ramen + Tuna</option>
-          <option value="couscous">Couscous + Chicken</option>
-          <option value="rice">Rice Sides + Beef</option>
-        </select>
-      </div>
-      <div class="meal-type">
-        <h4>Snack Preferences</h4>
-        <select id="snackPlan" class="wizard-input" multiple>
-          <option value="nuts">Trail Mix</option>
-          <option value="bars">Energy Bars</option>
-          <option value="candy">Candy/Chocolate</option>
-          <option value="jerky">Beef Jerky</option>
-        </select>
-      </div>
+    <h3>Step 3: Daily Meal Plan</h3>
+    <div id="mealPlanGrid" class="meal-plan-grid">
+      <!-- Grid will be populated by JavaScript -->
     </div>
+    <button id="randomizeMeals" class="wizard-button">Randomize Meals</button>
   </div>
 
   <div class="wizard-controls">
     <button id="prevStep" class="wizard-button" style="display: none;">Previous</button>
     <button id="nextStep" class="wizard-button">Next</button>
-    <button id="generatePlan" class="wizard-button" style="display: none;">Generate Plan</button>
+    <button id="generatePlan" class="wizard-button" style="display: none;">Generate Shopping List</button>
   </div>
 
   <div id="foodPlanResult" class="food-plan-result" style="display: none;">
-    <h3>Your Food Plan</h3>
-    <div class="plan-summary">
-      <div id="dailyPlan"></div>
-      <div id="shoppingList"></div>
-    </div>
+    <h3>Shopping List</h3>
+    <div id="shoppingList"></div>
   </div>
 </div>
 
 <style>
 .food-wizard {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 2rem auto;
   padding: 1rem;
   background: white;
@@ -139,15 +105,33 @@
   background: #34495e;
 }
 
-.section-details, .calorie-calculator, .meal-preferences {
-  background: #f8f9fa;
-  padding: 1rem;
-  border-radius: 4px;
-  margin-top: 1rem;
+.meal-plan-grid {
+  width: 100%;
+  overflow-x: auto;
+  margin: 1rem 0;
 }
 
-.meal-type {
-  margin-bottom: 1rem;
+.meal-plan-grid table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.meal-plan-grid th, .meal-plan-grid td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.meal-plan-grid th {
+  background: #f5f5f5;
+}
+
+.meal-plan-grid select {
+  width: 100%;
+  padding: 0.25rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
 }
 
 .food-plan-result {
@@ -156,18 +140,86 @@
   background: #f8f9fa;
   border-radius: 4px;
 }
+
+.shopping-list-category {
+  margin: 1rem 0;
+}
+
+.shopping-list-category h4 {
+  margin-bottom: 0.5rem;
+}
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+  // Meal component data
+  const mealComponents = {
+    breakfast: {
+      bases: [
+        { name: 'Instant Oatmeal', calories: 300, weight: 2.5 },
+        { name: 'Granola', calories: 400, weight: 3.0 },
+        { name: 'Pop Tarts', calories: 400, weight: 2.0 },
+        { name: 'Breakfast Skillet', calories: 350, weight: 4.0 }
+      ],
+      addIns: [
+        { name: 'Dried Fruit', calories: 100, weight: 1.0 },
+        { name: 'Nuts', calories: 160, weight: 1.0 },
+        { name: 'Powdered Milk', calories: 80, weight: 0.8 },
+        { name: 'Protein Powder', calories: 120, weight: 1.0 }
+      ]
+    },
+    lunch: {
+      bases: [
+        { name: 'Tortillas', calories: 200, weight: 2.0 },
+        { name: 'Crackers', calories: 200, weight: 1.5 },
+        { name: 'Bagels', calories: 260, weight: 3.0 },
+        { name: 'Pita Bread', calories: 170, weight: 2.0 }
+      ],
+      proteins: [
+        { name: 'Tuna Packet', calories: 100, weight: 2.5 },
+        { name: 'Peanut Butter', calories: 190, weight: 1.0 },
+        { name: 'Summer Sausage', calories: 250, weight: 2.0 },
+        { name: 'Cheese', calories: 220, weight: 2.0 }
+      ]
+    },
+    dinner: {
+      bases: [
+        { name: 'Ramen', calories: 380, weight: 3.0 },
+        { name: 'Couscous', calories: 350, weight: 2.5 },
+        { name: 'Instant Rice', calories: 300, weight: 2.0 },
+        { name: 'Potato Buds', calories: 310, weight: 2.5 }
+      ],
+      proteins: [
+        { name: 'Chicken Packet', calories: 290, weight: 2.5 },
+        { name: 'Beef Packet', calories: 310, weight: 2.5 },
+        { name: 'TVP', calories: 180, weight: 1.0 },
+        { name: 'Salmon Packet', calories: 270, weight: 2.5 }
+      ],
+      sauces: [
+        { name: 'Olive Oil', calories: 120, weight: 1.0 },
+        { name: 'Coconut Milk Powder', calories: 140, weight: 1.0 },
+        { name: 'Taco Seasoning', calories: 30, weight: 0.2 },
+        { name: 'Curry Powder', calories: 20, weight: 0.2 }
+      ]
+    },
+    snacks: [
+      { name: 'Trail Mix', calories: 160, weight: 1.0 },
+      { name: 'Protein Bar', calories: 200, weight: 2.0 },
+      { name: 'Dried Fruit', calories: 100, weight: 1.0 },
+      { name: 'Beef Jerky', calories: 150, weight: 1.5 },
+      { name: 'Candy Bar', calories: 250, weight: 1.8 },
+      { name: 'Energy Chews', calories: 180, weight: 1.0 }
+    ]
+  };
+
   let currentStep = 1;
   const totalSteps = 3;
   
   // Elements
   const sectionSelect = document.getElementById('sectionSelect');
   const sectionDetails = document.getElementById('sectionDetails');
-  const stepCalories = document.getElementById('stepCalories');
-  const stepMealPlan = document.getElementById('stepMealPlan');
+  const mealPlanGrid = document.getElementById('mealPlanGrid');
+  const randomizeMealsBtn = document.getElementById('randomizeMeals');
   const prevButton = document.getElementById('prevStep');
   const nextButton = document.getElementById('nextStep');
   const generateButton = document.getElementById('generatePlan');
@@ -205,16 +257,151 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
   
-  // Calorie Calculator
-  function updateCalories() {
-    const base = parseInt(document.getElementById('baseCalories').value);
-    const multiplier = parseFloat(document.getElementById('activityMultiplier').value);
-    const total = Math.round(base * multiplier);
-    document.getElementById('totalCalories').textContent = total;
+  // Create meal plan grid
+  function createMealPlanGrid(days) {
+    let html = '<table>';
+    
+    // Header row
+    html += `
+      <tr>
+        <th>Day</th>
+        <th>Breakfast Base</th>
+        <th>Breakfast Add-in</th>
+        <th>Lunch Base</th>
+        <th>Lunch Protein</th>
+        <th>Dinner Base</th>
+        <th>Dinner Protein</th>
+        <th>Dinner Sauce</th>
+        <th>Snacks (2)</th>
+      </tr>
+    `;
+    
+    // Create rows for each day
+    for (let day = 1; day <= days; day++) {
+      html += `
+        <tr>
+          <td>Day ${day}</td>
+          <td>${createSelect('breakfast-base-' + day, mealComponents.breakfast.bases)}</td>
+          <td>${createSelect('breakfast-addin-' + day, mealComponents.breakfast.addIns)}</td>
+          <td>${createSelect('lunch-base-' + day, mealComponents.lunch.bases)}</td>
+          <td>${createSelect('lunch-protein-' + day, mealComponents.lunch.proteins)}</td>
+          <td>${createSelect('dinner-base-' + day, mealComponents.dinner.bases)}</td>
+          <td>${createSelect('dinner-protein-' + day, mealComponents.dinner.proteins)}</td>
+          <td>${createSelect('dinner-sauce-' + day, mealComponents.dinner.sauces)}</td>
+          <td>${createMultiSelect('snacks-' + day, mealComponents.snacks)}</td>
+        </tr>
+      `;
+    }
+    
+    html += '</table>';
+    mealPlanGrid.innerHTML = html;
   }
   
-  document.getElementById('baseCalories').addEventListener('input', updateCalories);
-  document.getElementById('activityMultiplier').addEventListener('change', updateCalories);
+  // Create select element for meal components
+  function createSelect(id, options) {
+    let html = `<select id="${id}" class="meal-select">`;
+    options.forEach(option => {
+      html += `<option value="${option.name}" data-calories="${option.calories}" data-weight="${option.weight}">
+        ${option.name} (${option.calories} cal)
+      </option>`;
+    });
+    html += '</select>';
+    return html;
+  }
+  
+  // Create multi-select for snacks
+  function createMultiSelect(id, options) {
+    let html = `<select id="${id}" class="meal-select" multiple size="2">`;
+    options.forEach(option => {
+      html += `<option value="${option.name}" data-calories="${option.calories}" data-weight="${option.weight}">
+        ${option.name} (${option.calories} cal)
+      </option>`;
+    });
+    html += '</select>';
+    return html;
+  }
+  
+  // Randomize meals
+  randomizeMealsBtn.addEventListener('click', function() {
+    const days = parseInt(document.getElementById('sectionDays').textContent);
+    const selects = document.querySelectorAll('.meal-select');
+    
+    selects.forEach(select => {
+      const options = select.options;
+      const randomIndex = Math.floor(Math.random() * options.length);
+      
+      if (select.multiple) {
+        // For snacks, select 2 random options
+        const indices = new Set();
+        while (indices.size < 2) {
+          indices.add(Math.floor(Math.random() * options.length));
+        }
+        
+        for (let i = 0; i < options.length; i++) {
+          options[i].selected = indices.has(i);
+        }
+      } else {
+        select.selectedIndex = randomIndex;
+      }
+    });
+  });
+  
+  // Generate shopping list
+  function generateShoppingList() {
+    const days = parseInt(document.getElementById('sectionDays').textContent);
+    const shoppingList = {};
+    
+    // Collect all selected items
+    const selects = document.querySelectorAll('.meal-select');
+    selects.forEach(select => {
+      if (select.multiple) {
+        // Handle snacks (multiple selection)
+        Array.from(select.selectedOptions).forEach(option => {
+          const item = option.value;
+          shoppingList[item] = (shoppingList[item] || 0) + 1;
+        });
+      } else {
+        // Handle single selections
+        const item = select.value;
+        shoppingList[item] = (shoppingList[item] || 0) + 1;
+      }
+    });
+    
+    // Generate HTML for shopping list
+    let html = '<div class="shopping-list">';
+    
+    // Group items by category
+    const categories = {
+      'Breakfast Items': [...mealComponents.breakfast.bases, ...mealComponents.breakfast.addIns],
+      'Lunch Items': [...mealComponents.lunch.bases, ...mealComponents.lunch.proteins],
+      'Dinner Items': [...mealComponents.dinner.bases, ...mealComponents.dinner.proteins, ...mealComponents.dinner.sauces],
+      'Snacks': mealComponents.snacks
+    };
+    
+    for (const [category, items] of Object.entries(categories)) {
+      const categoryItems = items.filter(item => shoppingList[item.name]);
+      
+      if (categoryItems.length > 0) {
+        html += `<div class="shopping-list-category">
+          <h4>${category}</h4>
+          <ul>`;
+        
+        categoryItems.forEach(item => {
+          const quantity = shoppingList[item.name];
+          const totalWeight = (item.weight * quantity).toFixed(1);
+          const totalCalories = item.calories * quantity;
+          
+          html += `<li>${item.name} x${quantity} (${totalWeight}oz, ${totalCalories} cal total)</li>`;
+        });
+        
+        html += '</ul></div>';
+      }
+    }
+    
+    html += '</div>';
+    document.getElementById('shoppingList').innerHTML = html;
+    foodPlanResult.style.display = 'block';
+  }
   
   // Navigation
   function updateButtons() {
@@ -227,6 +414,11 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('stepSection').style.display = step === 1 ? 'block' : 'none';
     document.getElementById('stepCalories').style.display = step === 2 ? 'block' : 'none';
     document.getElementById('stepMealPlan').style.display = step === 3 ? 'block' : 'none';
+    
+    if (step === 3) {
+      const days = parseInt(document.getElementById('sectionDays').textContent);
+      createMealPlanGrid(days);
+    }
   }
   
   prevButton.addEventListener('click', function() {
@@ -245,52 +437,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
   
-  // Generate Plan
-  generateButton.addEventListener('click', function() {
-    const days = parseInt(document.getElementById('sectionDays').textContent.split('-')[0]);
-    const calories = parseInt(document.getElementById('totalCalories').textContent);
-    
-    // Generate daily plan
-    const dailyPlan = document.getElementById('dailyPlan');
-    const shoppingList = document.getElementById('shoppingList');
-    
-    let planHTML = '<h4>Daily Meal Plan</h4>';
-    let shoppingHTML = '<h4>Shopping List</h4><ul>';
-    
-    // Sample meal plan generation - this can be made more sophisticated
-    const selectedBreakfasts = Array.from(document.getElementById('breakfastPlan').selectedOptions).map(o => o.text);
-    const selectedLunches = Array.from(document.getElementById('lunchPlan').selectedOptions).map(o => o.text);
-    const selectedDinners = Array.from(document.getElementById('dinnerPlan').selectedOptions).map(o => o.text);
-    const selectedSnacks = Array.from(document.getElementById('snackPlan').selectedOptions).map(o => o.text);
-    
-    planHTML += `
-      <div class="daily-meals">
-        <p><strong>Breakfast (400-600 cal):</strong> ${selectedBreakfasts.join(' or ')}</p>
-        <p><strong>Lunch (500-700 cal):</strong> ${selectedLunches.join(' or ')}</p>
-        <p><strong>Dinner (700-900 cal):</strong> ${selectedDinners.join(' or ')}</p>
-        <p><strong>Snacks (${Math.round((calories - 1800) / 100) * 100} cal):</strong> ${selectedSnacks.join(', ')}</p>
-      </div>
-    `;
-    
-    // Generate shopping list based on selections and days
-    const allMeals = [...selectedBreakfasts, ...selectedLunches, ...selectedDinners, ...selectedSnacks];
-    const uniqueItems = new Set();
-    allMeals.forEach(meal => {
-      meal.split('+').forEach(item => {
-        uniqueItems.add(item.trim());
-      });
-    });
-    
-    uniqueItems.forEach(item => {
-      shoppingHTML += `<li>${item} (${days}x)</li>`;
-    });
-    
-    shoppingHTML += '</ul>';
-    
-    dailyPlan.innerHTML = planHTML;
-    shoppingList.innerHTML = shoppingHTML;
-    foodPlanResult.style.display = 'block';
-  });
+  generateButton.addEventListener('click', generateShoppingList);
   
   // Initialize
   updateButtons();

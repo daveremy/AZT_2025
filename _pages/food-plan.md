@@ -4,6 +4,8 @@ title: Food Plan
 permalink: /food-plan/
 ---
 
+> **🚧 Work in Progress**: This food planning tool is currently being developed. The goal is to create a day-by-day meal planner that allows for variety while maintaining good nutrition and calorie targets. Check back soon for updates!
+
 # Food Planning System
 
 ## Section Food Planner
