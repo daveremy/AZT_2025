@@ -66,6 +66,9 @@
   <div id="foodPlanResult" class="food-plan-result" style="display: none;">
     <h3>Shopping List</h3>
     <div id="shoppingList"></div>
+    
+    <h3>Daily Packing List</h3>
+    <div id="packingList"></div>
   </div>
 </div>
 
@@ -147,6 +150,36 @@
 
 .shopping-list-category h4 {
   margin-bottom: 0.5rem;
+}
+
+.packing-list-day {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+}
+
+.packing-list-day h4 {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 0.5rem;
+}
+
+.meal-group {
+  margin: 0.5rem 0;
+  padding-left: 1rem;
+}
+
+.meal-group-title {
+  font-weight: bold;
+  color: #495057;
+}
+
+.meal-items {
+  margin-left: 1rem;
+  color: #666;
 }
 </style>
 
@@ -403,6 +436,71 @@ document.addEventListener('DOMContentLoaded', function() {
     foodPlanResult.style.display = 'block';
   }
   
+  // Generate packing list
+  function generatePackingList() {
+    const days = parseInt(document.getElementById('sectionDays').textContent);
+    let html = '';
+    
+    // For each day, create a packing list
+    for (let day = 1; day <= days; day++) {
+      html += `<div class="packing-list-day">
+        <h4>Day ${day} Ziplock</h4>`;
+      
+      // Breakfast
+      const breakfastBase = document.getElementById(`breakfast-base-${day}`).value;
+      const breakfastAddin = document.getElementById(`breakfast-addin-${day}`).value;
+      html += `
+        <div class="meal-group">
+          <div class="meal-group-title">Breakfast:</div>
+          <div class="meal-items">
+            - ${breakfastBase}
+            - ${breakfastAddin}
+          </div>
+        </div>`;
+      
+      // Lunch
+      const lunchBase = document.getElementById(`lunch-base-${day}`).value;
+      const lunchProtein = document.getElementById(`lunch-protein-${day}`).value;
+      html += `
+        <div class="meal-group">
+          <div class="meal-group-title">Lunch:</div>
+          <div class="meal-items">
+            - ${lunchBase}
+            - ${lunchProtein}
+          </div>
+        </div>`;
+      
+      // Dinner
+      const dinnerBase = document.getElementById(`dinner-base-${day}`).value;
+      const dinnerProtein = document.getElementById(`dinner-protein-${day}`).value;
+      const dinnerSauce = document.getElementById(`dinner-sauce-${day}`).value;
+      html += `
+        <div class="meal-group">
+          <div class="meal-group-title">Dinner:</div>
+          <div class="meal-items">
+            - ${dinnerBase}
+            - ${dinnerProtein}
+            - ${dinnerSauce}
+          </div>
+        </div>`;
+      
+      // Snacks
+      const snackSelect = document.getElementById(`snacks-${day}`);
+      const selectedSnacks = Array.from(snackSelect.selectedOptions).map(opt => opt.value);
+      html += `
+        <div class="meal-group">
+          <div class="meal-group-title">Snacks:</div>
+          <div class="meal-items">
+            ${selectedSnacks.map(snack => `- ${snack}`).join('\n')}
+          </div>
+        </div>`;
+      
+      html += '</div>';
+    }
+    
+    document.getElementById('packingList').innerHTML = html;
+  }
+  
   // Navigation
   function updateButtons() {
     prevButton.style.display = currentStep > 1 ? 'inline' : 'none';
@@ -437,7 +535,10 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
   
-  generateButton.addEventListener('click', generateShoppingList);
+  generateButton.addEventListener('click', function() {
+    generateShoppingList();
+    generatePackingList();
+  });
   
   // Initialize
   updateButtons();
