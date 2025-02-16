@@ -14,7 +14,7 @@ tr.subtotal td {
 # AZT 2025 Gear List
 
 ## Overview
-- Base Weight: 9.23 lbs (147.74 oz)
+- Base Weight: 10.15 lbs (162.54 oz)
 - Season: Spring (March-May)
 - Expected Conditions: Desert to alpine, 20°F to 90°F
 
@@ -74,6 +74,13 @@ tr.subtotal td {
 | Bamboo Toothbrush | 0.5 |
 | | **Subtotal** | **1.84** |
 
+### Hiking (14.8 oz)
+
+| Item | Weight (oz) |
+|------|-------------|
+| REI Flash Carbon Trekking Poles (pair) | 14.8 |
+| | **Subtotal** | **14.8** |
+
 ## Still Needed
 - Clothing (worn and packed)
 - First aid kit
@@ -106,7 +113,7 @@ tr.subtotal td {
 - Electronics (InReach + iPhone) important for navigation in forest
 
 ## Notes
-- Base weight calculated from current items only (9.23 lbs / 147.74 oz)
+- Base weight calculated from current items only (10.15 lbs / 162.54 oz)
 - Final base weight will increase with clothing and remaining items
 - Water capacity adjustable based on conditions and reports
 - Dual water treatment provides backup for critical sections
