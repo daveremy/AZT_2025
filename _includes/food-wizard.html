@@ -9,7 +9,8 @@
       {% unless section.path contains "template" %}
       <option value="{{ section.section_number }}" 
               data-distance="{{ section.distance }}"
-              data-days="{{ section.days_planned }}"
+              data-days="{{ section.estimated_days | split: '-' | first }}"
+              data-days-max="{{ section.estimated_days | split: '-' | last }}"
               data-resupply="{{ section.resupply_points | join: ',' }}">
         Section {{ section.section_number }}: {{ section.title }}
       </option>
@@ -176,22 +177,28 @@ document.addEventListener('DOMContentLoaded', function() {
   sectionSelect.addEventListener('change', function() {
     const selected = this.options[this.selectedIndex];
     if (selected.value) {
-      const distance = selected.dataset.distance;
-      const days = selected.dataset.days;
+      const distance = parseFloat(selected.dataset.distance);
+      const minDays = parseInt(selected.dataset.days);
+      const maxDays = parseInt(selected.dataset.daysMax);
       const resupply = selected.dataset.resupply;
       
       document.getElementById('sectionDistance').textContent = distance;
-      document.getElementById('sectionDays').textContent = days;
-      document.getElementById('dailyMileage').textContent = (distance / days).toFixed(1);
+      document.getElementById('sectionDays').textContent = `${minDays}-${maxDays}`;
+      
+      // Calculate daily mileage range
+      const maxMileage = (distance / minDays).toFixed(1);
+      const minMileage = (distance / maxDays).toFixed(1);
+      document.getElementById('dailyMileage').textContent = `${minMileage}-${maxMileage}`;
+      
       document.getElementById('resupplyPoints').textContent = resupply || 'None';
       
       sectionDetails.style.display = 'block';
       
-      // Update activity multiplier based on daily mileage
-      const dailyMiles = distance / days;
+      // Update activity multiplier based on average daily mileage
+      const avgMileage = distance / ((minDays + maxDays) / 2);
       const multiplier = document.getElementById('activityMultiplier');
-      if (dailyMiles <= 15) multiplier.value = '1.2';
-      else if (dailyMiles <= 20) multiplier.value = '1.4';
+      if (avgMileage <= 15) multiplier.value = '1.2';
+      else if (avgMileage <= 20) multiplier.value = '1.4';
       else multiplier.value = '1.6';
       
       updateCalories();
@@ -240,7 +247,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Generate Plan
   generateButton.addEventListener('click', function() {
-    const days = parseInt(document.getElementById('sectionDays').textContent);
+    const days = parseInt(document.getElementById('sectionDays').textContent.split('-')[0]);
     const calories = parseInt(document.getElementById('totalCalories').textContent);
     
     // Generate daily plan
