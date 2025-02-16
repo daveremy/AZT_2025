@@ -17,4 +17,6 @@ vendor/
 *.swp
 *.swo
 .idea/
-.vscode/ 
+.vscode/
+
+_config_development.yml 
