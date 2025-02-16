@@ -361,4 +361,46 @@
   .resource-grid {
     grid-template-columns: 1fr;
   }
+}
+
+.main-navigation {
+  padding: 2rem 1rem;
+  background: #f8f9fa;
+  margin: -2rem auto 2rem;
+  border-radius: 8px;
+  max-width: 1200px;
+}
+
+.nav-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 0 auto;
+}
+
+.nav-item {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: 1px solid #eee;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-decoration: none;
+  }
+  
+  h3 {
+    margin: 0 0 0.5rem;
+    color: #2a7ae2;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+  }
 } 

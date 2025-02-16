@@ -31,6 +31,35 @@ title: Dave Remy's AZT 2025 Thru-Hike Plan
   </div>
 </div>
 
+<div class="main-navigation">
+  <div class="nav-grid">
+    <a href="{{ '/about/' | relative_url }}" class="nav-item">
+      <h3>About</h3>
+      <p>Learn about my journey and mentorship</p>
+    </a>
+    <a href="{{ '/overall-plan/' | relative_url }}" class="nav-item">
+      <h3>Overall Plan</h3>
+      <p>The big picture strategy</p>
+    </a>
+    <a href="{{ '/logistics/' | relative_url }}" class="nav-item">
+      <h3>Logistics</h3>
+      <p>Transportation and coordination</p>
+    </a>
+    <a href="{{ '/food-plan/' | relative_url }}" class="nav-item">
+      <h3>Food Plan</h3>
+      <p>Meal planning and resupply strategy</p>
+    </a>
+    <a href="{{ '/water-strategies/' | relative_url }}" class="nav-item">
+      <h3>Water</h3>
+      <p>Water sources and management</p>
+    </a>
+    <a href="{{ '/pre-departure-checklist/' | relative_url }}" class="nav-item">
+      <h3>Checklist</h3>
+      <p>Pre-departure preparation</p>
+    </a>
+  </div>
+</div>
+
 <div class="trail-overview">
   <h2>My Journey</h2>
   <p>Starting March 15, 2025, I'll be embarking on a northbound thru-hike of the Arizona Trail (AZT). This 800-mile scenic trail stretches from Mexico to Utah, showcasing Arizona's diverse landscapes from desert to pine forests, from canyons to peaks. My wife Beth will join me for the iconic Grand Canyon rim-to-rim section on May 15, making this journey even more special.</p>
