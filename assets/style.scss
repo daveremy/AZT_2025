@@ -363,119 +363,145 @@
   }
 }
 
-// Main Navigation
-.main-nav {
-  background: #2c3e50;
-  padding: 0;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+// Navigation Styles
+.site-header {
+  border-top: 5px solid #424242;
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 55.95px;
+  position: relative;
+  background-color: #2c3e50;
 }
 
-.nav-menu {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  max-width: 1200px;
-  margin: 0 auto;
-
-  > li {
-    position: relative;
-    
-    > a {
-      color: white;
-      text-decoration: none;
-      padding: 1rem 1.5rem;
-      display: block;
-      font-size: 1.1rem;
-      transition: background-color 0.3s;
-      
-      &:hover {
-        background-color: #34495e;
-        text-decoration: none;
-      }
-    }
-    
-    &.has-submenu {
-      &:hover .submenu {
-        display: block;
-      }
-      
-      > a:after {
-        content: "▾";
-        margin-left: 5px;
-        font-size: 0.8em;
-      }
-    }
+.site-title {
+  color: white !important;
+  
+  &:hover {
+    text-decoration: none;
   }
 }
 
-.submenu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: white;
-  min-width: 200px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  border-radius: 0 0 4px 4px;
-  
-  li {
+.site-nav {
+  float: right;
+  line-height: 54px;
+
+  .nav-trigger {
+    display: none;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    color: white;
+    line-height: 1.5;
+    margin-right: 20px;
+    position: relative;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .dropdown {
+    display: inline-block;
+    position: relative;
+
+    &:hover .dropdown-content {
+      display: block;
+    }
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 4px;
+    
     a {
       color: #2c3e50;
-      padding: 0.8rem 1.5rem;
-      display: block;
+      padding: 12px 16px;
       text-decoration: none;
-      transition: background-color 0.2s;
+      display: block;
+      line-height: 1.2;
       
       &:hover {
         background-color: #f8f9fa;
-        text-decoration: none;
       }
     }
   }
 }
 
-// Mobile Navigation
-@media screen and (max-width: 768px) {
-  .nav-menu {
-    flex-direction: column;
-    
-    > li {
-      > a {
-        padding: 0.8rem 1rem;
+@media screen and (max-width: 600px) {
+  .site-nav {
+    position: absolute;
+    top: 9px;
+    right: 15px;
+    background-color: #2c3e50;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    text-align: right;
+
+    label[for="nav-trigger"] {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 36px;
+      z-index: 2;
+      cursor: pointer;
+    }
+
+    .menu-icon {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 10px;
+      text-align: center;
+
+      > svg path {
+        fill: white;
       }
     }
-  }
-  
-  .submenu {
-    position: static;
-    box-shadow: none;
-    background: #34495e;
-    
-    li a {
-      color: white;
-      padding-left: 2rem;
+
+    input ~ .trigger {
+      clear: both;
+      display: none;
+    }
+
+    input:checked ~ .trigger {
+      display: block;
+      padding-bottom: 5px;
+    }
+
+    .page-link {
+      display: block;
+      padding: 5px 10px;
+      margin: 0;
+    }
+
+    .dropdown-content {
+      position: static;
+      box-shadow: none;
+      background-color: #34495e;
       
-      &:hover {
-        background-color: #2c3e50;
+      a {
+        color: white;
+        padding-left: 20px;
+        
+        &:hover {
+          background-color: #2c3e50;
+        }
       }
     }
   }
-  
-  .has-submenu .submenu {
-    display: none;
-  }
-  
-  .has-submenu:hover .submenu {
-    display: block;
-  }
 }
 
-// Remove the old navigation grid styles
-.main-navigation, .nav-grid, .nav-item {
+// Remove the old navigation styles
+.main-nav, .nav-menu, .submenu {
   display: none;
 } 
