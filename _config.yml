@@ -43,6 +43,7 @@ collections:
 # Navigation
 header_pages:
   - overall-plan.md
+  - logistics.md
   - water-strategies.md
   - pre-departure-checklist.md
   - immediate-actions.md
