@@ -26,4 +26,8 @@ This is a personal planning site, but if you notice any errors or have suggestio
 
 ## License
 
-© 2024 Dave Remy. All rights reserved. 
+© 2024 Dave Remy. All rights reserved.
+
+## GitHub Pages
+
+This site is deployed to GitHub Pages and can be accessed at: https://dremy.github.io/AZT_2025/ 
