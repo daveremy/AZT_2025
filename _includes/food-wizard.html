@@ -1,0 +1,292 @@
+<!-- Food Planning Wizard -->
+<div class="food-wizard" id="foodWizard">
+  <div class="wizard-step" id="stepSection">
+    <h3>Step 1: Select Trail Section</h3>
+    <select id="sectionSelect" class="wizard-input">
+      <option value="">Choose a section...</option>
+      {% assign sorted_sections = site.sections | sort: "section_number" %}
+      {% for section in sorted_sections %}
+      {% unless section.path contains "template" %}
+      <option value="{{ section.section_number }}" 
+              data-distance="{{ section.distance }}"
+              data-days="{{ section.days_planned }}"
+              data-resupply="{{ section.resupply_points | join: ',' }}">
+        Section {{ section.section_number }}: {{ section.title }}
+      </option>
+      {% endunless %}
+      {% endfor %}
+    </select>
+    
+    <div class="section-details" id="sectionDetails" style="display: none;">
+      <p>Distance: <span id="sectionDistance"></span> miles</p>
+      <p>Planned Days: <span id="sectionDays"></span></p>
+      <p>Daily Mileage: <span id="dailyMileage"></span></p>
+      <p>Resupply Points: <span id="resupplyPoints"></span></p>
+    </div>
+  </div>
+
+  <div class="wizard-step" id="stepCalories" style="display: none;">
+    <h3>Step 2: Calorie Planning</h3>
+    <div class="calorie-calculator">
+      <div class="calorie-inputs">
+        <label>
+          Base Calories:
+          <input type="number" id="baseCalories" value="2500" class="wizard-input">
+        </label>
+        <label>
+          Activity Multiplier:
+          <select id="activityMultiplier" class="wizard-input">
+            <option value="1.2">Light (10-15 miles/day)</option>
+            <option value="1.4">Moderate (15-20 miles/day)</option>
+            <option value="1.6">Heavy (20+ miles/day)</option>
+          </select>
+        </label>
+      </div>
+      <div class="calorie-results">
+        <p>Daily Calorie Target: <span id="totalCalories">0</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="wizard-step" id="stepMealPlan" style="display: none;">
+    <h3>Step 3: Select Meal Preferences</h3>
+    <div class="meal-preferences">
+      <div class="meal-type">
+        <h4>Breakfast Options</h4>
+        <select id="breakfastPlan" class="wizard-input" multiple>
+          <option value="oatmeal">Instant Oatmeal + Dried Fruit</option>
+          <option value="granola">Granola + Powdered Milk</option>
+          <option value="bars">Breakfast Bars + Nuts</option>
+        </select>
+      </div>
+      <div class="meal-type">
+        <h4>Lunch Options</h4>
+        <select id="lunchPlan" class="wizard-input" multiple>
+          <option value="wraps">Tortilla Wraps + Toppings</option>
+          <option value="tuna">Tuna + Crackers</option>
+          <option value="pb">Peanut Butter + Tortillas</option>
+        </select>
+      </div>
+      <div class="meal-type">
+        <h4>Dinner Options</h4>
+        <select id="dinnerPlan" class="wizard-input" multiple>
+          <option value="ramen">Ramen + Tuna</option>
+          <option value="couscous">Couscous + Chicken</option>
+          <option value="rice">Rice Sides + Beef</option>
+        </select>
+      </div>
+      <div class="meal-type">
+        <h4>Snack Preferences</h4>
+        <select id="snackPlan" class="wizard-input" multiple>
+          <option value="nuts">Trail Mix</option>
+          <option value="bars">Energy Bars</option>
+          <option value="candy">Candy/Chocolate</option>
+          <option value="jerky">Beef Jerky</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="wizard-controls">
+    <button id="prevStep" class="wizard-button" style="display: none;">Previous</button>
+    <button id="nextStep" class="wizard-button">Next</button>
+    <button id="generatePlan" class="wizard-button" style="display: none;">Generate Plan</button>
+  </div>
+
+  <div id="foodPlanResult" class="food-plan-result" style="display: none;">
+    <h3>Your Food Plan</h3>
+    <div class="plan-summary">
+      <div id="dailyPlan"></div>
+      <div id="shoppingList"></div>
+    </div>
+  </div>
+</div>
+
+<style>
+.food-wizard {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.wizard-step {
+  margin-bottom: 2rem;
+}
+
+.wizard-input {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.wizard-button {
+  background: #2c3e50;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.wizard-button:hover {
+  background: #34495e;
+}
+
+.section-details, .calorie-calculator, .meal-preferences {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.meal-type {
+  margin-bottom: 1rem;
+}
+
+.food-plan-result {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  let currentStep = 1;
+  const totalSteps = 3;
+  
+  // Elements
+  const sectionSelect = document.getElementById('sectionSelect');
+  const sectionDetails = document.getElementById('sectionDetails');
+  const stepCalories = document.getElementById('stepCalories');
+  const stepMealPlan = document.getElementById('stepMealPlan');
+  const prevButton = document.getElementById('prevStep');
+  const nextButton = document.getElementById('nextStep');
+  const generateButton = document.getElementById('generatePlan');
+  const foodPlanResult = document.getElementById('foodPlanResult');
+  
+  // Section Selection
+  sectionSelect.addEventListener('change', function() {
+    const selected = this.options[this.selectedIndex];
+    if (selected.value) {
+      const distance = selected.dataset.distance;
+      const days = selected.dataset.days;
+      const resupply = selected.dataset.resupply;
+      
+      document.getElementById('sectionDistance').textContent = distance;
+      document.getElementById('sectionDays').textContent = days;
+      document.getElementById('dailyMileage').textContent = (distance / days).toFixed(1);
+      document.getElementById('resupplyPoints').textContent = resupply || 'None';
+      
+      sectionDetails.style.display = 'block';
+      
+      // Update activity multiplier based on daily mileage
+      const dailyMiles = distance / days;
+      const multiplier = document.getElementById('activityMultiplier');
+      if (dailyMiles <= 15) multiplier.value = '1.2';
+      else if (dailyMiles <= 20) multiplier.value = '1.4';
+      else multiplier.value = '1.6';
+      
+      updateCalories();
+    }
+  });
+  
+  // Calorie Calculator
+  function updateCalories() {
+    const base = parseInt(document.getElementById('baseCalories').value);
+    const multiplier = parseFloat(document.getElementById('activityMultiplier').value);
+    const total = Math.round(base * multiplier);
+    document.getElementById('totalCalories').textContent = total;
+  }
+  
+  document.getElementById('baseCalories').addEventListener('input', updateCalories);
+  document.getElementById('activityMultiplier').addEventListener('change', updateCalories);
+  
+  // Navigation
+  function updateButtons() {
+    prevButton.style.display = currentStep > 1 ? 'inline' : 'none';
+    nextButton.style.display = currentStep < totalSteps ? 'inline' : 'none';
+    generateButton.style.display = currentStep === totalSteps ? 'inline' : 'none';
+  }
+  
+  function showStep(step) {
+    document.getElementById('stepSection').style.display = step === 1 ? 'block' : 'none';
+    document.getElementById('stepCalories').style.display = step === 2 ? 'block' : 'none';
+    document.getElementById('stepMealPlan').style.display = step === 3 ? 'block' : 'none';
+  }
+  
+  prevButton.addEventListener('click', function() {
+    if (currentStep > 1) {
+      currentStep--;
+      showStep(currentStep);
+      updateButtons();
+    }
+  });
+  
+  nextButton.addEventListener('click', function() {
+    if (currentStep < totalSteps) {
+      currentStep++;
+      showStep(currentStep);
+      updateButtons();
+    }
+  });
+  
+  // Generate Plan
+  generateButton.addEventListener('click', function() {
+    const days = parseInt(document.getElementById('sectionDays').textContent);
+    const calories = parseInt(document.getElementById('totalCalories').textContent);
+    
+    // Generate daily plan
+    const dailyPlan = document.getElementById('dailyPlan');
+    const shoppingList = document.getElementById('shoppingList');
+    
+    let planHTML = '<h4>Daily Meal Plan</h4>';
+    let shoppingHTML = '<h4>Shopping List</h4><ul>';
+    
+    // Sample meal plan generation - this can be made more sophisticated
+    const selectedBreakfasts = Array.from(document.getElementById('breakfastPlan').selectedOptions).map(o => o.text);
+    const selectedLunches = Array.from(document.getElementById('lunchPlan').selectedOptions).map(o => o.text);
+    const selectedDinners = Array.from(document.getElementById('dinnerPlan').selectedOptions).map(o => o.text);
+    const selectedSnacks = Array.from(document.getElementById('snackPlan').selectedOptions).map(o => o.text);
+    
+    planHTML += `
+      <div class="daily-meals">
+        <p><strong>Breakfast (400-600 cal):</strong> ${selectedBreakfasts.join(' or ')}</p>
+        <p><strong>Lunch (500-700 cal):</strong> ${selectedLunches.join(' or ')}</p>
+        <p><strong>Dinner (700-900 cal):</strong> ${selectedDinners.join(' or ')}</p>
+        <p><strong>Snacks (${Math.round((calories - 1800) / 100) * 100} cal):</strong> ${selectedSnacks.join(', ')}</p>
+      </div>
+    `;
+    
+    // Generate shopping list based on selections and days
+    const allMeals = [...selectedBreakfasts, ...selectedLunches, ...selectedDinners, ...selectedSnacks];
+    const uniqueItems = new Set();
+    allMeals.forEach(meal => {
+      meal.split('+').forEach(item => {
+        uniqueItems.add(item.trim());
+      });
+    });
+    
+    uniqueItems.forEach(item => {
+      shoppingHTML += `<li>${item} (${days}x)</li>`;
+    });
+    
+    shoppingHTML += '</ul>';
+    
+    dailyPlan.innerHTML = planHTML;
+    shoppingList.innerHTML = shoppingHTML;
+    foodPlanResult.style.display = 'block';
+  });
+  
+  // Initialize
+  updateButtons();
+  updateCalories();
+});
+</script> 
