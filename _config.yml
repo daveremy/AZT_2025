@@ -1,0 +1,64 @@
+title: AZT 2025 Thru-Hike Plan
+description: Planning documents for Arizona Trail thru-hike starting March 15, 2025
+baseurl: ""
+url: "http://localhost:4000"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Include directories
+include:
+  - _pages
+
+# Site settings
+author:
+  name: Dave Remy
+  email: ""
+
+# Image credits
+image_credits:
+  hero: "Photo by Murray Foubister via Wikimedia Commons"
+  sections:
+    border_to_patagonia: "Photo by Alex Shutin on Unsplash"
+    patagonia_to_tucson: "Photo by Alex Shutin on Unsplash"
+    tucson_to_oracle: "Photo by Steven Cordes on Unsplash"
+    oracle_to_superior: "Photo by Alex Shutin on Unsplash"
+    superior_to_pine: "Photo by Jake Wilkerson on Unsplash"
+    pine_to_mormon_lake: "Photo by Jake Wilkerson on Unsplash"
+    mormon_lake_to_south_rim: "Photo by Jake Wilkerson on Unsplash"
+    south_rim_to_north_rim: "Photo by Gert Boers on Unsplash"
+    north_rim_to_utah: "Photo by Jake Wilkerson on Unsplash"
+
+# Collections
+collections:
+  sections:
+    output: true
+    permalink: /sections/:name/
+    sort_by: path
+
+# Navigation
+header_pages:
+  - overall-plan.md
+  - water-strategies.md
+  - pre-departure-checklist.md
+  - immediate-actions.md
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: "_sections"
+      type: "sections"
+    values:
+      layout: "section"
+  - scope:
+      path: "_pages"
+    values:
+      layout: "page"

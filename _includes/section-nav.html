@@ -1,0 +1,28 @@
+{% assign sections = site.pages | where: "layout", "page" | sort: "path" %}
+{% for section in sections %}
+  {% if section.url == page.url %}
+    {% assign section_index = forloop.index0 %}
+    {% assign prev_index = section_index | minus: 1 %}
+    {% assign next_index = section_index | plus: 1 %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+<div class="section-nav">
+  <div class="nav-links">
+    {% if prev_index >= 0 %}
+      <a href="{{ sections[prev_index].url }}" class="prev">← {{ sections[prev_index].title }}</a>
+    {% endif %}
+    
+    <a href="{{ '/' | relative_url }}" class="home">Overview</a>
+    
+    {% if next_index < sections.size %}
+      <a href="{{ sections[next_index].url }}" class="next">{{ sections[next_index].title }} →</a>
+    {% endif %}
+  </div>
+  
+  <div class="section-info">
+    <p>Section {{ section_index | plus: 1 }} of {{ sections.size }}</p>
+    <p>{{ page.distance }} miles • {{ page.days }} days • {{ page.water_sources }} water sources</p>
+  </div>
+</div> 

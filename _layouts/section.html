@@ -1,0 +1,60 @@
+---
+layout: default
+---
+<article class="section">
+  <header class="section-header">
+    <div class="section-title">
+      <span class="section-number">Section {{ page.section_number }}</span>
+      <h1>{{ page.title }}</h1>
+    </div>
+    <div class="section-stats">
+      <div class="stat">
+        <span class="label">Distance</span>
+        <span class="value">{{ page.distance }} miles</span>
+      </div>
+      <div class="stat">
+        <span class="label">Days</span>
+        <span class="value">{{ page.estimated_days }}</span>
+      </div>
+      <div class="stat">
+        <span class="label">Daily Miles</span>
+        <span class="value">{{ page.daily_mileage }}</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="section-elevation">
+    <img src="{{ site.baseurl }}/assets/images/elevation/{{ page.section_number | prepend: '0' | slice: -2, 2 }}_elevation.png" alt="Elevation Profile" class="elevation-profile">
+  </div>
+
+  <div class="section-highlights">
+    <h2>Section Highlights</h2>
+    {{ page.highlights | markdownify }}
+  </div>
+
+  <div class="section-content">
+    {{ content }}
+  </div>
+
+  <nav class="section-nav">
+    <div class="nav-links">
+      {% assign sections = site.sections | sort: "path" %}
+      {% for section in sections %}
+        {% if section.path == page.path %}
+          {% assign prev_index = forloop.index0 | minus: 1 %}
+          {% assign next_index = forloop.index0 | plus: 1 %}
+          {% if prev_index >= 0 %}
+            {% assign prev = sections[prev_index] %}
+            <a href="{{ prev.url | relative_url }}" class="prev">&larr; {{ prev.title }}</a>
+          {% endif %}
+          <a href="{{ '/' | relative_url }}" class="home">Back to Trail Overview</a>
+          {% if next_index < sections.size %}
+            {% assign next = sections[next_index] %}
+            <a href="{{ next.url | relative_url }}" class="next">{{ next.title }} &rarr;</a>
+          {% endif %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </nav>
+</article> 

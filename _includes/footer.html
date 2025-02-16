@@ -1,0 +1,16 @@
+<footer class="site-footer h-card">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <h2 class="footer-heading">{{ site.title }}</h2>
+        <p>{{ site.description }}</p>
+      </div>
+      <div class="footer-col">
+        {% if site.author %}
+        <p>Created by {{ site.author.name }}</p>
+        {% endif %}
+        <p>&copy; {{ 'now' | date: "%Y" }} All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer> 
