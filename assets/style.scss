@@ -363,44 +363,119 @@
   }
 }
 
-.main-navigation {
-  padding: 2rem 1rem;
-  background: #f8f9fa;
-  margin: -2rem auto 2rem;
-  border-radius: 8px;
+// Main Navigation
+.main-nav {
+  background: #2c3e50;
+  padding: 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
   max-width: 1200px;
-}
-
-.nav-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
   margin: 0 auto;
+
+  > li {
+    position: relative;
+    
+    > a {
+      color: white;
+      text-decoration: none;
+      padding: 1rem 1.5rem;
+      display: block;
+      font-size: 1.1rem;
+      transition: background-color 0.3s;
+      
+      &:hover {
+        background-color: #34495e;
+        text-decoration: none;
+      }
+    }
+    
+    &.has-submenu {
+      &:hover .submenu {
+        display: block;
+      }
+      
+      > a:after {
+        content: "▾";
+        margin-left: 5px;
+        font-size: 0.8em;
+      }
+    }
+  }
 }
 
-.nav-item {
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
   background: white;
-  padding: 1.5rem;
-  border-radius: 8px;
-  text-decoration: none;
-  color: inherit;
-  transition: transform 0.2s, box-shadow 0.2s;
-  border: 1px solid #eee;
+  min-width: 200px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 0 0 4px 4px;
   
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    text-decoration: none;
+  li {
+    a {
+      color: #2c3e50;
+      padding: 0.8rem 1.5rem;
+      display: block;
+      text-decoration: none;
+      transition: background-color 0.2s;
+      
+      &:hover {
+        background-color: #f8f9fa;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+// Mobile Navigation
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    flex-direction: column;
+    
+    > li {
+      > a {
+        padding: 0.8rem 1rem;
+      }
+    }
   }
   
-  h3 {
-    margin: 0 0 0.5rem;
-    color: #2a7ae2;
+  .submenu {
+    position: static;
+    box-shadow: none;
+    background: #34495e;
+    
+    li a {
+      color: white;
+      padding-left: 2rem;
+      
+      &:hover {
+        background-color: #2c3e50;
+      }
+    }
   }
   
-  p {
-    margin: 0;
-    font-size: 0.9rem;
-    color: #666;
+  .has-submenu .submenu {
+    display: none;
   }
+  
+  .has-submenu:hover .submenu {
+    display: block;
+  }
+}
+
+// Remove the old navigation grid styles
+.main-navigation, .nav-grid, .nav-item {
+  display: none;
 } 

@@ -3,6 +3,29 @@ layout: default
 title: Dave Remy's AZT 2025 Thru-Hike Plan
 ---
 
+<nav class="main-nav">
+  <ul class="nav-menu">
+    <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+    <li class="has-submenu">
+      <a href="{{ '/overall-plan/' | relative_url }}">Planning</a>
+      <ul class="submenu">
+        <li><a href="{{ '/overall-plan/' | relative_url }}">Overall Strategy</a></li>
+        <li><a href="{{ '/logistics/' | relative_url }}">Logistics</a></li>
+        <li><a href="{{ '/pre-departure-checklist/' | relative_url }}">Pre-Departure</a></li>
+      </ul>
+    </li>
+    <li class="has-submenu">
+      <a href="{{ '/food-plan/' | relative_url }}">Resources</a>
+      <ul class="submenu">
+        <li><a href="{{ '/food-plan/' | relative_url }}">Food Plan</a></li>
+        <li><a href="{{ '/water-strategies/' | relative_url }}">Water Strategies</a></li>
+        <li><a href="{{ '/gear-list/' | relative_url }}">Gear List</a></li>
+      </ul>
+    </li>
+    <li><a href="{{ '/sections.html' | relative_url }}">Trail Sections</a></li>
+  </ul>
+</nav>
+
 <div class="hero-section">
   <img src="{{ site.baseurl }}/assets/images/azt-hero.jpg" alt="Arizona Trail Hero Image" class="hero-image">
   <div class="hero-content">
