@@ -49,6 +49,7 @@ header_pages:
   - water-strategies.md
   - pre-departure-checklist.md
   - immediate-actions.md
+  - changelog.md
 
 # Defaults
 defaults:
