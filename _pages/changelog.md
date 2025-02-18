@@ -9,6 +9,7 @@ permalink: /changelog/
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
 ## Recent Changes
+- February 18, 2025 16:37 - refactor: update food plan to personal note format - Reorganize content with note-to-self style and practical sections
 - February 18, 2025 16:37 - refactor: update gear list to personal note format - Convert to note-to-self style with more concise descriptions
 - February 18, 2025 16:35 - refactor: update packing guide to personal note format - Convert to note-to-self style while maintaining essential information
 - February 18, 2025 16:30 - Update gear list with accurate weights and sleep system details - Added specific weights for Performance Bike gloves, updated sleep system with HH tech shirt and NB shorts, added Injinji liner socks, updated calculations
