@@ -9,10 +9,9 @@ permalink: /changelog/
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
 ## Recent Changes
-- February 18, 2025 07:07 - Use uniq for better duplicate handling
+- February 18, 2025 07:07 - Improve duplicate removal in changelog
 - February 18, 2025 07:07 - Use uniq for better duplicate handling
 - February 18, 2025 07:06 - Fix duplicate changelog entries
-- February 18, 2025 07:06 - Fix changelog sorting and remove duplicates
 - February 18, 2025 07:02 - Regenerate clean changelog
 - February 18, 2025 05:50 -   Add and improve changelog system
 - February 18, 2025 05:49 - Replace Steripen with Aquamira drops and update base weight

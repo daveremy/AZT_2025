@@ -9,26 +9,28 @@ This script automatically updates the changelog whenever you make a commit. It i
 
 #### Features
 - Automatically adds every commit to the changelog
-- Captures commit messages and file changes
-- Formats entries with timestamps (PT)
+- Captures commit messages with timestamps (PT)
 - Maintains reverse chronological order
+- Removes duplicate entries
 - Automatically stages changelog updates
 - Includes error handling and path resolution
 
 #### Usage
-The script runs automatically with every commit. Each changelog entry includes:
+The script can be used in two ways:
+
+1. **Automatic Mode** (via pre-commit hook)
+   - Stage your files for commit (`git add`)
+   - Make your commit as usual (`git commit -m "Your message"`)
+   - The changelog is automatically updated and included in your commit
+
+2. **Manual Regeneration**
+   - Run `./scripts/update_changelog.sh --regenerate` to rebuild the entire changelog from git history
+   - This is useful if the changelog gets out of sync or needs cleanup
+   - The regenerated changelog will be automatically staged for commit
+
+Each changelog entry includes:
 - Timestamp in PT
 - Commit message
-- List of changed files
-
-#### Workflow
-1. Stage your files for commit (`git add`)
-2. Make your commit as usual (`git commit -m "Your message"`)
-3. The changelog is automatically updated with:
-   - Current date and time
-   - Your commit message
-   - List of changed files
-4. The updated changelog is included in your commit
 
 #### Time Zone
 All timestamps are in Pacific Time (PT). The script automatically adjusts for this.
@@ -39,6 +41,8 @@ The script includes robust error handling for:
 - Path resolution issues
 - Git command failures
 - Missing commit messages
+- Invalid file paths
+- Sorting and formatting issues
 
 The `update_changelog.sh` script automates the process of maintaining the project's changelog. 
 

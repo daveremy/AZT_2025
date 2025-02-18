@@ -19,6 +19,18 @@ To run this site locally:
 - `_layouts/`: HTML templates
 - `assets/`: CSS, images, and other static files
 - `_includes/`: Reusable HTML components
+- `scripts/`: Automation scripts, including changelog generation
+
+## Features
+
+### Automated Changelog
+The site maintains an automated changelog that tracks all significant changes. The changelog is:
+- Automatically updated with each commit
+- Includes timestamps in PT
+- Maintains a clean, deduplicated history
+- Can be regenerated from git history
+
+See [scripts/README.md](scripts/README.md) for more details on the changelog automation.
 
 ## Contributing
 
