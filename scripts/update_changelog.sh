@@ -9,7 +9,8 @@ CHANGELOG_FILE="$GIT_ROOT/_pages/changelog.md"
 
 # Function to generate the entire changelog from git history
 generate_full_changelog() {
-    echo "---
+    {
+        echo "---
 layout: page
 title: Changelog
 permalink: /changelog/
@@ -19,9 +20,15 @@ permalink: /changelog/
 
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
-## Recent Changes
-"
-    git log --pretty=format:"- %ad - %s" --date=format:"%B %d, %Y %H:%M" >> "$CHANGELOG_FILE"
+## Recent Changes"
+        
+        # Get unique commit messages with dates
+        git log --pretty=format:"- %ad - %s" --date=format:"%B %d, %Y %H:%M" |
+        sort -ur |                 # Remove duplicates and reverse sort
+        sed 's/   - /- /'         # Clean up extra spaces
+        
+        echo -e "\n\n*Note: All times are Pacific Time (PT)*"
+    } > "$CHANGELOG_FILE"
 }
 
 # Function to add a single entry
@@ -33,7 +40,7 @@ add_changelog_entry() {
     {
         head -n 11 "$CHANGELOG_FILE"
         echo "- $current_date - $commit_message"
-        tail -n +12 "$CHANGELOG_FILE"
+        tail -n +12 "$CHANGELOG_FILE" | sort -ur  # Sort in reverse order and remove duplicates
     } > "${CHANGELOG_FILE}.tmp"
     mv "${CHANGELOG_FILE}.tmp" "$CHANGELOG_FILE"
 }
