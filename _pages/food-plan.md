@@ -4,62 +4,119 @@ title: Food Plan
 permalink: /food-plan/
 ---
 
-> **🚧 Work in Progress**: This food planning tool is currently being developed. The goal is to create a day-by-day meal planner that allows for variety while maintaining good nutrition and calorie targets. Check back soon for updates!
+# My AZT Food Strategy
 
-# Food Planning System
+> **Note to self**: Still working on this. Need to finish the day-by-day meal planner for good variety and hitting calorie goals. Come back to this.
 
-## Section Food Planner
-Use this wizard to create a customized food plan for any trail section:
+## Section Food Planning
+Quick tool to plan food for each section:
 
 {% include food-wizard.html %}
 
-## General Food Strategy
+## Food Strategy Notes
 
-### Daily Template Structure
-Each day's food plan is structured around:
-- Breakfast (400-600 calories)
-- Lunch (500-700 calories)
-- Dinner (700-900 calories)
-- Treat/Dessert (200-300 calories)
-- Hourly Snacks (100-200 calories per hiking hour)
+### Daily Food Template
+Need to hit these targets:
+- Breakfast: 400-600 cal
+- Morning Snacks: 400-500 cal
+- Lunch: 500-600 cal
+- Afternoon Snacks: 400-500 cal
+- Dinner: 700-800 cal
+- Evening Snacks: 200-300 cal
 
-### Sample Meal Plans
+Target: 2600-3300 cal/day depending on section
 
-#### Plan A: Classic Thru-Hiker
-- **Breakfast**: Instant oatmeal packets (2) + dried fruit + nuts
-- **Lunch**: Tortilla wraps with pepperoni, cheese, mustard + chips
-- **Dinner**: Ramen + Knorr rice sides + tuna packet
-- **Treat**: Snickers bar
-- **Snacks**: Trail mix, beef jerky, Clif bars
+### Food Rules
+1. Keep it simple:
+   - No-cook breakfast + lunch
+   - Hot dinner = morale boost
+   - Snacks = easy access
 
-#### Plan B: Mediterranean Style
-- **Breakfast**: Instant coffee + granola + powdered milk
-- **Lunch**: Pita bread + hummus powder + olive oil packets
-- **Dinner**: Couscous + dried vegetables + olive oil + chicken packet
-- **Treat**: Dark chocolate + dried mango
-- **Snacks**: Mixed nuts, dried fruit, energy chews
+2. Resupply Strategy:
+   - 4-5 days max between resupply
+   - Mail drops for tricky spots
+   - Buy fresh when possible
 
-## Resupply Locations
-1. Patagonia
-2. Mount Lemmon (mail drop)
-3. Oracle
-4. Superior
-5. Roosevelt Lake (mail drop)
-6. Pine
-7. Mormon Lake
-8. Flagstaff
-9. Grand Canyon Village
-10. Jacob Lake
+3. Important Stuff:
+   - Pack out first day's lunch
+   - Double-check calories
+   - Test all new foods before trail
+   - Watch salt/electrolytes in desert
 
-## Mail Drop Strategy
-For Mount Lemmon and Roosevelt Lake mail drops:
-- Package food 1-2 weeks before arrival
-- Use USPS Priority Mail flat rate boxes
-- Include section-specific meal plans
-- Add 10% extra food for contingency
-- Include special items not available in small towns
+### Section-Specific Notes
 
-*Note: This is a living document that will be refined based on training hikes and feedback.*
+Desert Sections:
+- More salty snacks
+- Extra electrolytes
+- Foods that handle heat
+- No chocolate
+
+Mountain Sections:
+- More calorie dense
+- Warm breakfast option
+- Hot drinks for cold mornings
+- Chocolate okay here
+
+### Resupply Points
+- Keep updated list of:
+  * Store hours
+  * What they typically stock
+  * Prices (if known)
+  * Distance from trail
+  * Alternative options
+
+### Food Storage
+- Ursack for everything
+- Separate day food
+- Keep snacks accessible
+- Protect from heat when possible
+
+## Meal Ideas
+
+### No-Cook Breakfast Options
+- Bars + nut butter
+- Granola + powdered milk
+- Pop-Tarts (cheap calories)
+- Carnation breakfast
+- Dried fruit + nuts
+
+### Lunch Options
+- Tortillas + fillings
+- Tuna/chicken packets
+- Cheese (early days)
+- Dried sausage
+- Crackers + spread
+
+### Dinner Options
+- Ramen + extras
+- Instant potatoes
+- Couscous meals
+- Rice sides
+- Pasta sides
+
+### Snack Options
+- Trail mix
+- Dried fruit
+- Protein bars
+- Candy (non-chocolate)
+- Chips/crackers
+- Jerky
+
+### Drinks
+- Electrolyte mix
+- Coffee (instant)
+- Tea bags
+- Hot chocolate (mountains)
+
+## Remember
+- Test everything first
+- Count calories carefully
+- Plan variety
+- Consider weight
+- Watch nutrition
+- Pack out trash
+
+*Living document - update as I test meals and plan resupply*
 
 ## Section Planning Template
 
