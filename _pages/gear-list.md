@@ -14,21 +14,20 @@ tr.subtotal td {
 # AZT 2025 Gear List
 
 ## Overview
-- Base Weight: 10.15 lbs (162.54 oz)
+- Base Weight: 10.02 lbs (160.34 oz)
 - Season: Spring (March-May)
 - Expected Conditions: Desert to alpine, 20°F to 90°F
 
 ## Categories
 
-### Big Three (6.03 lbs / 96.4 oz)
+### Big Three (5.97 lbs / 95.5 oz)
 
 | Category | Item | Weight (oz) |
 |----------|------|-------------|
 | **Pack System** | Hyperlite Windrider Large | 30.7 |
 | | Shoulder Pocket | 1.4 |
 | | Bottle Pocket | 1.2 |
-| | Nyoflume Pack Liner | 0.9 |
-| | **Subtotal** | **34.2** |
+| | **Subtotal** | **33.3** |
 | **Sleep System** | NeoAir XLite Sleeping Pad | 13.0 |
 | | Zpacks Solos Quilt 20F | 11.8 |
 | | Trekology Pillow | 6.0 |
@@ -39,7 +38,7 @@ tr.subtotal td {
 | | Extra Titanium Stakes | 2.0 |
 | | **Subtotal** | **31.4** |
 
-### Kitchen & Water (29.7 oz)
+### Kitchen & Water (27.9 oz)
 
 | Category | Item | Weight (oz) |
 |----------|------|-------------|
@@ -51,8 +50,8 @@ tr.subtotal td {
 | **Water** | Platypus Filter | 2.4 |
 | | Platypus 2L Bladder | 1.3 |
 | | 2 X 1L Smartwater Bottles | 2.4 |
-| | Steripen Adventure | 3.8 |
-| | **Subtotal** | **29.7** |
+| | Aquamira Drops | 2.0 |
+| | **Subtotal** | **27.9** |
 
 ### Electronics (19.8 oz)
 
@@ -93,7 +92,7 @@ tr.subtotal td {
 ## Gear Strategy
 ### Desert Sections (Border to Superior)
 - Maximum water capacity: 6L total (2L Platypus bladder + 2x 1L Smartwater bottles + option for 2L backup)
-- Dual water treatment: Platypus filter primary, Steripen Adventure backup
+- Dual water treatment: Platypus filter primary, Aquamira drops backup
 - Ursack food storage adequate for low bear activity
 - Durant groundsheet essential for sandy/rocky sites
 - Xmid Pro 2+ provides good ventilation and sun protection
@@ -113,7 +112,7 @@ tr.subtotal td {
 - Electronics (InReach + iPhone) important for navigation in forest
 
 ## Notes
-- Base weight calculated from current items only (10.15 lbs / 162.54 oz)
+- Base weight calculated from current items only (10.02 lbs / 160.34 oz)
 - Final base weight will increase with clothing and remaining items
 - Water capacity adjustable based on conditions and reports
 - Dual water treatment provides backup for critical sections
