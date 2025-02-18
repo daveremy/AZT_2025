@@ -9,6 +9,7 @@ permalink: /changelog/
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
 ## Recent Changes
+- February 18, 2025 07:15 - Clean up changelog and switch to prepare-commit-msg hook
 - February 18, 2025 07:14 - Remove test file
 - February 18, 2025 07:13 - Test pre-commit hook
 - February 18, 2025 07:10 - Document changelog features and improve deduplication logic
@@ -30,6 +31,5 @@ This page tracks significant changes and updates to the AZT 2025 planning docume
 - February 15, 2025 22:43 - Add GitHub Pages URL to README
 - February 15, 2025 22:35 - Improve development setup: Add start script, remove duplicate workflow, update config for GitHub Pages
 - February 15, 2025 21:41 - Initial commit: AZT 2025 Planning Site
-
-
 *Note: All times are Pacific Time (PT)*
+

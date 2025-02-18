@@ -25,10 +25,17 @@ To run this site locally:
 
 ### Automated Changelog
 The site maintains an automated changelog that tracks all significant changes. The changelog is:
-- Automatically updated with each commit
+- Automatically updated with each commit via Git hooks
 - Includes timestamps in PT
 - Maintains a clean, deduplicated history
 - Can be regenerated from git history
+
+After cloning the repository, run these commands to enable automatic changelog updates:
+```bash
+chmod +x scripts/update_changelog.sh
+cp scripts/update_changelog.sh .git/hooks/prepare-commit-msg
+chmod +x .git/hooks/prepare-commit-msg
+```
 
 See [scripts/README.md](scripts/README.md) for more details on the changelog automation.
 
