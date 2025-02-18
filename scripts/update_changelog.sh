@@ -22,10 +22,11 @@ This page tracks significant changes and updates to the AZT 2025 planning docume
 
 ## Recent Changes"
         
-        # Get unique commit messages with dates
+        # Get commit messages with dates, sort, remove duplicates, then sort again in reverse order
         git log --pretty=format:"- %ad - %s" --date=format:"%B %d, %Y %H:%M" |
-        sort -r |                  # Sort in reverse chronological order
-        uniq |                    # Remove adjacent duplicates
+        sort |                    # Sort first to get duplicates adjacent
+        uniq |                    # Remove duplicates
+        sort -r |                 # Sort in reverse chronological order
         sed 's/   - /- /'         # Clean up extra spaces
         
         echo -e "\n\n*Note: All times are Pacific Time (PT)*"
@@ -42,8 +43,9 @@ add_changelog_entry() {
         head -n 11 "$CHANGELOG_FILE"
         echo "- $current_date - $commit_message"
         tail -n +12 "$CHANGELOG_FILE" |
-        sort -r |                  # Sort in reverse chronological order
-        uniq                      # Remove adjacent duplicates
+        sort |                    # Sort first
+        uniq |                    # Remove duplicates
+        sort -r                   # Sort in reverse chronological order
     } > "${CHANGELOG_FILE}.tmp"
     mv "${CHANGELOG_FILE}.tmp" "$CHANGELOG_FILE"
 }
