@@ -9,7 +9,8 @@ permalink: /changelog/
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
 ## Recent Changes
-- February 18, 2025 07:06 - Fix changelog sorting and remove duplicates
+- February 18, 2025 07:06 - Fix duplicate changelog entries
+- February 18, 2025 07:06 - Fix duplicate changelog entries
 - February 18, 2025 07:06 - Fix changelog sorting and remove duplicates
 - February 18, 2025 07:02 - Regenerate clean changelog
 - February 18, 2025 05:50 -   Add and improve changelog system
