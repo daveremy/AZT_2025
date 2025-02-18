@@ -9,6 +9,7 @@ permalink: /changelog/
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
 ## Recent Changes
+- February 18, 2025 07:16 - Document prepare-commit-msg hook setup and usage
 - February 18, 2025 07:15 - Clean up changelog and switch to prepare-commit-msg hook
 - February 18, 2025 07:14 - Remove test file
 - February 18, 2025 07:13 - Test pre-commit hook

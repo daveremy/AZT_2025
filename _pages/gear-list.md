@@ -14,11 +14,40 @@ tr.subtotal td {
 # AZT 2025 Gear List
 
 ## Overview
-- Base Weight: 10.02 lbs (160.34 oz)
+- Base Weight: 13.12 lbs (210.03 oz)
 - Season: Spring (March-May)
 - Expected Conditions: Desert to alpine, 20°F to 90°F
 
+For detailed instructions on how to pack these items efficiently in your backpack, see our [Packing Guide]({{ site.baseurl }}/docs/packing-your-backpack/).
+
 ## Categories
+
+### Worn Clothing (Base Configuration)
+| Item | Weight (oz) |
+|------|-------------|
+| Outdoor Research Echo Hoody | 5.3 |
+| Ketl Hiking Shorts | 4.2 |
+| Uniqlo Airism Boxer Briefs | 1.6 |
+| Injinji Trail Midweight Mini-Crew | 1.8 |
+| Adidas Terrex (size up 0.5-1) | 22.0 |
+| Baseball Cap | 2.8 |
+| | **Subtotal** | **37.7** |
+
+### Packed Clothing
+| Item | Weight (oz) |
+|------|-------------|
+| Short Sleeve Mesh Base Layer | 3.0 |
+| Patagonia Puffy | 9.8 |
+| Frogg Toggs Rain Jacket | 5.6 |
+| Vertice Rain Pants | 4.8 |
+| Buff (multi-use: neck/head/warmth) | 1.0 |
+| Extra Pair Injinji Trail Midweight Mini-Crew | 1.8 |
+| Extra Uniqlo Airism Boxer Briefs | 1.6 |
+| Injinji Liner Crew Sleep Socks | 0.8 |
+| New Balance Running Shorts (sleep) | 2.2 |
+| Helly Hansen Tech Long Sleeve (sleep) | 3.5 |
+| Performance Bike Gloves (94% polyester/6% spandex) | 1.39 |
+| | **Subtotal** | **35.49** |
 
 ### Big Three (5.97 lbs / 95.5 oz)
 
@@ -28,7 +57,7 @@ tr.subtotal td {
 | | Shoulder Pocket | 1.4 |
 | | Bottle Pocket | 1.2 |
 | | **Subtotal** | **33.3** |
-| **Sleep System** | NeoAir XLite Sleeping Pad | 13.0 |
+| **Sleep System** | NeoAir XLite Sleeping Pad (R-value: 4.2) | 13.0 |
 | | Zpacks Solos Quilt 20F | 11.8 |
 | | Trekology Pillow | 6.0 |
 | | **Subtotal** | **30.8** |
@@ -62,7 +91,9 @@ tr.subtotal td {
 | 2X USB-C Charging Cables (6") | 0.6 |
 | iPhone 16 | 6.0 |
 | Garmin InReach Mini 2 | 2.0 |
-| | **Subtotal** | **19.8** |
+| Insta360 X4 Camera | 4.9 |
+| Selfie Stick + Backpack Mount | 3.2 |
+| | **Subtotal** | **27.9** |
 
 ### Miscellaneous (1.84 oz)
 
@@ -78,7 +109,8 @@ tr.subtotal td {
 | Item | Weight (oz) |
 |------|-------------|
 | REI Flash Carbon Trekking Poles (pair) | 14.8 |
-| | **Subtotal** | **14.8** |
+| Ultralight Flip Flops (camp shoes) | 6.0 |
+| | **Subtotal** | **20.8** |
 
 ## Still Needed
 - Clothing (worn and packed)
@@ -112,8 +144,7 @@ tr.subtotal td {
 - Electronics (InReach + iPhone) important for navigation in forest
 
 ## Notes
-- Base weight calculated from current items only (10.02 lbs / 160.34 oz)
-- Final base weight will increase with clothing and remaining items
+- Base weight calculated from all current items (13.12 lbs / 210.03 oz)
 - Water capacity adjustable based on conditions and reports
 - Dual water treatment provides backup for critical sections
 - All items tested and proven on shakedown hikes
