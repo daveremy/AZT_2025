@@ -4,127 +4,113 @@ title: Pre-Departure Checklist
 permalink: /pre-departure-checklist/
 ---
 
-# Pre-Departure Checklist (Feb-March 2025)
+# My AZT Pre-Hike Checklist (Feb-March 2025)
 
-## Documentation & Permits
-- [ ] Trail Documents
-  - [ ] AZT maps downloaded to phone
-  - [ ] Printed overview maps
-  - [ ] Databook/water source list
+## Must-Have Docs
+- [ ] Trail Stuff
+  - [ ] AZT maps on phone
+  - [ ] Paper overview maps (backup)
+  - [ ] Water sources list
   - [ ] Section plans printed
-  - [ ] Emergency contact list
-  - [ ] Copy of ID/insurance cards
+  - [ ] Emergency contacts
+  - [ ] ID + insurance copies
 
-- [ ] Permits
-  - [ ] Saguaro National Park permit
-  - [ ] Grand Canyon R2R permit copies
-  - [ ] Any required camping permits
+- [ ] Permits Needed
+  - [ ] Saguaro permit
+  - [ ] GC R2R permit
+  - [ ] Save digital copies
 
-## Gear Verification
-- [ ] Pack Systems
-  - [ ] Main pack checked for wear
-  - [ ] All straps/buckles tested
-  - [ ] Pack cover/liner checked
-  - [ ] Hip belt pockets secure
-
-- [ ] Shelter System
-  - [ ] Tent/tarp seam sealed
-  - [ ] All stakes accounted for
-  - [ ] Guylines checked
-  - [ ] Ground sheet condition verified
-
-- [ ] Sleep System
-  - [ ] Sleeping bag checked
-  - [ ] Pad tested for leaks
-  - [ ] Repair kit packed
-  - [ ] Bag compression sack working
-
-- [ ] Water System
-  - [ ] Filter cleaned and tested
-  - [ ] Backup filter/tablets packed
-  - [ ] All bottles leak-free
-  - [ ] Total capacity = 6L
+## Gear Prep
+- [ ] Test Everything
+  - [ ] Set up tent 5x
+  - [ ] Pack/unpack system dialed
+  - [ ] Filter flow rate good
+  - [ ] Stove test (efficiency)
+  - [ ] Rain gear still waterproof
 
 - [ ] Electronics
-  - [ ] Phone fully tested
-  - [ ] Battery banks charged
-  - [ ] Cables checked
-  - [ ] GPS/navigation apps updated
-  - [ ] Emergency beacon tested
+  - [ ] Phone setup
+    - [ ] Maps downloaded
+    - [ ] Apps tested offline
+    - [ ] Battery tests done
+  - [ ] InReach
+    - [ ] Subscription active
+    - [ ] Test messages sent
+    - [ ] Contacts updated
+  - [ ] Battery banks tested
+  - [ ] All cables working
 
-## First Section Preparation
-- [ ] Food
-  - [ ] 6 days food packed
-  - [ ] Snacks divided per day
-  - [ ] First day food accessible
-  - [ ] Emergency food packed
+## Food & Water
+- [ ] Food Prep
+  - [ ] Test all new items
+  - [ ] Mail drops planned
+  - [ ] First section food ready
+  - [ ] Calorie counts confirmed
+  - [ ] Ursack tested
 
-- [ ] Water
-  - [ ] First water carry planned
-  - [ ] Current water report saved
-  - [ ] Cache plans if needed
-  - [ ] Treatment systems tested
+- [ ] Water Setup
+  - [ ] Filter clean/tested
+  - [ ] Aquamira fresh
+  - [ ] All bottles leak-free
+  - [ ] Know water sources
 
-- [ ] Clothing
-  - [ ] All items clean/repaired
-  - [ ] Rain gear waterproofed
-  - [ ] Sun protection ready
-  - [ ] First day clothes laid out
+## Health & Safety
+- [ ] Medical
+  - [ ] First aid kit ready
+  - [ ] Prescriptions filled
+  - [ ] Dental checkup done
+  - [ ] Insurance cards copied
 
-## Resupply Preparation
-- [ ] First Three Sections
-  - [ ] Patagonia resupply plan
-  - [ ] Tucson resupply plan
-  - [ ] Oracle resupply plan
-  - [ ] Post office hours verified
+- [ ] Emergency Plan
+  - [ ] Family has itinerary
+  - [ ] Check-in schedule set
+  - [ ] Evacuation points noted
+  - [ ] Local contacts saved
 
-- [ ] Mail Drops
-  - [ ] Roosevelt Lake box prepared
-  - [ ] Tracking numbers recorded
-  - [ ] Pickup instructions clear
-  - [ ] Contact numbers included
+## Logistics
+- [ ] Transport
+  - [ ] Ride to terminus arranged
+  - [ ] Return travel planned
+  - [ ] Backup options noted
 
-## Transportation & Logistics
-- [ ] Start Point
-  - [ ] Shuttle to border booked
-  - [ ] Meeting time/place confirmed
-  - [ ] Backup plan established
-  - [ ] Payment arranged
+- [ ] Money
+  - [ ] Cards notified
+  - [ ] Cash for small towns
+  - [ ] Budget confirmed
+  - [ ] Trail angel $$ set aside
 
-- [ ] Home Logistics
-  - [ ] House arrangements made
-  - [ ] Mail handling arranged
-  - [ ] Plants/pets care arranged
-  - [ ] Key holders informed
+- [ ] Communication
+  - [ ] Phone plan checked
+  - [ ] Trail journals ready
+  - [ ] Blog/social setup
+  - [ ] Update schedule planned
 
-## Communication Plan
-- [ ] Family/Emergency Contacts
-  - [ ] Itinerary shared
-  - [ ] Contact schedule set
-  - [ ] InReach messages tested
-  - [ ] Backup plans established
+## Last Week Tasks
+- [ ] Home Stuff
+  - [ ] Bills automated
+  - [ ] Mail handled
+  - [ ] House/pet care set
+  - [ ] Spare key with friend
 
-- [ ] Trail Communications
-  - [ ] Beth's schedule confirmed
-  - [ ] Meeting points established
-  - [ ] Backup plans discussed
-  - [ ] Emergency procedures reviewed
+- [ ] Final Checks
+  - [ ] Weather forecast reviewed
+  - [ ] Trail conditions checked
+  - [ ] Pack weight confirmed
+  - [ ] All gear accounted for
 
-## Final Week Tasks
-- [ ] Physical Preparation
-  - [ ] Rest days planned
-  - [ ] Light exercise only
-  - [ ] Good sleep schedule
-  - [ ] Healthy eating
+## Day Before
+- [ ] Pack organized
+- [ ] Devices charged
+- [ ] Maps accessible
+- [ ] First day food ready
+- [ ] Water bottles filled
+- [ ] Alarm set!
 
-- [ ] Weather & Conditions
-  - [ ] Final forecast check
-  - [ ] Trail conditions verified
-  - [ ] Water sources updated
-  - [ ] Any fire restrictions noted
+## Morning Of
+- [ ] Eat good breakfast
+- [ ] Check weather
+- [ ] Double-check pack
+- [ ] Start tracking
+- [ ] Send "Starting!" messages
 
-- [ ] Day Before Departure
-  - [ ] Pack fully loaded
-  - [ ] Weight verified
-  - [ ] Everything accessible
-  - [ ] Nothing forgotten list review 
+*Note to self: Keep checking this list - easy to forget small stuff when excited!* 
