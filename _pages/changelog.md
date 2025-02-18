@@ -9,6 +9,7 @@ permalink: /changelog/
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
 ## Recent Changes
+- February 18, 2025 16:39 - refactor: update pre-departure checklist to personal note format - Streamline and personalize checklist items
 - February 18, 2025 16:38 - refactor: update water strategies to personal note format - Simplify and personalize water management approach
 - February 18, 2025 16:37 - refactor: update food plan to personal note format - Reorganize content with note-to-self style and practical sections
 - February 18, 2025 16:35 - refactor: update packing guide to personal note format - Convert to note-to-self style while maintaining essential information

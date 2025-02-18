@@ -1,29 +1,29 @@
 ---
 layout: default
-title: Dave Remy's AZT 2025 Thru-Hike Plan
+title: My AZT 2025 Plan
 ---
 
 <div class="hero-section">
   <img src="{{ site.baseurl }}/assets/images/azt-hero.jpg" alt="Arizona Trail Hero Image" class="hero-image">
   <div class="hero-content">
-    <h1>Dave Remy's Arizona Trail 2025</h1>
-    <p class="subtitle">A Personal Journey: 800 Miles Through the Heart of Arizona</p>
+    <h1>My Arizona Trail Adventure</h1>
+    <p class="subtitle">800 Miles of Desert, Mountains, and Canyons</p>
     <div class="countdown">
-      <p>Trail Start: March 15, 2025 (<span id="countdown">Loading...</span>)</p>
+      <p>Go Time: March 15, 2025 (<span id="countdown">Loading...</span>)</p>
     </div>
     
     <div class="stats-container">
       <div class="stat-box">
         <h3>800</h3>
-        <p>Total Miles</p>
+        <p>Miles to Walk</p>
       </div>
       <div class="stat-box">
         <h3>45-50</h3>
-        <p>Days Planned</p>
+        <p>Days on Trail</p>
       </div>
       <div class="stat-box">
         <h3>96,000</h3>
-        <p>Feet of Elevation</p>
+        <p>Feet to Climb</p>
       </div>
     </div>
     
@@ -32,13 +32,35 @@ title: Dave Remy's AZT 2025 Thru-Hike Plan
 </div>
 
 <div class="trail-overview">
-  <h2>My Journey</h2>
-  <p>Starting March 15, 2025, I'll be embarking on a northbound thru-hike of the Arizona Trail (AZT). This 800-mile scenic trail stretches from Mexico to Utah, showcasing Arizona's diverse landscapes from desert to pine forests, from canyons to peaks. My wife Beth will join me for the iconic Grand Canyon rim-to-rim section on May 15, making this journey even more special.</p>
+  <h2>The Plan</h2>
+  <p>Starting March 15, heading NOBO from Mexico to Utah. 800 miles through everything Arizona's got - desert, forests, canyons, you name it. Beth's joining for the Grand Canyon R2R on May 15 (can't wait!). Got my gear dialed, food planned, and ready to crush some miles.</p>
 </div>
 
 <div class="elevation-overview">
   <img src="{{ site.baseurl }}/assets/images/elevation/azt_elevation_profile.png" alt="AZT Full Elevation Profile" class="full-elevation-profile">
-  <p class="caption">My Route: Mexico Border to Utah Border (800 miles)</p>
+  <p class="caption">The Route: Mexico ➔ Utah (gonna be some climbing!)</p>
+</div>
+
+<div class="quick-links">
+  <h2>Quick Links</h2>
+  <div class="link-grid">
+    <a href="{{ site.baseurl }}/gear-list" class="link-card">
+      <h3>🎒 My Gear</h3>
+      <p>13.12 lbs base weight</p>
+    </a>
+    <a href="{{ site.baseurl }}/food-plan" class="link-card">
+      <h3>🍎 Food Plan</h3>
+      <p>2600-3300 cal/day</p>
+    </a>
+    <a href="{{ site.baseurl }}/water-strategies" class="link-card">
+      <h3>💧 Water Plan</h3>
+      <p>Desert to mountains</p>
+    </a>
+    <a href="{{ site.baseurl }}/pre-departure-checklist" class="link-card">
+      <h3>✅ Checklist</h3>
+      <p>Don't forget stuff!</p>
+    </a>
+  </div>
 </div>
 
 <div class="section-grid">
@@ -48,57 +70,66 @@ title: Dave Remy's AZT 2025 Thru-Hike Plan
     {% for section in sorted_sections %}
     {% unless section.path contains "template" %}
     <div class="section-card">
-      <div class="section-image" style="background-image: url('{{ site.baseurl }}/assets/images/elevation/{{ section.section_number | prepend: '0' | slice: -2, 2 }}_elevation.png')">
-        <div class="section-image-overlay">
-          <span class="section-number">{{ section.section_number }}</span>
-          <h3>{{ section.title }}</h3>
-        </div>
+      <h3>{{ section.title }}</h3>
+      <div class="section-stats">
+        <span>{{ section.distance }} miles</span>
+        <span>{{ section.elevation }} ft gain</span>
+        <span>{{ section.days }} days planned</span>
       </div>
-      <div class="section-content">
-        <div class="section-details">
-          <p class="distance">{{ section.distance }} miles</p>
-          <a href="{{ section.url | relative_url }}" class="section-link">View Details →</a>
-        </div>
-      </div>
+      <p>{{ section.description | truncate: 100 }}</p>
+      <a href="{{ section.url | prepend: site.baseurl }}" class="section-link">Section Details →</a>
     </div>
     {% endunless %}
     {% endfor %}
   </div>
 </div>
 
-<div class="planning-section">
-  <h2>My Planning Resources</h2>
-  <div class="resource-grid">
-    <div class="resource-card">
-      <h3>Trail Preparation</h3>
+<div class="preparation-status">
+  <h2>Where I'm At</h2>
+  <div class="status-grid">
+    <div class="status-item">
+      <h3>✅ Done</h3>
       <ul>
-        <li><a href="{{ '/pre-departure-checklist/' | relative_url }}">Pre-Departure Checklist</a></li>
-        <li><a href="{{ '/immediate-actions/' | relative_url }}">Immediate Actions</a></li>
-        <li><a href="{{ '/overall-plan/' | relative_url }}">Overall Strategy</a></li>
-        <li><a href="{{ '/gear-list/' | relative_url }}">Gear List</a></li>
+        <li>Core gear tested</li>
+        <li>Route planned</li>
+        <li>Permits secured</li>
+        <li>Training ongoing</li>
       </ul>
     </div>
-    <div class="resource-card">
-      <h3>Trail Resources</h3>
+    <div class="status-item">
+      <h3>🚧 In Progress</h3>
       <ul>
-        <li><a href="{{ '/water-strategies/' | relative_url }}">Water Strategies</a></li>
-        <li><a href="https://aztrail.org/explore/water-sources/" target="_blank">AZT Water Report</a></li>
-        <li><a href="https://aztrail.org/explore/current-trail-conditions/" target="_blank">Current Conditions</a></li>
+        <li>Food planning</li>
+        <li>Mail drops</li>
+        <li>Final gear tweaks</li>
+      </ul>
+    </div>
+    <div class="status-item">
+      <h3>⏳ Coming Up</h3>
+      <ul>
+        <li>Last shakedown hike</li>
+        <li>Pack mail drops</li>
+        <li>Final gear check</li>
       </ul>
     </div>
   </div>
 </div>
 
 <script>
-function updateCountdown() {
-    const startDate = new Date('2025-03-15T00:00:00');
+  // Countdown Timer
+  function updateCountdown() {
+    const startDate = new Date('2025-03-15T07:00:00');
     const now = new Date();
     const diff = startDate - now;
     
     const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-    document.getElementById('countdown').textContent = days + ' days away';
-}
+    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    
+    document.getElementById('countdown').innerHTML = `${days} days, ${hours} hours`;
+  }
+  
+  updateCountdown();
+  setInterval(updateCountdown, 3600000); // Update every hour
+</script>
 
-updateCountdown();
-setInterval(updateCountdown, 86400000); // Update once per day
-</script> 
+*Living document - updates coming as prep continues* 
