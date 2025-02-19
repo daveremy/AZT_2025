@@ -57,9 +57,9 @@ tr.total td {
   * Big Three: 95.5 oz (5.97 lbs)
   * Kitchen & Water: 27.9 oz (1.74 lbs)
   * Electronics: 33.0 oz (2.06 lbs)
-  * Small Stuff: 2.34 oz (0.15 lbs)
+  * Small Stuff: 3.14 oz (0.20 lbs)
   * Hiking Gear: 20.8 oz (1.30 lbs)
-  * **Total Base Weight: 206.93 oz (12.93 lbs)**
+  * **Total Base Weight: 207.73 oz (12.98 lbs)**
 
 [Notes on how to pack the backpack]({{ site.baseurl }}/packing-your-backpack/)
 
@@ -159,7 +159,7 @@ tr.total td {
 | [Magnetic Selfie Stick Holster](https://store.insta360.com/product/magnetic_selfie_stick_holster) | 3.1 | Attaches to shoulder strap for quick camera access |
 | **Camera Total** | **13.2** | |
 
-### Small Stuff (2.34 oz)
+### Small Stuff (3.14 oz)
 
 | What | Weight (oz) | Notes |
 |------|-------------|-------|
@@ -167,7 +167,28 @@ tr.total td {
 | [Victorinox Classic SD](https://www.amazon.com/dp/B000FNIKOA) | 0.74 | Compact multi-tool with scissors |
 | [VIVAGO Bamboo Toothbrush](https://www.amazon.com/dp/B08172V3Y5) | 0.5 | Biodegradable with soft bristles |
 | [Crest Complete Travel Size](https://www.amazon.com/dp/B016SSUI36) | 0.5 | Travel size toothpaste |
-| **Total** | **2.34** | |
+| **Ordered (arriving Feb 21):** | | |
+| Gallon Zip-lock Bags (3) | 0.6 | For food, clothes, and spare |
+| Quart Zip-lock Bags (2) | 0.2 | For electronics and toiletries |
+| **Total** | **3.14** | |
+
+### First Aid (Starting List)
+
+| What | Weight (oz) | Notes |
+|------|-------------|-------|
+| [Leukotape P](https://www.amazon.com/dp/B000E59HXC) | 0.3 | 5-6 ft strip for blister prevention/treatment |
+| Medications | 0.5 | In pill pockets: Ibuprofen, Acetaminophen, Benadryl, Imodium, Pepto, Melatonin |
+| **Ordered (arriving Feb 21):** | | |
+| Tweezers | - | Small precision tweezers for splinters |
+| Triple Antibiotic | - | Single-use packets |
+| Antihistamine Cream | - | Small tube or packets |
+| Gauze Pads | - | 2-3 sterile pads (2x2") for wounds/blisters/burns - secure with Leukotape |
+| [Flexible Fabric Bandages](https://www.amazon.com/dp/B09YR29TNM) | - | Assorted sizes, breathable fabric - take 4-5 total |
+| Alcohol Wipes | - | 4-5 individually wrapped for cleaning wounds |
+| Quart Slider Zip-lock | - | More reliable seal than press-to-seal type |
+| **Total** | **0.8** | *Will update weights when items arrive* |
+
+*Organization: Meds in labeled pill pockets at top, bandages and gauze in middle, wipes and creams at bottom. Keep Leukotape accessible. Double-check slider seal when closing.*
 
 ### Hiking Gear (20.8 oz)
 
@@ -213,5 +234,6 @@ tr.total td {
 - Water capacity = flexible based on reports
 - Double water treatment = peace of mind
 - All gear tested on shakedowns
+- Zip-lock strategy: 2-3 gallon bags (food/clothes/spare) + 3-4 quart bags (first aid/electronics/toiletries/docs)
 
 *Living document - update as I test more gear and do shakedowns* 
