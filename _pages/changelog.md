@@ -9,6 +9,7 @@ permalink: /changelog/
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
 ## Recent Changes
+- February 19, 2025 15:33 - Improve date handling in changelog script
 - February 19, 2025 15:33 - Update Brynje base layer name and add product link
 - February 18, 2025 16:43 - fix: update GitHub Pages url to correct username
 - February 18, 2025 16:41 - refactor: update index page to personal note format - Add quick links and status sections, make tone more personal
