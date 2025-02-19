@@ -56,10 +56,10 @@ tr.total td {
   * Packed Clothes: 35.49 oz (2.22 lbs)
   * Big Three: 95.5 oz (5.97 lbs)
   * Kitchen & Water: 28.1 oz (1.76 lbs)
-  * Electronics: 33.0 oz (2.06 lbs)
+  * Electronics: 35.0 oz (2.19 lbs)
   * Small Stuff: 3.14 oz (0.20 lbs)
   * Hiking Gear: 20.8 oz (1.30 lbs)
-  * **Total Base Weight: 207.93 oz (13.00 lbs)**
+  * **Total Base Weight: 209.93 oz (13.12 lbs)**
 
 [Notes on how to pack the backpack]({{ site.baseurl }}/packing-your-backpack/)
 
@@ -138,7 +138,7 @@ tr.total td {
 | | Aquamira Drops | 2.0 | Backup treatment |
 | | **Total** | **28.1** | |
 
-### Electronics (19.8 oz)
+### Electronics (21.8 oz)
 
 | What | Weight (oz) | Notes |
 |------|-------------|-------|
@@ -147,7 +147,8 @@ tr.total td {
 | 2x USB-C Cables | 0.6 | Short length |
 | iPhone 16 | 6.0 | Navigation and photos |
 | [Garmin InReach Mini 2](https://www.garmin.com/en-US/p/765374) | 2.0 | Emergency communication |
-| **Total** | **19.8** | |
+| [Garmin Fenix 6 Pro Solar](https://www.garmin.com/en-US/p/735520) | 2.0 | Watch, backup navigation/compass |
+| **Total** | **21.8** | |
 
 #### Camera Setup (13.2 oz)
 
@@ -203,39 +204,41 @@ tr.total td {
 
 ### First Aid (Arriving Feb 21)
 - ✓ Bandages, gauze, antibiotic ointment ordered
-- Consider adding: small scissors, safety pins
+- ✓ Scissors on Swiss Army Knife
+- Consider adding: safety pins
 
 ### Navigation
-- Compass (suggest Suunto A-10)
-- Paper maps backup
-- Download offline maps on phone
+- ✓ FarOut app with downloaded maps
+- ✓ Garmin Fenix 6 Pro Solar (compass + GPS)
+- ✓ InReach Mini 2 for emergency backup
+- ✓ Gaia GPS as additional backup
 
 ### Sun Protection
-- Sunscreen (2-3 oz tube)
-- Lip balm with SPF
-- Sunglasses
-- ✓ Hat already in worn clothes
+- [Neutrogena Beach Defense SPF 70](https://www.amazon.com/dp/B00HNSSV3U) (3 oz) - Good for legs while hiking
+- [Sun Bum SPF 30 Lip Balm](https://www.amazon.com/dp/B004UNHC7A) - Moisturizing and protective
+- [Goodr Progressive Sunglasses](https://goodr.com/collections/progressive-sunglasses) - Lightweight, non-slip
 
 ### Toiletries
 - ✓ Toothbrush and toothpaste in Small Stuff
-- Hand sanitizer
-- Biodegradable soap (tiny bottle)
-- Small microfiber towel
-- Floss
+- ✓ Purell hand sanitizer with clip
+- [Sea to Summit Wilderness Wash](https://www.amazon.com/dp/B001Q4FXBK) (1 oz) - Biodegradable soap
+- [Sea to Summit Airlite Towel](https://www.amazon.com/dp/B01N2PU6RG) (Small) - Quick-dry for washing/drying
+- [Nalgene Wide Mouth Scoop](https://www.amazon.com/dp/B001OPKH54) - For accessing shallow water sources
+- Floss (small travel container)
 
 ### Repair Kit
-- Small sewing kit
-- Tenacious tape
-- Spare batteries for headlamp
-- Spare o-rings for water filter
-- Spare tent guyline
+- [Gear Aid Tenacious Tape](https://www.amazon.com/dp/B001949Z4I) (3-4 small pre-cut pieces)
+- Needle + 2-3 safety pins
+- 5-10 ft of Dyneema cord (tent guyline repair)
+- 2 spare o-rings for Platypus filter
+- Small tube of Aquaseal (optional, for shoe repairs)
 
 ### Documents
-- Permits (Saguaro, Grand Canyon)
-- Insurance cards
-- Emergency contacts
-- Credit cards/cash
-- Trail maps
+- Credit cards (2 different networks)
+- Cash ($100-200 in small bills)
+- Insurance card photo on phone
+- Emergency contacts in phone + InReach
+- Permits (TBD based on itinerary)
 
 *Note: Items marked with ✓ are already acquired or ordered*
 
