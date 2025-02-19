@@ -200,12 +200,44 @@ tr.total td {
 | **Total** | **20.8** | |
 
 ## Still Need
-- First aid kit
-- Nav tools
-- Sun stuff
-- Toiletries
-- Repair kit
-- Docs
+
+### First Aid (Arriving Feb 21)
+- ✓ Bandages, gauze, antibiotic ointment ordered
+- Consider adding: small scissors, safety pins
+
+### Navigation
+- Compass (suggest Suunto A-10)
+- Paper maps backup
+- Download offline maps on phone
+
+### Sun Protection
+- Sunscreen (2-3 oz tube)
+- Lip balm with SPF
+- Sunglasses
+- ✓ Hat already in worn clothes
+
+### Toiletries
+- ✓ Toothbrush and toothpaste in Small Stuff
+- Hand sanitizer
+- Biodegradable soap (tiny bottle)
+- Small microfiber towel
+- Floss
+
+### Repair Kit
+- Small sewing kit
+- Tenacious tape
+- Spare batteries for headlamp
+- Spare o-rings for water filter
+- Spare tent guyline
+
+### Documents
+- Permits (Saguaro, Grand Canyon)
+- Insurance cards
+- Emergency contacts
+- Credit cards/cash
+- Trail maps
+
+*Note: Items marked with ✓ are already acquired or ordered*
 
 ## Strategy Notes
 

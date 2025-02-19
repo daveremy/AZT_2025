@@ -9,13 +9,15 @@ permalink: /changelog/
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
 ## Recent Changes
-- February 19, 2025 16:20 - feat: Add zip-lock bags to gear list and update base weight
+- February 19, 2025 16:21 - feat: Add waterproof matches as backup fire starter
 
-- Add 3 gallon bags (0.6 oz) and 2 quart bags (0.2 oz) to Small Stuff section
+- Add waterproof matches (0.2 oz) to Kitchen section
 
+- Update Kitchen & Water total to 28.1 oz
+
+- Update base weight to 207.93 oz (13.00 lbs)
 - Update total base weight to 207.73 oz (12.98 lbs)
-
-- Add zip-lock strategy note for organization
+- February 19, 2025 16:20 - feat: Add zip-lock bags to gear list and update base weight
 - February 19, 2025 15:50 - Update small items: add product links and details for trowel, Swiss Army knife, bamboo toothbrush, and travel toothpaste
 - February 19, 2025 15:33 - Update changelog with recent changes
 - February 18, 2025 16:43 - fix: update GitHub Pages url to correct username
@@ -48,5 +50,7 @@ This page tracks significant changes and updates to the AZT 2025 planning docume
 - February 15, 2025 22:43 - Add GitHub Pages URL to README
 - February 15, 2025 22:35 - Improve development setup: Add start script, remove duplicate workflow, update config for GitHub Pages
 - February 15, 2025 21:41 - Initial commit: AZT 2025 Planning Site
+- Add zip-lock strategy note for organization
+- Add 3 gallon bags (0.6 oz) and 2 quart bags (0.2 oz) to Small Stuff section
 *Note: All times are Pacific Time (PT)*
 
