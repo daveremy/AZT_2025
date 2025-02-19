@@ -9,8 +9,8 @@ permalink: /changelog/
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
 ## Recent Changes
+- February 19, 2025 15:33 - Update changelog with recent changes
 - February 19, 2025 15:33 - Improve homepage styling and language
-- February 19, 2025 15:33 - Improve date handling in changelog script
 - February 18, 2025 16:43 - fix: update GitHub Pages url to correct username
 - February 18, 2025 16:41 - refactor: update index page to personal note format - Add quick links and status sections, make tone more personal
 - February 18, 2025 16:39 - refactor: update pre-departure checklist to personal note format - Streamline and personalize checklist items

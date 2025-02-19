@@ -56,10 +56,10 @@ tr.total td {
   * Packed Clothes: 35.49 oz (2.22 lbs)
   * Big Three: 95.5 oz (5.97 lbs)
   * Kitchen & Water: 27.9 oz (1.74 lbs)
-  * Electronics: 27.9 oz (1.74 lbs)
-  * Small Stuff: 1.84 oz (0.12 lbs)
+  * Electronics: 33.0 oz (2.06 lbs)
+  * Small Stuff: 2.34 oz (0.15 lbs)
   * Hiking Gear: 20.8 oz (1.30 lbs)
-  * **Total Base Weight: 210.03 oz (13.12 lbs)**
+  * **Total Base Weight: 206.93 oz (12.93 lbs)**
 
 [Notes on how to pack the backpack]({{ site.baseurl }}/packing-your-backpack/)
 
@@ -118,8 +118,8 @@ tr.total td {
 |------|-------------|-------|
 | [Durant Xmid Pro 2+](https://durstongear.com/product/x-mid-pro-2) | 19.2 | Double-wall tent |
 | Groundsheet | 5.1 | For desert and wet ground |
-| MSR Stakes | 5.1 | Primary stakes |
-| Titanium Stakes | 2.0 | For guy lines |
+| [MSR Mini Groundhog Stakes](https://www.amazon.com/MSR-Groundhog-Tent-Stake-6-Pack/dp/B007ZQV312) | 5.1 | Y-beam design for better hold |
+| [Titanium Shepherd Hook Stakes](https://www.amazon.com/dp/B078GLRJ1Z) | 2.0 | Lightweight guy line stakes |
 | **Shelter Total** | **31.4** | |
 
 ### Kitchen & Water (27.9 oz)
@@ -137,7 +137,7 @@ tr.total td {
 | | Aquamira Drops | 2.0 | Backup treatment |
 | | **Total** | **27.9** | |
 
-### Electronics (27.9 oz)
+### Electronics (19.8 oz)
 
 | What | Weight (oz) | Notes |
 |------|-------------|-------|
@@ -146,18 +146,28 @@ tr.total td {
 | 2x USB-C Cables | 0.6 | Short length |
 | iPhone 16 | 6.0 | Navigation and photos |
 | [Garmin InReach Mini 2](https://www.garmin.com/en-US/p/765374) | 2.0 | Emergency communication |
-| [Insta360 X4](https://www.insta360.com/product/insta360-x4) | 4.9 | Trail documentation |
-| Camera Mount Setup | 3.2 | For hiking poles |
-| **Total** | **27.9** | |
+| **Total** | **19.8** | |
 
-### Small Stuff (1.84 oz)
+#### Camera Setup (13.2 oz)
 
 | What | Weight (oz) | Notes |
 |------|-------------|-------|
-| Trowel | 0.6 | Leave No Trace tool |
-| Swiss Army | 0.74 | Multi-tool |
-| Bamboo Brush | 0.5 | Toothbrush |
-| **Total** | **1.84** | |
+| [Insta360 X4](https://www.insta360.com/product/insta360-x4) | 4.9 | 360° trail documentation |
+| [Insta360 X4 Lens Cap](https://store.insta360.com/product/x4_lens_cap) | 0.4 | Lens protection |
+| [Insta360 X4 Extra Battery](https://store.insta360.com/product/x4_battery) | 1.8 | Backup power |
+| [Action Invisible Selfie Stick](https://store.insta360.com/product/action_invisible_selfie_stick) | 3.0 | Extends up to 47.2" |
+| [Magnetic Selfie Stick Holster](https://store.insta360.com/product/magnetic_selfie_stick_holster) | 3.1 | Attaches to shoulder strap for quick camera access |
+| **Camera Total** | **13.2** | |
+
+### Small Stuff (2.34 oz)
+
+| What | Weight (oz) | Notes |
+|------|-------------|-------|
+| [TheTentLab Deuce of Spades #2](https://www.amazon.com/dp/B07BFHT4P3) | 0.6 | Ultralight aluminum trowel for cat holes |
+| [Victorinox Classic SD](https://www.amazon.com/dp/B000FNIKOA) | 0.74 | Compact multi-tool with scissors |
+| [VIVAGO Bamboo Toothbrush](https://www.amazon.com/dp/B08172V3Y5) | 0.5 | Biodegradable with soft bristles |
+| [Crest Complete Travel Size](https://www.amazon.com/dp/B016SSUI36) | 0.5 | Travel size toothpaste |
+| **Total** | **2.34** | |
 
 ### Hiking Gear (20.8 oz)
 
