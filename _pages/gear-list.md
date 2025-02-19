@@ -55,11 +55,11 @@ tr.total td {
   * Worn Clothes: 37.7 oz (2.36 lbs)
   * Packed Clothes: 35.49 oz (2.22 lbs)
   * Big Three: 95.5 oz (5.97 lbs)
-  * Kitchen & Water: 27.9 oz (1.74 lbs)
+  * Kitchen & Water: 28.1 oz (1.76 lbs)
   * Electronics: 33.0 oz (2.06 lbs)
   * Small Stuff: 3.14 oz (0.20 lbs)
   * Hiking Gear: 20.8 oz (1.30 lbs)
-  * **Total Base Weight: 207.73 oz (12.98 lbs)**
+  * **Total Base Weight: 207.93 oz (13.00 lbs)**
 
 [Notes on how to pack the backpack]({{ site.baseurl }}/packing-your-backpack/)
 
@@ -122,7 +122,7 @@ tr.total td {
 | [Titanium Shepherd Hook Stakes](https://www.amazon.com/dp/B078GLRJ1Z) | 2.0 | Lightweight guy line stakes |
 | **Shelter Total** | **31.4** | |
 
-### Kitchen & Water (27.9 oz)
+### Kitchen & Water (28.1 oz)
 
 | Category | What | Weight (oz) | Notes |
 |----------|------|-------------|--------|
@@ -131,11 +131,12 @@ tr.total td {
 | | [Sea to Summit X-Mug](https://seatosummit.com/products/x-mug) | 1.7 | Collapsible design |
 | | Titanium Spork | 0.6 | Eating utensil |
 | | [Ursack Major XL](https://ursack.com/products/ursack-major-xl) | 8.8 | Bear and rodent resistant |
+| | [Waterproof Matches](https://www.amazon.com/dp/B08XJZ9LRN) | 0.2 | Backup fire starter |
 | Water | [Platypus QuickDraw Filter](https://www.platy.com/filtration/quickdraw-microfilter-system/10994.html) | 2.4 | Primary water filter |
 | | [Platypus 2L Bladder](https://www.platy.com/reservoirs/platy-2.0l-bottle/07602.html) | 1.3 | Main water storage |
 | | 2 Smartwater Bottles | 2.4 | 1L each for capacity |
 | | Aquamira Drops | 2.0 | Backup treatment |
-| | **Total** | **27.9** | |
+| | **Total** | **28.1** | |
 
 ### Electronics (19.8 oz)
 

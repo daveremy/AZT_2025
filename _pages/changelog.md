@@ -9,6 +9,13 @@ permalink: /changelog/
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
 ## Recent Changes
+- February 19, 2025 16:20 - feat: Add zip-lock bags to gear list and update base weight
+
+- Add 3 gallon bags (0.6 oz) and 2 quart bags (0.2 oz) to Small Stuff section
+
+- Update total base weight to 207.73 oz (12.98 lbs)
+
+- Add zip-lock strategy note for organization
 - February 19, 2025 15:50 - Update small items: add product links and details for trowel, Swiss Army knife, bamboo toothbrush, and travel toothpaste
 - February 19, 2025 15:33 - Update changelog with recent changes
 - February 18, 2025 16:43 - fix: update GitHub Pages url to correct username
