@@ -34,7 +34,7 @@ This page tracks significant changes and updates to the AZT 2025 planning docume
 
 # Function to add a single entry
 add_changelog_entry() {
-    local current_date=$(git log -1 --pretty=format:"%ad" --date=format:"%B %d, %Y %H:%M")
+    local current_date=$(date "+%B %d, %Y %H:%M")
     local commit_message="$1"
     
     # Create a new changelog with the latest entry at the top
@@ -52,12 +52,14 @@ add_changelog_entry() {
 if [ "$1" = "--regenerate" ]; then
     generate_full_changelog
 else
-    # Get the commit message
-    commit_msg_file=".git/COMMIT_EDITMSG"
-    if [ -f "$commit_msg_file" ]; then
-        commit_message=$(cat "$commit_msg_file")
-    else
-        commit_message=$(ps -o command= -p $PPID | grep -o '".*"' | sed 's/"//g')
+    # Get the commit message from parameter or try to read from git
+    commit_message="$1"
+    if [ -z "$commit_message" ]; then
+        if [ -f ".git/COMMIT_EDITMSG" ]; then
+            commit_message=$(cat ".git/COMMIT_EDITMSG")
+        else
+            commit_message=$(ps -o command= -p $PPID | grep -o '".*"' | sed 's/"//g')
+        fi
     fi
 
     if [ -z "$commit_message" ]; then
