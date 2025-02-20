@@ -1,5 +1,81 @@
----
 categories:
+  worn_clothing:
+    name: "Worn Clothes"
+    items:
+      clothes:
+        - name: "Outdoor Research Echo Hoody"
+          weight_oz: 5.3
+          notes: "Sun protection and base layer"
+          url: "https://www.outdoorresearch.com/us/mens-echo-hoodie-271447"
+        - name: "Ketl Vent Lightweight Shorts"
+          weight_oz: 4.2
+          notes: "Quick-drying hiking shorts"
+          url: "https://ketlmtn.com/products/vent-lightweight-active-shorts-7"
+        - name: "Uniqlo Airism Boxers"
+          weight_oz: 1.6
+          notes: "Anti-chafe underwear"
+          url: "https://www.uniqlo.com/us/en/products/E433872-000/00"
+        - name: "Injinji Trail Midweight Mini-Crew"
+          weight_oz: 1.8
+          notes: "Midweight mini-crew height"
+          url: "https://www.injinji.com/trail-midweight-mini-crew.html"
+        - name: "Adidas Terrex Free Hiker 2.0"
+          weight_oz: 22.0
+          notes: "Non-GTX for better water crossings"
+          url: "https://www.adidas.com/us/terrex-free-hiker-2.0-hiking-shoes/JI1873.html"
+        - name: "Baseball Cap"
+          weight_oz: 2.8
+          notes: "Sun protection"
+        - name: "Garmin Fenix 6 Pro Solar"
+          weight_oz: 2.9
+          notes: "GPS watch with solar charging"
+          url: "https://www.garmin.com/en-US/p/641479"
+
+  packed_clothing:
+    name: "Packed Clothes"
+    items:
+      clothes:
+        - name: "Brynje Super Thermo Mesh T-Shirt"
+          weight_oz: 2.8
+          notes: "Mesh base layer for cold temps"
+          url: "https://www.brynjeusa.com/product/super-thermo-t-shirt/"
+        - name: "Patagonia Nano Puff Hoody"
+          weight_oz: 9.8
+          notes: "Primary insulation layer"
+          url: "https://www.patagonia.com/product/mens-nano-puff-hoody/84222.html"
+        - name: "Frogg Toggs UltraLite2 Rain Jacket"
+          weight_oz: 5.6
+          notes: "Rain protection"
+          url: "https://www.froggtoggs.com/collections/ultralite2-suit/products/ultra-lite2-rain-jacket-with-stuff-sack"
+        - name: "Zpacks Vertice Rain Pants"
+          weight_oz: 4.8
+          notes: "Waterproof-breathable, 1.5 oz/sqyd fabric"
+          url: "https://zpacks.com/products/vertice-rain-pants"
+        - name: "Original Buff"
+          weight_oz: 1.0
+          notes: "Neck gaiter/face cover"
+        - name: "Performance Bike Gloves"
+          weight_oz: 1.39
+          notes: "Hand protection"
+        - name: "Injinji Trail Midweight Mini-Crew"
+          weight_oz: 1.8
+          notes: "Alternate day hiking socks"
+          url: "https://www.injinji.com/trail-midweight-mini-crew.html"
+        - name: "Uniqlo Airism Boxers"
+          weight_oz: 1.6
+          notes: "Alternate day underwear"
+          url: "https://www.uniqlo.com/us/en/products/E433872-000/00"
+        - name: "Injinji Liner Crew"
+          weight_oz: 0.8
+          notes: "Sleep socks"
+          url: "https://www.injinji.com/liner-crew.html"
+        - name: "New Balance Running Shorts"
+          weight_oz: 2.2
+          notes: "Sleep shorts"
+        - name: "Helly Hansen Long Sleeve"
+          weight_oz: 3.5
+          notes: "Sleep shirt"
+
   big_three:
     name: "Big Three"
     items:
@@ -87,20 +163,8 @@ categories:
           weight_oz: 2.0
           notes: "Backup treatment"
 
-  hiking_gear:
-    name: "Hiking Gear"
-    items:
-      gear:
-        - name: "REI Flash Carbon Poles"
-          weight_oz: 14.8
-          notes: "For stability and tent"
-          url: "https://www.rei.com/product/204665/rei-co-op-flash-carbon-trekking-poles-pair"
-        - name: "Camp Flips"
-          weight_oz: 6.0
-          notes: "Camp and water crossings"
-
   electronics:
-    name: "Base Electronics"
+    name: "Electronics"
     items:
       base:
         - name: "Nitecore NB10000 (2x)"
@@ -147,18 +211,6 @@ categories:
           notes: "Attaches to shoulder strap for quick camera access"
           url: "https://store.insta360.com/product/magnetic_selfie_stick_holster"
 
-  first_aid:
-    name: "First Aid"
-    items:
-      basics:
-        - name: "Leukotape P"
-          weight_oz: 0.3
-          notes: "5-6 ft strip for blister prevention/treatment"
-          url: "https://www.amazon.com/dp/B000E59HXC"
-        - name: "Medications"
-          weight_oz: 0.5
-          notes: "In pill pockets: Ibuprofen, Acetaminophen, Benadryl, Imodium, Pepto, Melatonin"
-
   small_stuff:
     name: "Small Stuff"
     items:
@@ -185,3 +237,27 @@ categories:
         - name: "Quart Zip-lock Bags (2)"
           weight_oz: 0.2
           notes: "For electronics and toiletries"
+
+  first_aid:
+    name: "First Aid"
+    items:
+      basics:
+        - name: "Leukotape P"
+          weight_oz: 0.3
+          notes: "5-6 ft strip for blister prevention/treatment"
+          url: "https://www.amazon.com/dp/B000E59HXC"
+        - name: "Medications"
+          weight_oz: 0.5
+          notes: "In pill pockets: Ibuprofen, Acetaminophen, Benadryl, Imodium, Pepto, Melatonin"
+
+  hiking_gear:
+    name: "Hiking Gear"
+    items:
+      gear:
+        - name: "REI Flash Carbon Poles"
+          weight_oz: 14.8
+          notes: "For stability and tent"
+          url: "https://www.rei.com/product/204665/rei-co-op-flash-carbon-trekking-poles-pair"
+        - name: "Camp Flips"
+          weight_oz: 6.0
+          notes: "Camp and water crossings"

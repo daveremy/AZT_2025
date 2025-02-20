@@ -34,6 +34,25 @@ Spring (March-May) • Desert to Alpine • 20°F to 90°F
 </div>
 
 <div class="category-card">
+<h3>Clothing</h3>
+<ul class="category-items">
+{% assign worn_weight = 0 %}
+{% for item in site.data.gear.categories.worn_clothing.items.clothes %}
+  {% assign worn_weight = worn_weight | plus: item.weight_oz %}
+{% endfor %}
+{% assign worn_weight_lbs = worn_weight | divided_by: 16.0 | round: 2 %}
+<li><a href="#worn_clothing"><strong>Worn Clothes</strong>: {{ worn_weight }} oz ({{ worn_weight_lbs }} lbs)</a></li>
+
+{% assign packed_weight = 0 %}
+{% for item in site.data.gear.categories.packed_clothing.items.clothes %}
+  {% assign packed_weight = packed_weight | plus: item.weight_oz %}
+{% endfor %}
+{% assign packed_weight_lbs = packed_weight | divided_by: 16.0 | round: 2 %}
+<li><a href="#packed_clothes"><strong>Packed Clothes</strong>: {{ packed_weight }} oz ({{ packed_weight_lbs }} lbs)</a></li>
+</ul>
+</div>
+
+<div class="category-card">
 <h3>Essential Gear</h3>
 <ul class="category-items">
 {% for item_group in site.data.gear.categories.kitchen_water.items %}
@@ -128,6 +147,15 @@ Spring (March-May) • Desert to Alpine • 20°F to 90°F
 {% for category in site.data.gear.categories %}
 <h2>{{ category[1].name }}</h2>
 
+{% if category[0] == "worn_clothing" or category[0] == "packed_clothing" %}
+<h3 id="{{ category[0] }}">{{ category[1].name }}</h3>
+
+| What | Weight (oz) | Notes |
+|------|-------------|-------|
+{% for item in category[1].items.clothes %}| {% if item.url %}[{{ item.name }}]({{ item.url }}){% else %}{{ item.name }}{% endif %} | {{ item.weight_oz }} | {{ item.notes }} |
+{% endfor %}
+
+{% else %}
 {% for item_group in category[1].items %}
 <h3 id="{{ item_group[0] }}">{{ item_group[0] | capitalize }}</h3>
 
@@ -135,5 +163,7 @@ Spring (March-May) • Desert to Alpine • 20°F to 90°F
 |------|-------------|-------|
 {% for item in item_group[1] %}| {% if item.url %}[{{ item.name }}]({{ item.url }}){% else %}{{ item.name }}{% endif %} | {{ item.weight_oz }} | {{ item.notes }} |
 {% endfor %}
+
 {% endfor %}
+{% endif %}
 {% endfor %} 
