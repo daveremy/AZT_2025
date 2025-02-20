@@ -131,8 +131,8 @@ title: My AZT 2025 Plan
         <p>Days Planned</p>
       </div>
       <div class="stat-box">
-        <h3>96,000</h3>
-        <p>Elevation Gain</p>
+        <h3>{{ site.data.gear_stats.base_weight_lbs }}</h3>
+        <p>Base Weight (lbs)</p>
       </div>
     </div>
     

@@ -4,99 +4,11 @@ title: Gear List
 permalink: gear-list/
 ---
 
-<style>
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1em 0;
-}
-
-th, td {
-  padding: 8px;
-  text-align: left;
-  border: 1px solid #ddd;
-}
-
-th {
-  background-color: #f5f5f5;
-  font-weight: bold;
-}
-
-tr:nth-child(even) {
-  background-color: #f9f9f9;
-}
-
-tr:hover {
-  background-color: #f5f5f5;
-}
-
-tr.total td {
-  background-color: #f5f5f5;
-  font-weight: bold;
-  border-top: 2px solid #ddd;
-}
-
-.weight-col {
-  text-align: right;
-  width: 100px;
-}
-
-.notes-col {
-  width: 40%;
-}
-
-.summary-section {
-  background: #f8f9fa;
-  border-radius: 8px;
-  padding: 24px;
-  margin-bottom: 32px;
-}
-
-.total-weight {
-  text-align: center;
-  font-size: 1.8em;
-  color: #2c3e50;
-  margin-bottom: 20px;
-}
-
-.conditions {
-  text-align: center;
-  color: #666;
-  margin-bottom: 24px;
-  font-style: italic;
-}
-
-.weight-categories {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 16px;
-}
-
-.category-card {
-  background: white;
-  padding: 16px;
-  border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-}
-
-.category-card h3 {
-  color: #2c3e50;
-  margin: 0 0 12px 0;
-  font-size: 1.2em;
-  border-bottom: 2px solid #e9ecef;
-  padding-bottom: 8px;
-}
-
-.category-items {
-  color: #666;
-  margin: 0;
-  padding-left: 20px;
-}
-</style>
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/gear-list.css?v=7">
 
 <div class="summary-section">
 <div class="total-weight">
-Base Weight: 207.73 oz (12.98 lbs)
+Base Weight: {{ site.data.gear_stats.base_weight_oz }} oz ({{ site.data.gear_stats.base_weight_lbs }} lbs)
 </div>
 
 <div class="conditions">
@@ -104,37 +16,37 @@ Spring (March-May) • Desert to Alpine • 20°F to 90°F
 </div>
 
 <div class="weight-categories">
-<div class="category-card">
+<div class="category-card" id="core-equipment-card">
 <h3>Core Equipment</h3>
 <ul class="category-items">
-<li>Big Three: 95.5 oz (5.97 lbs)</li>
-<li>Kitchen & Water: 28.1 oz (1.76 lbs)</li>
-<li>Hiking Gear: 20.8 oz (1.30 lbs)</li>
+<li><a href="#big-three"><strong>Big Three</strong>: 95.5 oz (5.97 lbs)</a></li>
+<li><a href="#kitchen-water"><strong>Kitchen & Water</strong>: 28.1 oz (1.76 lbs)</a></li>
+<li><a href="#hiking-gear"><strong>Hiking Gear</strong>: 20.8 oz (1.30 lbs)</a></li>
 </ul>
 </div>
 
 <div class="category-card">
 <h3>Clothing</h3>
 <ul class="category-items">
-<li>Worn: 37.7 oz (2.36 lbs)</li>
-<li>Packed: 35.49 oz (2.22 lbs)</li>
+<li><a href="#worn-clothes"><strong>Worn</strong>: 37.7 oz (2.36 lbs)</a></li>
+<li><a href="#packed-clothes"><strong>Packed</strong>: 35.49 oz (2.22 lbs)</a></li>
 </ul>
 </div>
 
 <div class="category-card">
 <h3>Electronics</h3>
 <ul class="category-items">
-<li>Base Electronics: 19.8 oz (1.24 lbs)</li>
-<li>Camera Setup: 13.2 oz (0.83 lbs)</li>
+<li><a href="#electronics"><strong>Base Electronics</strong>: 19.8 oz (1.24 lbs)</a></li>
+<li><a href="#camera-setup"><strong>Camera Setup</strong>: 13.2 oz (0.83 lbs)</a></li>
 </ul>
 </div>
 
 <div class="category-card">
 <h3>Personal Care</h3>
 <ul class="category-items">
-<li>First Aid: 0.8 oz (0.05 lbs)</li>
-<li>Small Stuff: 3.14 oz (0.20 lbs)</li>
-<li>Still Need: Sun, Toiletries, Repair</li>
+<li><a href="#first-aid"><strong>First Aid</strong>: 0.8 oz (0.05 lbs)</a></li>
+<li><a href="#small-stuff"><strong>Small Stuff</strong>: 3.14 oz (0.20 lbs)</a></li>
+<li><a href="#still-need"><strong>Still Need</strong>: Sun, Toiletries, Repair</a></li>
 </ul>
 </div>
 </div>
@@ -142,36 +54,9 @@ Spring (March-May) • Desert to Alpine • 20°F to 90°F
 
 [Notes on how to pack the backpack]({{ site.baseurl }}/packing-your-backpack/)
 
-### Worn Clothes (37.7 oz)
+<h2>Core Equipment</h2>
 
-| What | Weight (oz) | Notes |
-|------|-------------|-------|
-| [Outdoor Research Echo Hoody](https://www.outdoorresearch.com/us/mens-echo-hoodie-271447) | 5.3 | Sun protection and base layer |
-| [Ketl Vent Lightweight Shorts](https://ketlmtn.com/products/vent-lightweight-active-shorts-7) | 4.2 | Quick-drying hiking shorts |
-| [Uniqlo Airism Boxers](https://www.uniqlo.com/us/en/products/E433872-000/00) | 1.6 | Anti-chafe underwear |
-| [Injinji Trail Midweight Mini-Crew](https://www.injinji.com/trail-midweight-mini-crew.html) | 1.8 | Midweight mini-crew height |
-| [Adidas Terrex Free Hiker 2.0](https://www.adidas.com/us/terrex-free-hiker-2.0-hiking-shoes/JI1873.html) | 22.0 | Non-GTX for better water crossings |
-| Baseball Cap | 2.8 | Sun protection |
-| **Total** | **37.7** | |
-
-### Packed Clothes (35.49 oz)
-
-| What | Weight (oz) | Notes |
-|------|-------------|-------|
-| [Brynje Super Thermo Long Sleeve](https://www.brynjeusa.com/product/unisex-super-thermo-long-sleeve-shirt) | 3.0 | Long sleeve for cold temps |
-| [Patagonia Nano Puff Hoody](https://www.patagonia.com/product/mens-nano-puff-hoody/84222.html) | 9.8 | Primary insulation layer |
-| [Frogg Toggs UltraLite2 Rain Jacket](https://www.froggtoggs.com/collections/ultralite2-suit/products/ultra-lite2-rain-jacket-with-stuff-sack) | 5.6 | |
-| [Zpacks Vertice Rain Pants](https://zpacks.com/products/vertice-rain-pants) | 4.8 | Waterproof-breathable, 1.5 oz/sqyd fabric |
-| Original Buff | 1.0 | |
-| [Injinji Trail Midweight Mini-Crew](https://www.injinji.com/trail-midweight-mini-crew.html) | 1.8 | Alternate day hiking socks |
-| [Uniqlo Airism Boxers](https://www.uniqlo.com/us/en/products/E433872-000/00) | 1.6 | Alternate day underwear |
-| Performance Bike Gloves | 1.39 | |
-| [Injinji Liner Crew](https://www.injinji.com/liner-crew.html) | 0.8 | Sleep socks |
-| New Balance Running Shorts | 2.2 | Sleep shorts |
-| Helly Hansen Long Sleeve | 3.5 | Sleep shirt |
-| **Total** | **35.49** | |
-
-### Big Three (My Core Setup - 95.5 oz)
+<h3 id="big-three">Big Three (95.5 oz)</h3>
 
 #### Pack
 
@@ -201,7 +86,7 @@ Spring (March-May) • Desert to Alpine • 20°F to 90°F
 | [Titanium Shepherd Hook Stakes](https://www.amazon.com/dp/B078GLRJ1Z) | 2.0 | Lightweight guy line stakes |
 | **Shelter Total** | **31.4** | |
 
-### Kitchen & Water (28.1 oz)
+<h3 id="kitchen-water">Kitchen & Water (28.1 oz)</h3>
 
 | Category | What | Weight (oz) | Notes |
 |----------|------|-------------|--------|
@@ -217,7 +102,48 @@ Spring (March-May) • Desert to Alpine • 20°F to 90°F
 | | Aquamira Drops | 2.0 | Backup treatment |
 | | **Total** | **28.1** | |
 
-### Electronics (19.8 oz)
+<h3 id="hiking-gear">Hiking Gear (20.8 oz)</h3>
+
+| What | Weight (oz) | Notes |
+|------|-------------|-------|
+| [REI Flash Carbon Poles](https://www.rei.com/product/204665/rei-co-op-flash-carbon-trekking-poles-pair) | 14.8 | For stability and tent |
+| Camp Flips | 6.0 | Camp and water crossings |
+| **Total** | **20.8** | |
+
+<h2>Clothing</h2>
+
+<h3 id="worn-clothes">Worn Clothes (37.7 oz)</h3>
+
+| What | Weight (oz) | Notes |
+|------|-------------|-------|
+| [Outdoor Research Echo Hoody](https://www.outdoorresearch.com/us/mens-echo-hoodie-271447) | 5.3 | Sun protection and base layer |
+| [Ketl Vent Lightweight Shorts](https://ketlmtn.com/products/vent-lightweight-active-shorts-7) | 4.2 | Quick-drying hiking shorts |
+| [Uniqlo Airism Boxers](https://www.uniqlo.com/us/en/products/E433872-000/00) | 1.6 | Anti-chafe underwear |
+| [Injinji Trail Midweight Mini-Crew](https://www.injinji.com/trail-midweight-mini-crew.html) | 1.8 | Midweight mini-crew height |
+| [Adidas Terrex Free Hiker 2.0](https://www.adidas.com/us/terrex-free-hiker-2.0-hiking-shoes/JI1873.html) | 22.0 | Non-GTX for better water crossings |
+| Baseball Cap | 2.8 | Sun protection |
+| **Total** | **37.7** | |
+
+<h3 id="packed-clothes">Packed Clothes (35.49 oz)</h3>
+
+| What | Weight (oz) | Notes |
+|------|-------------|-------|
+| [Brynje Super Thermo Long Sleeve](https://www.brynjeusa.com/product/unisex-super-thermo-long-sleeve-shirt) | 3.0 | Long sleeve for cold temps |
+| [Patagonia Nano Puff Hoody](https://www.patagonia.com/product/mens-nano-puff-hoody/84222.html) | 9.8 | Primary insulation layer |
+| [Frogg Toggs UltraLite2 Rain Jacket](https://www.froggtoggs.com/collections/ultralite2-suit/products/ultra-lite2-rain-jacket-with-stuff-sack) | 5.6 | |
+| [Zpacks Vertice Rain Pants](https://zpacks.com/products/vertice-rain-pants) | 4.8 | Waterproof-breathable, 1.5 oz/sqyd fabric |
+| Original Buff | 1.0 | |
+| [Injinji Trail Midweight Mini-Crew](https://www.injinji.com/trail-midweight-mini-crew.html) | 1.8 | Alternate day hiking socks |
+| [Uniqlo Airism Boxers](https://www.uniqlo.com/us/en/products/E433872-000/00) | 1.6 | Alternate day underwear |
+| Performance Bike Gloves | 1.39 | |
+| [Injinji Liner Crew](https://www.injinji.com/liner-crew.html) | 0.8 | Sleep socks |
+| New Balance Running Shorts | 2.2 | Sleep shorts |
+| Helly Hansen Long Sleeve | 3.5 | Sleep shirt |
+| **Total** | **35.49** | |
+
+<h2>Electronics</h2>
+
+<h3 id="electronics">Base Electronics (19.8 oz)</h3>
 
 | What | Weight (oz) | Notes |
 |------|-------------|-------|
@@ -228,7 +154,7 @@ Spring (March-May) • Desert to Alpine • 20°F to 90°F
 | [Garmin InReach Mini 2](https://www.garmin.com/en-US/p/765374) | 2.0 | Emergency communication |
 | **Total** | **19.8** | |
 
-#### Camera Setup (13.2 oz)
+<h3 id="camera-setup">Camera Setup (13.2 oz)</h3>
 
 | What | Weight (oz) | Notes |
 |------|-------------|-------|
@@ -239,20 +165,9 @@ Spring (March-May) • Desert to Alpine • 20°F to 90°F
 | [Magnetic Selfie Stick Holster](https://store.insta360.com/product/magnetic_selfie_stick_holster) | 3.1 | Attaches to shoulder strap for quick camera access |
 | **Camera Total** | **13.2** | |
 
-### Small Stuff (3.14 oz)
+<h2>Personal Care</h2>
 
-| What | Weight (oz) | Notes |
-|------|-------------|-------|
-| [TheTentLab Deuce of Spades #2](https://www.amazon.com/dp/B07BFHT4P3) | 0.6 | Ultralight aluminum trowel for cat holes |
-| [Victorinox Classic SD](https://www.amazon.com/dp/B000FNIKOA) | 0.74 | Compact multi-tool with scissors |
-| [VIVAGO Bamboo Toothbrush](https://www.amazon.com/dp/B08172V3Y5) | 0.5 | Biodegradable with soft bristles |
-| [Crest Complete Travel Size](https://www.amazon.com/dp/B016SSUI36) | 0.5 | Travel size toothpaste |
-| **Ordered (arriving Feb 21):** | | |
-| Gallon Zip-lock Bags (3) | 0.6 | For food, clothes, and spare |
-| Quart Zip-lock Bags (2) | 0.2 | For electronics and toiletries |
-| **Total** | **3.14** | |
-
-### First Aid (Starting List)
+<h3 id="first-aid">First Aid (0.8 oz)</h3>
 
 | What | Weight (oz) | Notes |
 |------|-------------|-------|
@@ -270,15 +185,20 @@ Spring (March-May) • Desert to Alpine • 20°F to 90°F
 
 *Organization: Meds in labeled pill pockets at top, bandages and gauze in middle, wipes and creams at bottom. Keep Leukotape accessible. Double-check slider seal when closing.*
 
-### Hiking Gear (20.8 oz)
+<h3 id="small-stuff">Small Stuff (3.14 oz)</h3>
 
 | What | Weight (oz) | Notes |
 |------|-------------|-------|
-| [REI Flash Carbon Poles](https://www.rei.com/product/204665/rei-co-op-flash-carbon-trekking-poles-pair) | 14.8 | For stability and tent |
-| Camp Flips | 6.0 | Camp and water crossings |
-| **Total** | **20.8** | |
+| [TheTentLab Deuce of Spades #2](https://www.amazon.com/dp/B07BFHT4P3) | 0.6 | Ultralight aluminum trowel for cat holes |
+| [Victorinox Classic SD](https://www.amazon.com/dp/B000FNIKOA) | 0.74 | Compact multi-tool with scissors |
+| [VIVAGO Bamboo Toothbrush](https://www.amazon.com/dp/B08172V3Y5) | 0.5 | Biodegradable with soft bristles |
+| [Crest Complete Travel Size](https://www.amazon.com/dp/B016SSUI36) | 0.5 | Travel size toothpaste |
+| **Ordered (arriving Feb 21):** | | |
+| Gallon Zip-lock Bags (3) | 0.6 | For food, clothes, and spare |
+| Quart Zip-lock Bags (2) | 0.2 | For electronics and toiletries |
+| **Total** | **3.14** | |
 
-## Still Need
+<h2 id="still-need">Still Need</h2>
 
 ### Navigation & Electronics
 - [Garmin Fenix 6 Pro Solar](https://www.garmin.com/en-US/p/735520) - Watch with backup navigation/compass
@@ -312,7 +232,7 @@ Spring (March-May) • Desert to Alpine • 20°F to 90°F
 
 *Note: Items marked with ✓ are already acquired or ordered*
 
-## Strategy Notes
+<h2>Strategy Notes</h2>
 
 ### Desert (Border to Superior)
 - Max water: 6L (2L bladder + 2x 1L bottles + 2L backup if needed)
