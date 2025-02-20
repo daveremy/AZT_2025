@@ -9,7 +9,7 @@ permalink: /changelog/
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
 ## Recent Changes
-- February 20, 2025 12:56 - Refactor gear list: Restore category grouping, add Still Needed section, fix base weight calculation
+- February 20, 2025 13:47 - feat: reorganize gear list and add Garmin Fenix 6 Pro Solar
 - Update total base weight to 207.73 oz (12.98 lbs)
 - Update base weight to 13.36 lbs
 - Update Still Need section
@@ -19,6 +19,7 @@ This page tracks significant changes and updates to the AZT 2025 planning docume
 - Remove floss from list
 - Move ordered items to Small Stuff section with weights
 - Mark items already acquired or ordered
+- February 20, 2025 12:56 - Refactor gear list: Restore category grouping, add Still Needed section, fix base weight calculation
 - February 20, 2025 12:38 - Refactor section data structure: Move section data to _data/sections.yml and simplify section markdown files
 - February 20, 2025 12:18 - Add deployment status check script
 - February 20, 2025 12:16 - Add gear list CSS file

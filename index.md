@@ -3,14 +3,6 @@ layout: default
 title: My AZT 2025 Plan
 ---
 
-<!-- Debug output -->
-<div style="background: #eee; padding: 1em; margin: 1em 0;">
-Debug: Number of sections = {{ site.data.sections | size }}
-{% for section in site.data.sections %}
-Section {{ section.number }}: {{ section.title }}
-{% endfor %}
-</div>
-
 <style>
 .quick-links {
   margin: 2em 0;
