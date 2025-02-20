@@ -1,0 +1,148 @@
+/* Gear List Styles */
+.summary-section {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.total-weight {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.conditions {
+  text-align: center;
+  color: #666;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.weight-categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.category-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.category-card h3 {
+  margin: 0 0 1rem 0;
+  color: #2c3e50;
+  font-size: 1.2rem;
+}
+
+.category-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category-items li {
+  margin-bottom: 0.8rem;
+}
+
+.category-items a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.category-items a:hover {
+  text-decoration: underline;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+th {
+  background: #f8f9fa;
+  padding: 1rem;
+  text-align: left;
+  font-weight: 500;
+  color: #2c3e50;
+  border-bottom: 2px solid #dee2e6;
+}
+
+td {
+  padding: 1rem;
+  border-bottom: 1px solid #dee2e6;
+  color: #444;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* Section Headers */
+h2 {
+  color: #2c3e50;
+  font-size: 1.8rem;
+  margin: 3rem 0 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #eee;
+}
+
+h3 {
+  color: #2c3e50;
+  font-size: 1.5rem;
+  margin: 2rem 0 1rem;
+}
+
+h4 {
+  color: #2c3e50;
+  font-size: 1.2rem;
+  margin: 1.5rem 0 1rem;
+}
+
+/* Links */
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+  .weight-categories {
+    grid-template-columns: 1fr;
+  }
+  
+  .total-weight {
+    font-size: 1.2rem;
+  }
+  
+  .conditions {
+    font-size: 1rem;
+  }
+  
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  th, td {
+    padding: 0.8rem;
+  }
+} 
