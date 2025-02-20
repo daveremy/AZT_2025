@@ -9,9 +9,7 @@ permalink: /changelog/
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
 ## Recent Changes
-- February 19, 2025 17:14 - feat: Add Repair Kit section with weights
-
-- Create dedicated Repair Kit section with estimated weights\n- Update total base weight to include repair kit\n- Mark Tenacious Tape as ordered
+- February 19, 2025 17:56 - fix: restore gear list to working version with recent updates
 - Update total base weight to 207.73 oz (12.98 lbs)
 - Update base weight to 13.36 lbs
 - Update Still Need section
@@ -21,6 +19,7 @@ This page tracks significant changes and updates to the AZT 2025 planning docume
 - Remove floss from list
 - Move ordered items to Small Stuff section with weights
 - Mark items already acquired or ordered
+- February 19, 2025 17:14 - feat: Add Repair Kit section with weights
 - February 19, 2025 17:07 - feat: Update gear organization and weights
 - February 19, 2025 16:43 - feat: Update Still Need section with specific recommendations
 - February 19, 2025 16:23 - feat: Update Still Need section with detailed categories
@@ -59,6 +58,7 @@ This page tracks significant changes and updates to the AZT 2025 planning docume
 - February 15, 2025 22:35 - Improve development setup: Add start script, remove duplicate workflow, update config for GitHub Pages
 - February 15, 2025 21:41 - Initial commit: AZT 2025 Planning Site
 - Expand Still Need into organized categories
+- Create dedicated Repair Kit section with estimated weights\n- Update total base weight to include repair kit\n- Mark Tenacious Tape as ordered
 - Add zip-lock strategy note for organization
 - Add waterproof matches (0.2 oz) to Kitchen section
 - Add water source scoop to toiletries section

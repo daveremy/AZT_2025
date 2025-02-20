@@ -44,22 +44,101 @@ tr.total td {
 .notes-col {
   width: 40%;
 }
+
+.summary-section {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 32px;
+}
+
+.total-weight {
+  text-align: center;
+  font-size: 1.8em;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.conditions {
+  text-align: center;
+  color: #666;
+  margin-bottom: 24px;
+  font-style: italic;
+}
+
+.weight-categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+}
+
+.category-card {
+  background: white;
+  padding: 16px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.category-card h3 {
+  color: #2c3e50;
+  margin: 0 0 12px 0;
+  font-size: 1.2em;
+  border-bottom: 2px solid #e9ecef;
+  padding-bottom: 8px;
+}
+
+.category-items {
+  color: #666;
+  margin: 0;
+  padding-left: 20px;
+}
 </style>
 
-# My AZT 2025 Gear Setup
+<div class="summary-section">
+<div class="total-weight">
+Base Weight: 207.73 oz (12.98 lbs)
+</div>
 
-## Quick Stats
-- When: Spring (March-May)
-- What to expect: Desert to alpine, anywhere from 20°F to 90°F
-- Base Weight Breakdown:
-  * Worn Clothes: 37.7 oz (2.36 lbs)
-  * Packed Clothes: 35.49 oz (2.22 lbs)
-  * Big Three: 95.5 oz (5.97 lbs)
-  * Kitchen & Water: 28.1 oz (1.76 lbs)
-  * Electronics: 33.0 oz (2.06 lbs)
-  * Small Stuff: 3.14 oz (0.20 lbs)
-  * Hiking Gear: 20.8 oz (1.30 lbs)
-  * **Total Base Weight: 207.73 oz (12.98 lbs)**
+<div class="conditions">
+Spring (March-May) • Desert to Alpine • 20°F to 90°F
+</div>
+
+<div class="weight-categories">
+<div class="category-card">
+<h3>Core Equipment</h3>
+<ul class="category-items">
+<li>Big Three: 95.5 oz (5.97 lbs)</li>
+<li>Kitchen & Water: 28.1 oz (1.76 lbs)</li>
+<li>Hiking Gear: 20.8 oz (1.30 lbs)</li>
+</ul>
+</div>
+
+<div class="category-card">
+<h3>Clothing</h3>
+<ul class="category-items">
+<li>Worn: 37.7 oz (2.36 lbs)</li>
+<li>Packed: 35.49 oz (2.22 lbs)</li>
+</ul>
+</div>
+
+<div class="category-card">
+<h3>Electronics</h3>
+<ul class="category-items">
+<li>Base Electronics: 19.8 oz (1.24 lbs)</li>
+<li>Camera Setup: 13.2 oz (0.83 lbs)</li>
+</ul>
+</div>
+
+<div class="category-card">
+<h3>Personal Care</h3>
+<ul class="category-items">
+<li>First Aid: 0.8 oz (0.05 lbs)</li>
+<li>Small Stuff: 3.14 oz (0.20 lbs)</li>
+<li>Still Need: Sun, Toiletries, Repair</li>
+</ul>
+</div>
+</div>
+</div>
 
 [Notes on how to pack the backpack]({{ site.baseurl }}/packing-your-backpack/)
 
