@@ -1,0 +1,187 @@
+---
+categories:
+  big_three:
+    name: "Big Three"
+    items:
+      pack:
+        - name: "Hyperlite Mountain Gear Windrider"
+          weight_oz: 30.7
+          notes: "Large size"
+          url: "https://www.hyperlitemountaingear.com/products/3400-windrider"
+        - name: "Shoulder Pocket"
+          weight_oz: 1.4
+          notes: "For snacks and phone"
+        - name: "Shoulder Strap Bottle Pocket"
+          weight_oz: 1.2
+          notes: "For water access"
+      sleep:
+        - name: "Thermarest NeoAir XLite NXT"
+          weight_oz: 13.0
+          notes: "R-value: 4.2 for cold ground"
+          url: "https://www.thermarest.com/sleeping-pads/fast-and-light/neoair-xlite-nxt-sleeping-pad/neoair-xlite-nxt.html"
+        - name: "Zpacks Solo Quilt 20F"
+          weight_oz: 11.8
+          notes: "Tested to 20°F"
+          url: "https://zpacks.com/products/solo-quilt"
+        - name: "Trekology Pillow"
+          weight_oz: 6.0
+          notes: "Inflatable camp pillow"
+          url: "https://trekology.com/products/aluft-comfort-camping-pillow"
+      shelter:
+        - name: "Durant Xmid Pro 2+"
+          weight_oz: 19.2
+          notes: "Double-wall tent"
+          url: "https://durstongear.com/product/x-mid-pro-2"
+        - name: "Groundsheet"
+          weight_oz: 5.1
+          notes: "For desert and wet ground"
+        - name: "MSR Mini Groundhog Stakes"
+          weight_oz: 5.1
+          notes: "Y-beam design for better hold"
+          url: "https://www.amazon.com/MSR-Groundhog-Tent-Stake-6-Pack/dp/B007ZQV312"
+        - name: "Titanium Shepherd Hook Stakes"
+          weight_oz: 2.0
+          notes: "Lightweight guy line stakes"
+          url: "https://www.amazon.com/dp/B078GLRJ1Z"
+
+  kitchen_water:
+    name: "Kitchen & Water"
+    items:
+      cooking:
+        - name: "Firemaple Petrel 650ml Pot"
+          weight_oz: 5.7
+          notes: "Primary cooking pot"
+          url: "https://www.firemaplegear.com/products/petrel-pot"
+        - name: "Firemaple Greenpeak Stove"
+          weight_oz: 3.0
+          notes: "Canister stove"
+          url: "https://www.firemaplegear.com/products/greenpeak-stove"
+        - name: "Sea to Summit X-Mug"
+          weight_oz: 1.7
+          notes: "Collapsible design"
+          url: "https://seatosummit.com/products/x-mug"
+        - name: "Titanium Spork"
+          weight_oz: 0.6
+          notes: "Eating utensil"
+        - name: "Ursack Major XL"
+          weight_oz: 8.8
+          notes: "Bear and rodent resistant"
+          url: "https://ursack.com/products/ursack-major-xl"
+        - name: "Waterproof Matches"
+          weight_oz: 0.2
+          notes: "Backup fire starter"
+          url: "https://www.amazon.com/dp/B08XJZ9LRN"
+      water:
+        - name: "Platypus QuickDraw Filter"
+          weight_oz: 2.4
+          notes: "Primary water filter"
+          url: "https://www.platy.com/filtration/quickdraw-microfilter-system/10994.html"
+        - name: "Platypus 2L Bladder"
+          weight_oz: 1.3
+          notes: "Main water storage"
+          url: "https://www.platy.com/reservoirs/platy-2.0l-bottle/07602.html"
+        - name: "2 Smartwater Bottles"
+          weight_oz: 2.4
+          notes: "1L each for capacity"
+        - name: "Aquamira Drops"
+          weight_oz: 2.0
+          notes: "Backup treatment"
+
+  hiking_gear:
+    name: "Hiking Gear"
+    items:
+      gear:
+        - name: "REI Flash Carbon Poles"
+          weight_oz: 14.8
+          notes: "For stability and tent"
+          url: "https://www.rei.com/product/204665/rei-co-op-flash-carbon-trekking-poles-pair"
+        - name: "Camp Flips"
+          weight_oz: 6.0
+          notes: "Camp and water crossings"
+
+  electronics:
+    name: "Base Electronics"
+    items:
+      base:
+        - name: "Nitecore NB10000 (2x)"
+          weight_oz: 10.6
+          notes: "10,000mAh each"
+          url: "https://flashlight.nitecore.com/product/nb10000"
+        - name: "RovyVon Aurora A5 G4"
+          weight_oz: 0.6
+          notes: "Primary light: 650 lumen, clips to cap as headlamp"
+          url: "https://www.rovyvon.com/products/aurora-a5x"
+        - name: "2x USB-C Cables"
+          weight_oz: 0.6
+          notes: "Short length"
+        - name: "iPhone 16"
+          weight_oz: 6.0
+          notes: "Navigation and photos"
+        - name: "Garmin InReach Mini 2"
+          weight_oz: 2.0
+          notes: "Emergency communication"
+          url: "https://www.garmin.com/en-US/p/765374"
+
+  camera:
+    name: "Camera Setup"
+    items:
+      gear:
+        - name: "Insta360 X4"
+          weight_oz: 4.9
+          notes: "360° trail documentation"
+          url: "https://www.insta360.com/product/insta360-x4"
+        - name: "Insta360 X4 Lens Cap"
+          weight_oz: 0.4
+          notes: "Lens protection"
+          url: "https://store.insta360.com/product/x4_lens_cap"
+        - name: "Insta360 X4 Extra Battery"
+          weight_oz: 1.8
+          notes: "Backup power"
+          url: "https://store.insta360.com/product/x4_battery"
+        - name: "Action Invisible Selfie Stick"
+          weight_oz: 3.0
+          notes: 'Extends up to 47.2"'
+          url: "https://store.insta360.com/product/action_invisible_selfie_stick"
+        - name: "Magnetic Selfie Stick Holster"
+          weight_oz: 3.1
+          notes: "Attaches to shoulder strap for quick camera access"
+          url: "https://store.insta360.com/product/magnetic_selfie_stick_holster"
+
+  first_aid:
+    name: "First Aid"
+    items:
+      basics:
+        - name: "Leukotape P"
+          weight_oz: 0.3
+          notes: "5-6 ft strip for blister prevention/treatment"
+          url: "https://www.amazon.com/dp/B000E59HXC"
+        - name: "Medications"
+          weight_oz: 0.5
+          notes: "In pill pockets: Ibuprofen, Acetaminophen, Benadryl, Imodium, Pepto, Melatonin"
+
+  small_stuff:
+    name: "Small Stuff"
+    items:
+      basics:
+        - name: "TheTentLab Deuce of Spades #2"
+          weight_oz: 0.6
+          notes: "Ultralight aluminum trowel for cat holes"
+          url: "https://www.amazon.com/dp/B07BFHT4P3"
+        - name: "Victorinox Classic SD"
+          weight_oz: 0.74
+          notes: "Compact multi-tool with scissors"
+          url: "https://www.amazon.com/dp/B000FNIKOA"
+        - name: "VIVAGO Bamboo Toothbrush"
+          weight_oz: 0.5
+          notes: "Biodegradable with soft bristles"
+          url: "https://www.amazon.com/dp/B08172V3Y5"
+        - name: "Crest Complete Travel Size"
+          weight_oz: 0.5
+          notes: "Travel size toothpaste"
+          url: "https://www.amazon.com/dp/B016SSUI36"
+        - name: "Gallon Zip-lock Bags (3)"
+          weight_oz: 0.6
+          notes: "For food, clothes, and spare"
+        - name: "Quart Zip-lock Bags (2)"
+          weight_oz: 0.2
+          notes: "For electronics and toiletries"

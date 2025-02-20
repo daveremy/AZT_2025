@@ -1,0 +1,11 @@
+{% assign total_weight_oz = 0 %}
+{% for category in site.data.gear.categories %}
+  {% for item_group in category[1].items %}
+    {% for item in item_group[1] %}
+      {% assign total_weight_oz = total_weight_oz | plus: item.weight_oz %}
+    {% endfor %}
+  {% endfor %}
+{% endfor %}
+
+{% assign base_weight_lbs = total_weight_oz | divided_by: 16.0 %}
+{% assign base_weight_lbs_rounded = base_weight_lbs | round: 2 %} 

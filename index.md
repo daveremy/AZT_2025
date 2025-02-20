@@ -120,6 +120,9 @@ Section {{ section.number }}: {{ section.title }}
 }
 </style>
 
+{% assign base_weight = site.data.gear.categories %}
+{% include calculate_base_weight.html %}
+
 <div class="hero-section">
   <img src="{{ site.baseurl }}/assets/images/azt-hero.jpg" alt="Arizona Trail Hero Image" class="hero-image">
   <div class="hero-content">
@@ -139,7 +142,7 @@ Section {{ section.number }}: {{ section.title }}
         <p>Days Planned</p>
       </div>
       <div class="stat-box">
-        <h3>{{ site.data.trail_stats.base_weight_lbs }}</h3>
+        <h3>{{ base_weight_lbs_rounded }}</h3>
         <p>Base Weight (lbs)</p>
       </div>
     </div>
@@ -163,7 +166,7 @@ Section {{ section.number }}: {{ section.title }}
   <div class="link-grid">
     <a href="{{ site.baseurl }}/gear-list" class="link-card">
       <h3>🎒 Gear List</h3>
-      <p>{{ site.data.trail_stats.base_weight_lbs }} lbs base weight</p>
+      <p>{{ base_weight_lbs_rounded }} lbs base weight</p>
     </a>
     <a href="{{ site.baseurl }}/food-plan" class="link-card">
       <h3>🍎 Food Strategy</h3>
