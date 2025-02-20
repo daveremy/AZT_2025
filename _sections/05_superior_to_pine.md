@@ -1,20 +1,7 @@
 ---
 layout: section
-title: "Superior to Pine"
 section_number: 5
 permalink: /sections/05_superior_to_pine/
-distance: 73.8
-estimated_days: "4-5"
-daily_mileage: "15-18"
-highlights: |
-  The Superior to Pine section offers some of the most dramatic elevation changes and diverse ecosystems on the Arizona Trail. This section features:
-
-  * The iconic Four Peaks Wilderness with its distinctive skyline
-  * Historic Reavis Ranch site and apple orchards
-  * Pristine riparian areas along Reavis Creek
-  * Dramatic views of Roosevelt Lake
-  * Remote and challenging Mazatzal Wilderness
-  * Pine Creek Canyon's dramatic geological formations
 ---
 
 # Superior to Pine (Passages 15-17)

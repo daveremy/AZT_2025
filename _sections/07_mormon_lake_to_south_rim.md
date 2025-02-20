@@ -1,20 +1,7 @@
 ---
 layout: section
-title: "Mormon Lake to South Rim"
 section_number: 7
 permalink: /sections/07_mormon_lake_to_south_rim/
-distance: 82.6
-estimated_days: "4-5"
-daily_mileage: "16-20"
-highlights: |
-  The Mormon Lake to South Rim section traverses the high plateaus and volcanic terrain of northern Arizona. This section features:
-
-  * Expansive views of the San Francisco Peaks, Arizona's highest mountains
-  * Ancient volcanic landscapes around Flagstaff
-  * Historic Walnut Canyon National Monument
-  * Extensive ponderosa pine forests
-  * Unique geological formations and cinder cones
-  * First glimpses of the Grand Canyon from the Coconino Rim
 ---
 
 # Mormon Lake to South Rim (Passages 21-24)

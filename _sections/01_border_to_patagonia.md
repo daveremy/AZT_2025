@@ -1,20 +1,7 @@
 ---
 layout: section
-title: "Border to Patagonia"
 section_number: 1
 permalink: /sections/01_border_to_patagonia/
-distance: 52.1
-estimated_days: "2-3"
-daily_mileage: "17-26"
-highlights: |
-  The Border to Patagonia section offers a dramatic introduction to the Arizona Trail, showcasing the diverse landscapes of the Sky Islands region. Starting at the Mexican border in the Huachuca Mountains, this section features:
-
-  * A challenging ascent to Miller Peak (9,466 ft), offering breathtaking views into Mexico and across southern Arizona
-  * Traverse through the historic Coronado National Memorial, commemorating the first European expedition into the American Southwest
-  * Journey through the pristine Miller Peak Wilderness, home to diverse wildlife and rare plant species
-  * Experience the rolling grasslands of the San Rafael Valley, one of Arizona's most intact prairie ecosystems
-  * Explore the oak-studded Canelo Hills, providing a gentle transition between sky island ranges
-  * End in the charming town of Patagonia, known for its artist community and outdoor recreation
 ---
 
 # Border to Patagonia (Passages 1-3)

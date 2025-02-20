@@ -1,0 +1,33 @@
+total_distance: 800
+total_days: "45-50"
+base_weight_oz: 210.03
+base_weight_lbs: 13.12
+total_water_capacity_l: 6
+avg_daily_mileage: 16.3
+zero_days: 8
+hiking_days: 39
+
+elevation:
+  lowest_point: 2,480
+  highest_point: 9,466
+  total_gain: 110,000
+
+resupply:
+  total_points: 10
+  mail_drops: 2
+  town_stops: 8
+
+water:
+  max_capacity: 6
+  reliable_sources: 15
+  seasonal_sources: 28
+  tanks_and_caches: 35
+
+sections:
+  total: 9
+  passages: 43
+
+timeline:
+  start_date: "2025-03-15"
+  end_date: "2025-05-25"
+  rim_to_rim: "2025-05-15"

@@ -1,20 +1,7 @@
 ---
 layout: section
-title: "Tucson to Oracle"
 section_number: 3
 permalink: /sections/03_tucson_to_oracle/
-distance: 82.4
-estimated_days: "4-5"
-daily_mileage: "16-20"
-highlights: |
-  The Tucson to Oracle section showcases the dramatic Catalina Mountains and offers some of the most diverse ecosystems on the trail. This section features:
-
-  * Saguaro National Park's pristine desert environment and dense cactus forests
-  * The challenging ascent of the Catalina Mountains through multiple vegetation zones
-  * Historic Butterfly Trail and sites of the former prison labor camp
-  * Dramatic views of Tucson and the surrounding valleys from high ridges
-  * The remote and scenic Samaniego Ridge
-  * Oracle State Park's rolling grasslands and oak woodlands
 ---
 
 # Tucson to Oracle (Passages 7-9)

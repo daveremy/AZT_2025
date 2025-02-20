@@ -1,20 +1,7 @@
 ---
 layout: section
-title: "Patagonia to Tucson"
 section_number: 2
 permalink: /sections/02_patagonia_to_tucson/
-distance: 94.5
-estimated_days: "4-5"
-daily_mileage: "18-23"
-highlights: |
-  The Patagonia to Tucson section traverses some of southern Arizona's most diverse landscapes, from historic mining areas to pristine wilderness. This section features:
-
-  * Historic Kentucky Camp, a preserved gold mining headquarters from the early 1900s
-  * Las Cienegas National Conservation Area, showcasing rare desert wetlands and grasslands
-  * Dramatic views of the Santa Rita and Rincon Mountains
-  * Passage through the Empire Ranch, a working cattle ranch with over 140 years of history
-  * Saguaro National Park East, home to iconic giant saguaro cacti
-  * Colossal Cave Mountain Park, featuring one of the largest dry caverns in the region
 ---
 
 # Patagonia to Tucson (Passages 4-6)

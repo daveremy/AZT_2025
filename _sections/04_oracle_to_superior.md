@@ -1,20 +1,7 @@
 ---
 layout: section
-title: "Oracle to Superior"
 section_number: 4
 permalink: /sections/04_oracle_to_superior/
-distance: 51.4
-estimated_days: "3-4"
-daily_mileage: "13-17"
-highlights: |
-  The Oracle to Superior section traverses the rugged terrain between two historic mining towns, offering dramatic views and challenging hiking. This section features:
-
-  * Oracle Ridge Trail with panoramic views of the San Pedro Valley and Catalinas
-  * Historic mining remnants and ghost towns along the Arizona Trail
-  * The dramatic Antelope Peak rising above the desert landscape
-  * Unique geology in the Copper Corridor region
-  * Remote and scenic Walnut Canyon
-  * Views of the iconic Picketpost Mountain near Superior
 ---
 
 # Oracle to Superior (Passages 13-14)

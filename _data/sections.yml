@@ -1,0 +1,63 @@
+---
+- number: 1
+  title: "Border to Patagonia"
+  distance: 52.1
+  days: "2-3"
+  daily_mileage: "17-26"
+  description: "A dramatic introduction to the Arizona Trail, showcasing the diverse landscapes of the Sky Islands region."
+
+- number: 2
+  title: "Patagonia to Tucson"
+  distance: 94.5
+  days: "4-5"
+  daily_mileage: "18-23"
+  description: "Traverses some of southern Arizona's most diverse landscapes, from historic mining areas to pristine wilderness."
+
+- number: 3
+  title: "Tucson to Oracle"
+  distance: 82.4
+  days: "4-5"
+  daily_mileage: "16-20"
+  description: "Showcases the dramatic Catalina Mountains and offers some of the most diverse ecosystems on the trail."
+
+- number: 4
+  title: "Oracle to Superior"
+  distance: 51.4
+  days: "3-4"
+  daily_mileage: "13-17"
+  description: "Traverses the rugged terrain between two historic mining towns, offering dramatic views and challenging hiking."
+
+- number: 5
+  title: "Superior to Pine"
+  distance: 73.8
+  days: "4-5"
+  daily_mileage: "15-18"
+  description: "Offers some of the most dramatic elevation changes and diverse ecosystems on the Arizona Trail."
+
+- number: 6
+  title: "Pine to Mormon Lake"
+  distance: 68.2
+  days: "3-4"
+  daily_mileage: "17-22"
+  description: "Marks a dramatic transition to the high country of northern Arizona."
+
+- number: 7
+  title: "Mormon Lake to South Rim"
+  distance: 82.6
+  days: "4-5"
+  daily_mileage: "16-20"
+  description: "Traverses the high plateaus and volcanic terrain of northern Arizona."
+
+- number: 8
+  title: "South Rim to North Rim"
+  distance: 24.3
+  days: "1"
+  daily_mileage: "24.3"
+  description: "The iconic Grand Canyon rim-to-rim traverse, offering the most dramatic day of the entire trail."
+
+- number: 9
+  title: "North Rim to Utah"
+  distance: 42.5
+  days: "2-3"
+  daily_mileage: "14-21"
+  description: "A stunning conclusion through high-elevation forests and meadows of the Kaibab Plateau."

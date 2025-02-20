@@ -9,7 +9,7 @@ permalink: /changelog/
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
 ## Recent Changes
-- February 20, 2025 12:16 - Add gear list CSS file
+- February 20, 2025 12:18 - Add deployment status check script
 - Update total base weight to 207.73 oz (12.98 lbs)
 - Update base weight to 13.36 lbs
 - Update Still Need section
@@ -19,6 +19,7 @@ This page tracks significant changes and updates to the AZT 2025 planning docume
 - Remove floss from list
 - Move ordered items to Small Stuff section with weights
 - Mark items already acquired or ordered
+- February 20, 2025 12:16 - Add gear list CSS file
 - February 20, 2025 06:00 - feat: improve gear list summary with card-based layout
 - February 19, 2025 17:56 - fix: restore gear list to working version with recent updates
 - February 19, 2025 17:14 - feat: Add Repair Kit section with weights

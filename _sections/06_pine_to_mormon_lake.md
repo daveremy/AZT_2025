@@ -1,20 +1,7 @@
 ---
 layout: section
-title: "Pine to Mormon Lake"
 section_number: 6
 permalink: /sections/06_pine_to_mormon_lake/
-distance: 68.2
-estimated_days: "3-4"
-daily_mileage: "17-22"
-highlights: |
-  The Pine to Mormon Lake section marks a dramatic transition to the high country of northern Arizona. This section features:
-
-  * Historic General Springs Cabin and the Battle of Big Dry Wash site
-  * Dramatic East Verde River canyon crossings
-  * Pristine ponderosa pine forests of the Coconino National Forest
-  * Scenic Blue Ridge Reservoir area
-  * Extensive stands of ancient alligator juniper trees
-  * Expansive views from the Mogollon Rim
 ---
 
 # Pine to Mormon Lake (Passages 18-20)

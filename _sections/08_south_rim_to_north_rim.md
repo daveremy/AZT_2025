@@ -1,20 +1,7 @@
 ---
 layout: section
-title: "South Rim to North Rim"
 section_number: 8
 permalink: /sections/08_south_rim_to_north_rim/
-distance: 24.3
-estimated_days: "1"
-daily_mileage: "24.3"
-highlights: |
-  The South Rim to North Rim section offers the most dramatic and challenging day of the entire Arizona Trail. This section will be completed with Beth on May 15, 2025, after a two-week break from the trail. This section features:
-
-  * The iconic Grand Canyon rim-to-rim traverse
-  * Dramatic descent through seven geological layers on South Kaibab Trail
-  * Historic Phantom Ranch and Bright Angel Creek
-  * The "Box" - a narrow gorge along Bright Angel Creek
-  * Spectacular views of the Inner Canyon
-  * Challenging ascent through the Supai Formation to the North Rim
 ---
 
 # South Rim to North Rim (Passage 25)

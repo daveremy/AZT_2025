@@ -3,6 +3,14 @@ layout: default
 title: My AZT 2025 Plan
 ---
 
+<!-- Debug output -->
+<div style="background: #eee; padding: 1em; margin: 1em 0;">
+Debug: Number of sections = {{ site.data.sections | size }}
+{% for section in site.data.sections %}
+Section {{ section.number }}: {{ section.title }}
+{% endfor %}
+</div>
+
 <style>
 .quick-links {
   margin: 2em 0;
@@ -116,22 +124,22 @@ title: My AZT 2025 Plan
   <img src="{{ site.baseurl }}/assets/images/azt-hero.jpg" alt="Arizona Trail Hero Image" class="hero-image">
   <div class="hero-content">
     <h1>My Arizona Trail Adventure</h1>
-    <p class="subtitle">800 Miles of Desert, Mountains, and Canyons</p>
+    <p class="subtitle">{{ site.data.trail_stats.total_distance }} Miles of Desert, Mountains, and Canyons</p>
     <div class="countdown">
-      <p>Starting: March 15, 2025 (<span id="countdown">Loading...</span>)</p>
+      <p>Starting: {{ site.data.trail_stats.timeline.start_date | date: "%B %-d, %Y" }} (<span id="countdown">Loading...</span>)</p>
     </div>
     
     <div class="stats-container">
       <div class="stat-box">
-        <h3>800</h3>
+        <h3>{{ site.data.trail_stats.total_distance }}</h3>
         <p>Trail Miles</p>
       </div>
       <div class="stat-box">
-        <h3>45-50</h3>
+        <h3>{{ site.data.trail_stats.total_days }}</h3>
         <p>Days Planned</p>
       </div>
       <div class="stat-box">
-        <h3>{{ site.data.gear_stats.base_weight_lbs }}</h3>
+        <h3>{{ site.data.trail_stats.base_weight_lbs }}</h3>
         <p>Base Weight (lbs)</p>
       </div>
     </div>
@@ -142,12 +150,12 @@ title: My AZT 2025 Plan
 
 <div class="trail-overview">
   <h2>The Plan</h2>
-  <p>Beginning March 15, I'll be hiking northbound from Mexico to Utah. The journey covers 800 miles through Arizona's diverse landscapes - from desert lowlands to alpine forests, through canyons and mountain ranges. My wife Beth will join me for the Grand Canyon rim-to-rim section on May 15, which will be a special highlight of the trek.</p>
+  <p>Beginning {{ site.data.trail_stats.timeline.start_date | date: "%B %-d" }}, I'll be hiking northbound from Mexico to Utah. The journey covers {{ site.data.trail_stats.total_distance }} miles through Arizona's diverse landscapes - from desert lowlands to alpine forests, through canyons and mountain ranges. My wife Beth will join me for the Grand Canyon rim-to-rim section on {{ site.data.trail_stats.timeline.rim_to_rim | date: "%B %-d" }}, which will be a special highlight of the trek.</p>
 </div>
 
 <div class="elevation-overview">
   <img src="{{ site.baseurl }}/assets/images/elevation/azt_elevation_profile.png" alt="AZT Full Elevation Profile" class="full-elevation-profile">
-  <p class="caption">The Route: Mexico to Utah (with significant elevation changes)</p>
+  <p class="caption">The Route: Mexico to Utah ({{ site.data.trail_stats.elevation.lowest_point }}' to {{ site.data.trail_stats.elevation.highest_point }}' elevation)</p>
 </div>
 
 <div class="quick-links">
@@ -155,15 +163,15 @@ title: My AZT 2025 Plan
   <div class="link-grid">
     <a href="{{ site.baseurl }}/gear-list" class="link-card">
       <h3>🎒 Gear List</h3>
-      <p>13.12 lbs base weight</p>
+      <p>{{ site.data.trail_stats.base_weight_lbs }} lbs base weight</p>
     </a>
     <a href="{{ site.baseurl }}/food-plan" class="link-card">
       <h3>🍎 Food Strategy</h3>
-      <p>2600-3300 calories/day</p>
+      <p>{{ site.data.trail_stats.resupply.total_points }} resupply points</p>
     </a>
     <a href="{{ site.baseurl }}/water-strategies" class="link-card">
       <h3>💧 Water Planning</h3>
-      <p>Source to source</p>
+      <p>{{ site.data.trail_stats.water.max_capacity }}L capacity</p>
     </a>
     <a href="{{ site.baseurl }}/pre-departure-checklist" class="link-card">
       <h3>✅ Pre-Departure</h3>
@@ -175,11 +183,9 @@ title: My AZT 2025 Plan
 <div class="section-grid">
   <h2>Trail Sections</h2>
   <div class="sections-container">
-    {% assign sorted_sections = site.sections | sort: "section_number" %}
-    {% for section in sorted_sections %}
-    {% unless section.path contains "template" %}
+    {% for section in site.data.sections %}
     <div class="section-card">
-      <div class="section-image" style="background-image: url('{{ site.baseurl }}/assets/images/elevation/{{ section.section_number | prepend: '0' | slice: -2, 2 }}_elevation.png')">
+      <div class="section-image" style="background-image: url('{{ site.baseurl }}/assets/images/elevation/{{ section.number | prepend: '0' | slice: -2, 2 }}_elevation.png')">
         <div class="section-image-overlay">
           <h3>{{ section.title }}</h3>
         </div>
@@ -187,16 +193,14 @@ title: My AZT 2025 Plan
       <div class="section-content">
         <div class="section-stats">
           <span>{{ section.distance }} miles</span>
-          <span>{{ section.elevation }} ft gain</span>
-          <span>{{ section.days }} days planned</span>
+          <span>{{ section.days }} days</span>
+          <span>{{ section.daily_mileage }} mpd</span>
         </div>
-        <p>{{ section.description | truncate: 100 }}</p>
         <div class="section-details">
-          <a href="{{ section.url | prepend: site.baseurl }}" class="section-link">View Details →</a>
+          <a href="{{ site.baseurl }}/sections/{{ section.number | prepend: '0' | slice: -2, 2 }}_{{ section.title | replace: ' ', '_' | downcase }}" class="section-link">View Details →</a>
         </div>
       </div>
     </div>
-    {% endunless %}
     {% endfor %}
   </div>
 </div>
@@ -235,7 +239,7 @@ title: My AZT 2025 Plan
 <script>
   // Countdown Timer
   function updateCountdown() {
-    const startDate = new Date('2025-03-15T07:00:00');
+    const startDate = new Date('{{ site.data.trail_stats.timeline.start_date }}T07:00:00');
     const now = new Date();
     const diff = startDate - now;
     

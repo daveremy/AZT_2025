@@ -1,23 +1,10 @@
 ---
 layout: section
-title: "North Rim to Utah"
 section_number: 9
 permalink: /sections/09_north_rim_to_utah/
-distance: 42.5
-estimated_days: "2-3"
-daily_mileage: "14-21"
-highlights: |
-  The North Rim to Utah section provides a stunning conclusion to the Arizona Trail through high-elevation forests and meadows. This section features:
-
-  * The remote and pristine Kaibab National Forest
-  * Vast meadows and aspen groves of the Kaibab Plateau
-  * Some of the best wildlife viewing opportunities on the trail
-  * Spectacular views back to the Grand Canyon
-  * Ancient bristlecone pine forests
-  * The historic Arizona Trail Northern Terminus monument
 ---
 
-# North Rim to Utah Border (Passage 26)
+# North Rim to Utah (Passages 26-27)
 
 ## Overview
 - Distance: 42.5 miles
