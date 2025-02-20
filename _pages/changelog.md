@@ -9,23 +9,19 @@ permalink: /changelog/
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
 ## Recent Changes
-- February 19, 2025 17:07 - feat: Update gear organization and weights
+- February 19, 2025 17:14 - feat: Add Repair Kit section with weights
 
-- Move ordered items to Small Stuff section with weights
-
-- Remove floss from list
-
-- Update base weight to 13.36 lbs
-
-- Add note about Smart water bottle modification
-
-- Update Still Need section
+- Create dedicated Repair Kit section with estimated weights\n- Update total base weight to include repair kit\n- Mark Tenacious Tape as ordered
 - Update total base weight to 207.73 oz (12.98 lbs)
-- Update base weight to 207.93 oz (13.00 lbs)
+- Update base weight to 13.36 lbs
+- Update Still Need section
 - Update Kitchen & Water total to 28.1 oz
 - Simplify document requirements
 - Remove redundant navigation items given existing gear
+- Remove floss from list
+- Move ordered items to Small Stuff section with weights
 - Mark items already acquired or ordered
+- February 19, 2025 17:07 - feat: Update gear organization and weights
 - February 19, 2025 16:43 - feat: Update Still Need section with specific recommendations
 - February 19, 2025 16:23 - feat: Update Still Need section with detailed categories
 - February 19, 2025 16:21 - feat: Add waterproof matches as backup fire starter
@@ -69,6 +65,7 @@ This page tracks significant changes and updates to the AZT 2025 planning docume
 - Add specific product recommendations for sun protection, toiletries, and repair kit
 - Add specific items needed for each category
 - Add notes about additional items to consider
+- Add note about Smart water bottle modification
 - Add 3 gallon bags (0.6 oz) and 2 quart bags (0.2 oz) to Small Stuff section
 *Note: All times are Pacific Time (PT)*
 
