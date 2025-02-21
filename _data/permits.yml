@@ -1,0 +1,50 @@
+required_permits:
+  saguaro_np:
+    name: "Saguaro National Park"
+    type: "Backcountry Camping Permit"
+    cost: "$8 per night"
+    how_to_obtain: "Online or by phone"
+    website: "https://www.nps.gov/sagu/planyourvisit/backcountry-camping.htm"
+    notes:
+      - "Required for overnight stays within park boundaries"
+      - "Limited designated campsites"
+      - "Reserve up to 6 months in advance"
+      - "Maximum stay of 8 days"
+
+  grand_canyon:
+    name: "Grand Canyon National Park"
+    type: "Backcountry Permit"
+    cost: "$10 permit fee + $8 per person per night"
+    how_to_obtain: "Online through Recreation.gov"
+    website: "https://www.nps.gov/grca/planyourvisit/backcountry-permit.htm"
+    notes:
+      - "Required for all overnight stays below the rim"
+      - "Apply 4 months before proposed start month"
+      - "Specific campsites must be listed"
+      - "Rim-to-rim requires careful planning"
+      - "Limited water availability below rim"
+
+optional_permits:
+  coronado_nf:
+    name: "Coronado National Forest"
+    type: "None required for hiking"
+    notes:
+      - "No permit needed for camping"
+      - "Practice Leave No Trace"
+      - "Fire restrictions may apply"
+
+  tonto_nf:
+    name: "Tonto National Forest"
+    type: "None required for hiking"
+    notes:
+      - "No permit needed for camping"
+      - "Fire restrictions common in dry seasons"
+      - "Some areas require Tonto Pass for parking"
+
+  kaibab_nf:
+    name: "Kaibab National Forest"
+    type: "None required for hiking"
+    notes:
+      - "No permit needed for camping"
+      - "Seasonal fire restrictions"
+      - "Snow possible in winter months"

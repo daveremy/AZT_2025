@@ -60,3 +60,35 @@ timeline:
         - "More solitude than spring"
         - "Stable weather patterns"
         - "Popular finish before Thanksgiving"
+
+mountain_ranges:
+  major_ranges:
+    - name: "Huachuca Mountains"
+      elevation: 9,466
+      notable_features: ["Miller Peak", "Crest Trail", "Sky Island ecosystem"]
+    - name: "Santa Rita Mountains"
+      elevation: 9,453
+      notable_features:
+        ["Mount Wrightson", "Kentucky Camp", "Desert grasslands"]
+    - name: "Rincon Mountains"
+      elevation: 8,482
+      notable_features:
+        [
+          "Mica Mountain",
+          "Saguaro National Park",
+          "Desert to forest transition",
+        ]
+    - name: "Santa Catalina Mountains"
+      elevation: 9,157
+      notable_features:
+        ["Mount Lemmon", "Sabino Canyon", "Sky Island biodiversity"]
+    - name: "Mazatzal Mountains"
+      elevation: 7,657
+      notable_features: ["Four Peaks", "Mazatzal Wilderness", "Rugged terrain"]
+    - name: "San Francisco Peaks"
+      elevation: 12,633
+      notable_features: ["Humphreys Peak", "Alpine tundra", "Sacred peaks"]
+    - name: "Kaibab Plateau"
+      elevation: 9,200
+      notable_features:
+        ["Grand Canyon views", "Ponderosa forest", "Wildlife corridor"]

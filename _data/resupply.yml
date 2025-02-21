@@ -1,0 +1,118 @@
+gateway_communities:
+  patagonia:
+    name: "Patagonia"
+    mile_marker: 52.6
+    amenities:
+      - "Grocery store: Red Mountain Foods"
+      - "Post office"
+      - "Restaurants"
+      - "Lodging: Stage Stop Inn"
+    resupply_options:
+      - "Full resupply available"
+      - "Good selection of hiking foods"
+    transportation:
+      - "Hitching common from trailhead"
+      - "Some trail angels available"
+
+  tucson:
+    name: "Tucson"
+    mile_marker:
+      - "Colossal Cave: 163"
+      - "Sabino Canyon: 186"
+    amenities:
+      - "Major city with all services"
+      - "REI and Summit Hut for gear"
+      - "Multiple grocery options"
+      - "International airport"
+    resupply_options:
+      - "Multiple full-service grocery stores"
+      - "Specialty outdoor stores"
+    transportation:
+      - "Uber/Lyft available"
+      - "Public bus system"
+      - "Trail angel network"
+
+  oracle:
+    name: "Oracle"
+    mile_marker: 201.5
+    amenities:
+      - "Small grocery: Oracle Market"
+      - "Post office"
+      - "Restaurants"
+      - "Lodging: Chalet Village Motel"
+    resupply_options:
+      - "Limited but adequate resupply"
+      - "Some hiker food options"
+    transportation:
+      - "Hitching from American Flag TH"
+      - "Trail angels common"
+
+  superior:
+    name: "Superior"
+    mile_marker: 315.8
+    amenities:
+      - "Grocery: Save Money Market"
+      - "Post office"
+      - "Restaurants"
+      - "Lodging: Copper Mountain Motel"
+    resupply_options:
+      - "Basic resupply available"
+      - "Limited hiker food selection"
+    transportation:
+      - "0.5 mile walk from trail"
+      - "Hitching rarely necessary"
+
+  pine:
+    name: "Pine"
+    mile_marker: 457.3
+    amenities:
+      - "Grocery: Pine Market"
+      - "Post office"
+      - "Restaurants"
+      - "Lodging: That Brewery & Pub"
+    resupply_options:
+      - "Good resupply options"
+      - "Hiker-friendly town"
+    transportation:
+      - "Easy walk from trail"
+      - "Trail angels available"
+
+  flagstaff:
+    name: "Flagstaff"
+    mile_marker: 573.5
+    amenities:
+      - "Major city with all services"
+      - "REI and Peace Surplus for gear"
+      - "Multiple grocery options"
+      - "Airport with connections"
+    resupply_options:
+      - "Full resupply available"
+      - "Excellent selection of hiking foods"
+    transportation:
+      - "Uber/Lyft available"
+      - "Public bus system"
+      - "Trail angel network"
+
+  grand_canyon_village:
+    name: "Grand Canyon Village"
+    mile_marker: 687.2
+    amenities:
+      - "General store"
+      - "Post office"
+      - "Restaurants"
+      - "Lodging: Multiple options"
+    resupply_options:
+      - "Basic resupply available"
+      - "Expensive but adequate"
+    transportation:
+      - "Shuttle system within park"
+      - "Trans-Canyon Shuttle to South Rim"
+
+mail_drops:
+  recommended_locations:
+    - name: "Grand Canyon Village"
+      address: "General Delivery, Grand Canyon, AZ 86023"
+      notes: "Limited resupply options, high prices"
+    - name: "Pine"
+      address: "General Delivery, Pine, AZ 85544"
+      notes: "Good backup option if needed"
