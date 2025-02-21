@@ -79,22 +79,6 @@ permalink: /resources/
 - [USGS Topo Maps](https://www.usgs.gov/programs/national-geospatial-program/topographic-maps)
 - [Caltopo](https://caltopo.com/)
 
-## Books
-- "Your Complete Guide to the Arizona National Scenic Trail" by Matthew Nelson (2020)
-  - Official ATA Executive Director's guide
-  - Comprehensive trail information
-  - Detailed maps and elevation profiles
-
-- "The Arizona Trail: The Official Guide" by Tom Lorang Jones (2017)
-  - Section-by-section trail descriptions
-  - Historical and cultural information
-  - Natural history insights
-
-- "Plant & Animal Guide to the Arizona Trail" by Arizona Trail Association (2019)
-  - Flora and fauna identification
-  - Seasonal wildlife information
-  - Ecosystem descriptions
-
 ## Emergency Resources
 - Border Patrol: 877-872-7435
 - Arizona Search and Rescue: 911

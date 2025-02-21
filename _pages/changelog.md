@@ -9,7 +9,7 @@ permalink: /changelog/
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
 ## Recent Changes
-- February 21, 2025 11:01 - refactor: Move content to dedicated data files - Add mountain ranges to trail stats - Create permits.yml for permit requirements - Create resupply.yml for gateway communities
+- February 21, 2025 11:04 - feat: Enhance resources page with author information - Add author names for trail guides and blogs - Include publication years for books - Add detailed descriptions of resources - Include recent trail journal examples
 - Update total base weight to 207.73 oz (12.98 lbs)
 - Update base weight to 13.36 lbs
 - Update Still Need section
@@ -19,6 +19,7 @@ This page tracks significant changes and updates to the AZT 2025 planning docume
 - Remove floss from list
 - Move ordered items to Small Stuff section with weights
 - Mark items already acquired or ordered
+- February 21, 2025 11:01 - refactor: Move content to dedicated data files - Add mountain ranges to trail stats - Create permits.yml for permit requirements - Create resupply.yml for gateway communities
 - February 21, 2025 10:59 - refactor: Simplify resources page to external links, move content to appropriate data files
 - February 21, 2025 10:55 - feat: Add mountain ranges, permits, gear recommendations, and gateway communities from Traveling Nature Journal guide
 - February 21, 2025 10:54 - feat: Add seasonal planning info and terminus logistics from USA Adventure Seeker guide
