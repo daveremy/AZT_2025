@@ -44,9 +44,19 @@ timeline:
       start: "March 1"
       end: "April 30"
       direction: "NOBO"
-      notes: "Most popular, wildflowers, reliable water"
+      notes: "Most popular, wildflowers, reliable water, longer daylight"
+      considerations:
+        - "Too early: freezing nights, deep snow on Kaibab"
+        - "Too late: extreme desert heat"
+        - "Hiking with sun at your back"
+        - "Fresh water after winter precipitation"
     fall:
       start: "October 1"
       end: "November 30"
       direction: "SOBO"
       notes: "Less crowded, stable weather"
+      considerations:
+        - "Good water availability post-monsoon"
+        - "More solitude than spring"
+        - "Stable weather patterns"
+        - "Popular finish before Thanksgiving"

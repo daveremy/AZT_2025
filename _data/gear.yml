@@ -1,6 +1,11 @@
 categories:
   worn_clothing:
     name: "Worn Clothes"
+    description: "Primary hiking clothes, optimized for sun protection and temperature regulation"
+    considerations:
+      - "Focus on sun protection with hooded shirts and hats"
+      - "Quick-drying synthetic materials"
+      - "Light colors for desert sections"
     items:
       clothes:
         - name: "Outdoor Research Echo Hoody"
@@ -33,6 +38,11 @@ categories:
 
   packed_clothing:
     name: "Packed Clothes"
+    description: "Additional layers for temperature changes and camp comfort"
+    considerations:
+      - "Wide temperature swings (20°F to 90°F)"
+      - "Layer system for adaptability"
+      - "Separate sleep clothes for cleanliness"
     items:
       clothes:
         - name: "Brynje Super Thermo Mesh T-Shirt"
@@ -78,6 +88,12 @@ categories:
 
   big_three:
     name: "Big Three"
+    description: "Core gear items: pack, shelter, and sleep system"
+    considerations:
+      - "Pack must handle heavy water carries"
+      - "Shelter needs both sun and storm protection"
+      - "Sleep system rated for 20°F with adaptability"
+      - "Balance between lightweight and durability"
     items:
       pack:
         - name: "Hyperlite Mountain Gear Windrider"
@@ -122,6 +138,11 @@ categories:
 
   kitchen_water:
     name: "Kitchen & Water"
+    description: "Water treatment and cooking systems"
+    considerations:
+      - "Minimum 6L water capacity for desert sections"
+      - "Multiple treatment methods recommended"
+      - "Efficient cooking system for fuel conservation"
     items:
       cooking:
         - name: "Firemaple Petrel 650ml Pot"
