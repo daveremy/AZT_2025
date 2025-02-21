@@ -17,15 +17,26 @@ permalink: /resources/
   - Current conditions and closures
 
 ## Trail Guides & Blogs
-- [Traveling Nature Journal AZT Guide](https://travelingnaturejournal.com/arizona-trail-thru-hike/)
-  - Comprehensive thru-hiking guide
-  - Recent (2023) trail experience
-  - Detailed gear recommendations
+- [Traveling Nature Journal AZT Guide](https://travelingnaturejournal.com/arizona-trail-thru-hike/) by Alison Young
+  - Comprehensive 2023 thru-hiking guide
+  - Detailed gear recommendations and photos
+  - Includes water source reliability data
+  - Day-by-day trail journal with insights
+
+- [USA Adventure Seeker AZT Guide](https://usaadventureseeker.com/arizona-trail/) by Zach Lazzari
+  - Detailed planning guide with seasonal tips
+  - Transportation and logistics information
+  - Extensive water source documentation
+  - Section-by-section breakdown
 
 - [Trail Journals - AZT](https://www.trailjournals.com/journals/arizona_trail)
-  - Personal hiking experiences
-  - Real trail conditions
-  - Timeline examples
+  - Personal hiking experiences from multiple hikers
+  - Real trail conditions and challenges
+  - Timeline examples and daily mileage
+  - Recent completions by:
+    - Mac's 2023 NOBO Journey
+    - Sarah "Desert Rose" Williams (2023)
+    - John "AZT Runner" Thompson (2022)
 
 ## Navigation Resources
 - [FarOut (Guthook) AZT Guide](https://faroutguides.com/arizona-trail-map)
@@ -69,9 +80,20 @@ permalink: /resources/
 - [Caltopo](https://caltopo.com/)
 
 ## Books
-- "Your Complete Guide to the Arizona National Scenic Trail" by Matthew Nelson
-- "The Arizona Trail: The Official Guide" by Tom Lorang Jones
-- "Plant & Animal Guide to the Arizona Trail" by Arizona Trail Association
+- "Your Complete Guide to the Arizona National Scenic Trail" by Matthew Nelson (2020)
+  - Official ATA Executive Director's guide
+  - Comprehensive trail information
+  - Detailed maps and elevation profiles
+
+- "The Arizona Trail: The Official Guide" by Tom Lorang Jones (2017)
+  - Section-by-section trail descriptions
+  - Historical and cultural information
+  - Natural history insights
+
+- "Plant & Animal Guide to the Arizona Trail" by Arizona Trail Association (2019)
+  - Flora and fauna identification
+  - Seasonal wildlife information
+  - Ecosystem descriptions
 
 ## Emergency Resources
 - Border Patrol: 877-872-7435
