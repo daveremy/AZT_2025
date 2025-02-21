@@ -216,3 +216,57 @@ permalink: /resources/
   - Check recent reports
   - Don't skip reliable sources
   - Plan for longer carries in dry sections 
+
+## Mountain Ranges on the AZT
+The trail traverses several significant mountain ranges, each with unique characteristics:
+- Huachuca Mountains (Southern Sky Islands)
+- Santa Rita Mountains
+- Rincon Mountains
+- Santa Catalina Mountains
+- Mazatzal Mountains
+- San Francisco Peaks
+- Kaibab Plateau
+
+## National Park Permits
+### Saguaro National Park
+- Required even for day hiking
+- Can be obtained online or by phone
+- Rangers actively checking permits
+- Covers 17.7 miles of trail through eastern section
+- Special considerations for Mica Mountain (potential snow in early spring)
+
+### Grand Canyon National Park
+- Required for overnight stays
+- Can enter for day hiking without permit
+- Visit backcountry office on either rim
+- Flexible with thru-hikers
+- Covers 39.1 miles through main corridor
+- Consider using hiker/biker campground if permits unavailable
+
+## Gear Recommendations
+### Big Three Considerations:
+- Pack: 2.5 lbs or less, sturdy enough for water carries
+- Shelter: Protection from both sun and storms
+- Sleep System: Rated for 20°F, adaptable for temperature swings
+
+### Key Items:
+- Sun Protection: Umbrella, sun hoody, hat
+- Water Capacity: Minimum 6L for desert sections
+- Navigation: Both digital and paper backup
+- First Aid: Desert-specific items (snake bite, heat-related)
+
+## Gateway Communities
+### Major Resupply Points:
+- Patagonia: Full resupply, multiple food options
+- Tucson: Major city with all services
+- Oracle: Basic resupply, trail-friendly
+- Superior: Good resupply options
+- Pine: Trail town with services
+- Flagstaff: Major resupply point
+- Grand Canyon Village: Full services
+
+### Trail Angels and Support:
+- Active trail angel network
+- Common meeting points
+- Town-specific resources
+- Gathering Grounds Cafe (Patagonia) - hiker hub 

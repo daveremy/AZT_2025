@@ -9,7 +9,7 @@ permalink: /changelog/
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
 ## Recent Changes
-- February 21, 2025 10:52 - feat: Major content update for AZT planning - Add resources page with tools, maps, and guides - Enhance Section 1 with daily breakdowns, water info, camping details, and trail community section - Update trail statistics and timeline - Improve section template
+- February 21, 2025 10:54 - feat: Add seasonal planning info and terminus logistics from USA Adventure Seeker guide
 - Update total base weight to 207.73 oz (12.98 lbs)
 - Update base weight to 13.36 lbs
 - Update Still Need section
@@ -19,6 +19,7 @@ This page tracks significant changes and updates to the AZT 2025 planning docume
 - Remove floss from list
 - Move ordered items to Small Stuff section with weights
 - Mark items already acquired or ordered
+- February 21, 2025 10:52 - feat: Major content update for AZT planning - Add resources page with tools, maps, and guides - Enhance Section 1 with daily breakdowns, water info, camping details, and trail community section - Update trail statistics and timeline - Improve section template
 - February 20, 2025 13:51 - fix: remove debug section from homepage
 - February 20, 2025 13:47 - feat: reorganize gear list and add Garmin Fenix 6 Pro Solar
 - February 20, 2025 12:56 - Refactor gear list: Restore category grouping, add Still Needed section, fix base weight calculation
