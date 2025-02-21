@@ -1,8 +1,8 @@
 total_distance: 800
-total_days: "45-50"
-avg_daily_mileage: 16.3
+total_days: 44
+avg_daily_mileage: 22.2
 zero_days: 8
-hiking_days: 39
+hiking_days: 36
 
 elevation:
   lowest_point: 2,480
@@ -26,5 +26,5 @@ sections:
 
 timeline:
   start_date: "2025-03-15"
-  end_date: "2025-05-25"
-  rim_to_rim: "2025-05-15"
+  end_date: "2025-04-27"
+  rim_to_rim: "2025-04-15"

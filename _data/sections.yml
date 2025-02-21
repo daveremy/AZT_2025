@@ -2,62 +2,290 @@
 - number: 1
   title: "Border to Patagonia"
   distance: 52.1
-  days: "2-3"
-  daily_mileage: "17-26"
+  days: 4
+  daily_mileage: "13-17"
+  elevation_range:
+    low: 4044
+    high: 9466
+  elevation_gain: 7800
+  elevation_loss: 9000
   description: "A dramatic introduction to the Arizona Trail, showcasing the diverse landscapes of the Sky Islands region."
+  daily_breakdown:
+    - day: 1
+      miles: 13.5
+      start: "Mexican Border"
+      end: "Lutz Canyon"
+      elevation_gain: 4200
+      elevation_loss: 3400
+      key_points: ["Miller Peak", "Bathtub Spring", "Lutz Canyon"]
+      water_sources: ["Bathtub Spring (reliable)", "Lutz Tank (seasonal)"]
+      camping:
+        primary:
+          mile: 12.5
+          location: "Lutz Canyon"
+          notes:
+            - "Protected camping in pine forest"
+            - "Near seasonal water source"
+            - "Multiple established sites"
+        backup:
+          mile: 10.8
+          location: "Miller Peak Wilderness"
+          notes:
+            - "Higher elevation, more exposed"
+            - "Need to carry water"
+            - "Good views but wind exposure"
+
+    - day: 2
+      miles: 14.2
+      start: "Lutz Canyon"
+      end: "Parker Canyon Lake"
+      elevation_gain: 1800
+      elevation_loss: 2600
+      key_points: ["Bear Saddle", "Parker Canyon Lake"]
+      water_sources:
+        ["Bear Saddle Spring (seasonal)", "Parker Canyon Lake (reliable)"]
+      camping:
+        primary:
+          mile: 25.3
+          location: "Parker Canyon Lake"
+          notes:
+            - "Established campground"
+            - "Reliable water source"
+            - "Picnic tables and facilities"
+        backup:
+          mile: 22.5
+          location: "Bear Saddle Area"
+          notes:
+            - "Primitive camping"
+            - "Check spring for water"
+            - "Good views but exposed"
+
+    - day: 3
+      miles: 14.8
+      start: "Parker Canyon Lake"
+      end: "Red Rock Tank"
+      elevation_gain: 1200
+      elevation_loss: 1800
+      key_points: ["Red Rock Canyon", "Harshaw Creek"]
+      water_sources: ["Red Rock Tank (seasonal)", "Harshaw Creek (unreliable)"]
+      camping:
+        primary:
+          mile: 40.1
+          location: "Red Rock Canyon"
+          notes:
+            - "Protected canyon camping"
+            - "Near seasonal water"
+            - "Multiple flat spots"
+        backup:
+          mile: 37.5
+          location: "Meadow Site"
+          notes:
+            - "Open meadow camping"
+            - "Need to carry water"
+            - "Good for stargazing"
+
+    - day: 4
+      miles: 12.0
+      start: "Red Rock Tank"
+      end: "Patagonia"
+      elevation_gain: 600
+      elevation_loss: 1200
+      key_points: ["Harshaw Road", "Temporal Gulch", "Patagonia"]
+      water_sources: ["Temporal Gulch (seasonal)", "Patagonia (reliable)"]
+      camping:
+        primary:
+          mile: 52.1
+          location: "Patagonia"
+          notes:
+            - "Town camping options"
+            - "Hotels available"
+            - "Reliable water and services"
+
+  water_sources:
+    - mile: 0.0
+      name: "Border"
+      notes: "No water, cache recommended"
+      reliability: "0%"
+    - mile: 5.8
+      name: "Bathtub Spring"
+      notes: "Developed spring with good flow"
+      reliability: "90%"
+    - mile: 12.5
+      name: "Bear Saddle Spring"
+      notes: "Small spring, flow varies seasonally"
+      reliability: "50%"
+    - mile: 25.3
+      name: "Parker Canyon"
+      notes: "Lake access, best flow in spring"
+      reliability: "100%"
+    - mile: 40.1
+      name: "Red Rock Tank"
+      notes: "Large stock tank, quality varies"
+      reliability: "60%"
+    - mile: 45.5
+      name: "Harshaw Creek"
+      notes: "Small creek, often dry"
+      reliability: "20%"
+    - mile: 52.1
+      name: "Patagonia"
+      notes: "Town water"
+      reliability: "100%"
+
+  water_strategy:
+    start_water: "Cache recommended at border (no natural source)"
+    critical_carries:
+      - name: "Border to Bathtub Spring"
+        distance: 5.8
+        notes: "Exposed, uphill"
+      - name: "Bear Saddle to Parker Canyon"
+        distance: 12.8
+        notes: "Check spring status"
+      - name: "Parker Canyon to Red Rock Tank"
+        distance: 14.8
+        notes: "Long carry if tank is dry"
+    recommended_carry:
+      morning_start: "3L minimum"
+      dry_camping: "5-6L"
+      hot_weather: "6-7L"
+    planning_tips:
+      - "Cache water at border trailhead"
+      - "Don't pass reliable sources without filling up"
+      - "Check current water reports before starting"
+      - "Consider afternoon heat in water planning"
+
+  zero_day:
+    location: "Patagonia"
+    day_number: 5
+    duration: 1
+    activities:
+      - "Rest and recovery"
+      - "Resupply at local store"
+      - "Gear maintenance"
+      - "Plan next section details"
+    accommodation:
+      - name: "Patagonia Hotel"
+        price: "$85-110/night"
+      - name: "Stage Stop Inn"
+        price: "$95-120/night"
+      - name: "Local camping"
+        price: "$15/night"
 
 - number: 2
   title: "Patagonia to Tucson"
   distance: 94.5
-  days: "4-5"
+  days: 5
   daily_mileage: "18-23"
+  elevation_range:
+    low: 3800
+    high: 5200
+  elevation_gain: 6500
+  elevation_loss: 7200
   description: "Traverses some of southern Arizona's most diverse landscapes, from historic mining areas to pristine wilderness."
+  zero_day:
+    location: "Tucson"
+    day_number: 10
+    duration: 2
 
 - number: 3
   title: "Tucson to Oracle"
   distance: 82.4
-  days: "4-5"
+  days: 5
   daily_mileage: "16-20"
+  elevation_range:
+    low: 2700
+    high: 9157
+  elevation_gain: 9200
+  elevation_loss: 4400
   description: "Showcases the dramatic Catalina Mountains and offers some of the most diverse ecosystems on the trail."
+  zero_day:
+    location: "Oracle"
+    day_number: 15
+    duration: 1
 
 - number: 4
   title: "Oracle to Superior"
   distance: 51.4
-  days: "3-4"
+  days: 4
   daily_mileage: "13-17"
+  elevation_range:
+    low: 2900
+    high: 5800
+  elevation_gain: 5400
+  elevation_loss: 7000
   description: "Traverses the rugged terrain between two historic mining towns, offering dramatic views and challenging hiking."
+  zero_day:
+    location: "Superior"
+    day_number: 20
+    duration: 1
 
 - number: 5
   title: "Superior to Pine"
   distance: 73.8
-  days: "4-5"
+  days: 5
   daily_mileage: "15-18"
+  elevation_range:
+    low: 2500
+    high: 7657
+  elevation_gain: 8800
+  elevation_loss: 4100
   description: "Offers some of the most dramatic elevation changes and diverse ecosystems on the Arizona Trail."
+  zero_day:
+    location: "Pine"
+    day_number: 26
+    duration: 1
 
 - number: 6
   title: "Pine to Mormon Lake"
   distance: 68.2
-  days: "3-4"
+  days: 4
   daily_mileage: "17-22"
+  elevation_range:
+    low: 5400
+    high: 7400
+  elevation_gain: 4200
+  elevation_loss: 3800
   description: "Marks a dramatic transition to the high country of northern Arizona."
+  zero_day:
+    location: "Mormon Lake"
+    day_number: 31
+    duration: 1
 
 - number: 7
   title: "Mormon Lake to South Rim"
   distance: 82.6
-  days: "4-5"
+  days: 5
   daily_mileage: "16-20"
+  elevation_range:
+    low: 6500
+    high: 8800
+  elevation_gain: 5600
+  elevation_loss: 4200
   description: "Traverses the high plateaus and volcanic terrain of northern Arizona."
+  zero_day:
+    location: "Home"
+    day_number: 37
+    duration: 8
 
 - number: 8
   title: "South Rim to North Rim"
   distance: 24.3
-  days: "1"
+  days: 1
   daily_mileage: "24.3"
+  elevation_range:
+    low: 2480
+    high: 8250
+  elevation_gain: 5800
+  elevation_loss: 4500
   description: "The iconic Grand Canyon rim-to-rim traverse, offering the most dramatic day of the entire trail."
 
 - number: 9
   title: "North Rim to Utah"
   distance: 42.5
-  days: "2-3"
+  days: 3
   daily_mileage: "14-21"
+  elevation_range:
+    low: 6800
+    high: 9100
+  elevation_gain: 4200
+  elevation_loss: 5300
   description: "A stunning conclusion through high-elevation forests and meadows of the Kaibab Plateau."
