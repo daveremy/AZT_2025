@@ -6,6 +6,29 @@ permalink: /resources/
 
 # Arizona Trail Resources
 
+## Seasonal Planning
+### Spring (March-April)
+- Most popular hiking season
+- Benefits:
+  - Wildflowers in bloom
+  - Fresh flowing water (after winter precipitation)
+  - Hiking with sun at your back
+  - More daylight hours vs autumn
+- Typically NOBO (Mexico to Utah)
+- Start timing considerations:
+  - Too early: freezing nights, deep snow on Kaibab Plateau
+  - Too late: extreme desert heat
+
+### Autumn (October-November)
+- More stable weather conditions
+- Benefits:
+  - Good water availability after monsoon season
+  - Less crowded than spring
+  - More solitude
+  - Stable weather conditions
+- Typically SOBO (Utah to Mexico)
+- Popular with Americans aiming to finish before Thanksgiving
+
 ## Official Resources
 - [Arizona Trail Association](https://aztrail.org/)
   - Official maps and data
@@ -67,6 +90,23 @@ permalink: /resources/
 - [Desert Weather Tips](https://aztrail.org/prepare/weather/)
 
 ## Transportation
+### Getting to Termini
+#### Northern Terminus
+- Nearest Airport: Las Vegas (Harry Reid International Airport, LAS)
+- Nearest Towns: Kanab or Page
+- Transportation Options:
+  - National Park Express shuttle from Las Vegas to Kanab/Page ($95+)
+  - Taxi from Kanab/Page to terminus (~$100)
+  - Trail Angel coordination possible
+
+#### Southern Terminus
+- Nearest Airport: Tucson International Airport (TUS)
+- Nearest Town: Sierra Vista
+- Transportation Options:
+  - Arizona Sunshine Tours shuttle from Tucson to Sierra Vista
+  - Taxi from Sierra Vista to Coronado Memorial
+  - Trail Angel coordination possible
+
 ### Shuttles & Trail Angels
 - [List of Trail Angels](https://aztrail.org/explore/trail-angels/)
 - Common Shuttle Services:
@@ -148,4 +188,31 @@ permalink: /resources/
 ## Cultural & Historical Resources
 - [Native Lands Map](https://native-land.ca/)
 - [Arizona Historical Society](https://arizonahistoricalsociety.org/)
-- [Local Archaeological Sites](https://aztrail.org/explore/history/) 
+- [Local Archaeological Sites](https://aztrail.org/explore/history/)
+
+## Trip Planning Considerations
+### Time Estimates
+- Total Duration: 6-8 weeks typical
+- Daily Mileage:
+  - 6 weeks: ~18.7 miles per day average
+  - 8 weeks: ~14 miles per day average
+- Factors Affecting Timeline:
+  - Weather conditions
+  - Trail closures
+  - Physical condition
+  - Rest days
+  - Town stops
+
+### Water Management
+- Critical for desert sections
+- Sources to monitor:
+  - Natural springs and creeks
+  - Developed sources
+  - Stock tanks
+  - Cached water (don't rely on)
+- Recommendations:
+  - Filter all water
+  - Carry electrolytes
+  - Check recent reports
+  - Don't skip reliable sources
+  - Plan for longer carries in dry sections 

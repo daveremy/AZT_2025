@@ -13,18 +13,40 @@ resupply:
   total_points: 10
   mail_drops: 2
   town_stops: 8
+  typical_carries: "4-5 days"
+  longest_carry: "6-7 days (Flagstaff to South Rim)"
 
 water:
   max_capacity: 6
   reliable_sources: 15
   seasonal_sources: 28
   tanks_and_caches: 35
+  longest_carries:
+    spring: "20-25 miles"
+    fall: "25-30 miles"
+    summer: "avoid hiking"
+  recommended_capacity:
+    desert: "6L"
+    mountain: "3-4L"
+    typical: "4-5L"
 
 sections:
   total: 9
   passages: 43
+  typical_section_length: "50-80 miles"
 
 timeline:
   start_date: "2025-03-15"
   end_date: "2025-04-27"
   rim_to_rim: "2025-04-15"
+  seasonal_windows:
+    spring:
+      start: "March 1"
+      end: "April 30"
+      direction: "NOBO"
+      notes: "Most popular, wildflowers, reliable water"
+    fall:
+      start: "October 1"
+      end: "November 30"
+      direction: "SOBO"
+      notes: "Less crowded, stable weather"
