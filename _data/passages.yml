@@ -1,0 +1,1609 @@
+metadata:
+  last_updated: '2025-02-21'
+  data_sources:
+  - name: Arizona Trail Association (ATA)
+    description: Official passage information, maps, and resources
+    url: https://aztrail.org/explore/passages/
+    last_updated: '2025-02-21'
+passages:
+- number: '1'
+  name: Huachuca Mountains
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-1-huachuca-mountains
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/01_HuachucaMountains.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/01-huachucamountains.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/Arizona-Trail-History-Passage-1.pdf
+  access_points:
+  - type: southern
+    name: Mexico Border
+    coordinates:
+      latitude: 31.33367
+      longitude: -110.28276
+    notes:
+    - "This trailhead is not directly accessible by vehicles. Montezuma Pass is 1.75\
+      \ miles north at\_31.35112\xB0 N, 110.28527\xB0 W\_and is the nearest practical\
+      \ access."
+  - type: northern
+    name: Parker Canyon Lake Trailhead
+    coordinates:
+      latitude: 31.41946
+      longitude: -110.44206
+    notes:
+    - From the town of Sonoita, follow AZ 83 south 30 miles to its intersection with
+      FR 48. Turn left (south) onto FR 48, continue 0.5 miles, and turn right onto
+      South Lake Drive. Proceed 0.5 miles and follow signs to a dirt parking area
+      near the AZT kiosk.
+  length_miles: 20.3
+  elevation:
+    start_ft: 5905.0
+    end_ft: 5667.0
+    min_ft: 5517.0
+    max_ft: 9098.0
+    total_gain_ft: 4682.0
+    total_loss_ft: 4919.0
+    avg_grade_pct: 11.5
+    max_grade_pct: 74.8
+    per_mile_ft: 11.7
+  coordinates:
+    start:
+      lat: 31.33361
+      lon: -110.28276
+    end:
+      lat: 31.41941
+      lon: -110.4419
+- number: '2'
+  name: Canelo Hills East
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-2-canelo-hills-east
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/10/2-canelo-hills-east.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/02-canelohillseast.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/Arizona-Trail-History-Passage-2.pdf
+  access_points:
+  - type: southern
+    name: Parker Canyon Lake Trailhead
+    coordinates:
+      latitude: 31.41959
+      longitude: -110.44178
+  - type: northern
+    name: Canelo Pass
+    coordinates:
+      latitude: 31.51287
+      longitude: -110.55827
+  length_miles: 13.6
+  elevation:
+    start_ft: 5668.0
+    end_ft: 5339.0
+    min_ft: 5191.0
+    max_ft: 6043.0
+    total_gain_ft: 2377.0
+    total_loss_ft: 2707.0
+    avg_grade_pct: 8.7
+    max_grade_pct: 38.7
+    per_mile_ft: 24.3
+  coordinates:
+    start:
+      lat: 31.41941
+      lon: -110.4419
+    end:
+      lat: 31.51288
+      lon: -110.55828
+- number: '3'
+  name: Canelo Hills West
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-3-canelo-hills-west
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/03_CaneloHillsWest.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/03-canelohillswest.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2020/06/Arizona-Trail-History-Passage-3.pdf
+  access_points:
+  - type: southern
+    name: Canelo Pass
+    coordinates:
+      latitude: 31.51291
+      longitude: -110.55819
+  length_miles: 17.7
+  elevation:
+    start_ft: 5340.0
+    end_ft: 4263.0
+    min_ft: 4256.0
+    max_ft: 5580.0
+    total_gain_ft: 1576.0
+    total_loss_ft: 2652.0
+    avg_grade_pct: 5.8
+    max_grade_pct: 25.5
+    per_mile_ft: 60.7
+  coordinates:
+    start:
+      lat: 31.51288
+      lon: -110.55828
+    end:
+      lat: 31.59602
+      lon: -110.72428
+- number: '4'
+  name: Casa Blanca Canyon
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-4-casa-blanca-canyons
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2022/09/access-map-passage-4-casa-blanca-canyons.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2022/09/04-casablancacanyon.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2020/06/Arizona-Trail-History-Passage-4.pdf
+  access_points:
+  - type: northern
+    name: Apache Springs Trailhead
+    coordinates:
+      latitude: 31.71873
+      longitude: -110.75704
+  length_miles: 20.3
+  elevation:
+    start_ft: 4263.0
+    end_ft: 5225.0
+    min_ft: 4263.0
+    max_ft: 5490.0
+    total_gain_ft: 3658.0
+    total_loss_ft: 2697.0
+    avg_grade_pct: 9.5
+    max_grade_pct: 54.0
+    per_mile_ft: 47.3
+  coordinates:
+    start:
+      lat: 31.59602
+      lon: -110.7243
+    end:
+      lat: 31.71905
+      lon: -110.75663
+- number: '5'
+  name: Santa Rita Mountains
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-5-santa-rita-mountains
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/05_SantaRitaMountains.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/05-santaritamountains.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/Arizona-Trail-History-Passage-5.pdf
+  access_points:
+  - type: southern
+    name: Apache Springs Trailhead
+    coordinates:
+      latitude: 31.71873
+      longitude: -110.75704
+  - type: northern
+    name: Oak Tree Canyon Trailhead
+    coordinates:
+      latitude: 31.81072
+      longitude: -110.7233
+    notes:
+    - "The AZT is approximately 0.7 miles west of Oak Tree Canyon Trailhead (31.81010\xB0\
+      \ N, -110.71101\xB0 W) along a two-track road."
+  length_miles: 13.6
+  elevation:
+    start_ft: 5221.0
+    end_ft: 5211.0
+    min_ft: 4999.0
+    max_ft: 5853.0
+    total_gain_ft: 1863.0
+    total_loss_ft: 1874.0
+    avg_grade_pct: 6.6
+    max_grade_pct: 39.6
+    per_mile_ft: 0.8
+  coordinates:
+    start:
+      lat: 31.71899
+      lon: -110.75689
+    end:
+      lat: 31.81055
+      lon: -110.72346
+- number: '6'
+  name: Las Colinas
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-6-las-colinas
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/06_LasColinas.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/06-lascolinas.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/Arizona-Trail-History-Passage-6.pdf
+  access_points:
+  - type: southern
+    name: Oak Tree Canyon
+    coordinates:
+      latitude: 31.81072
+      longitude: -110.7233
+    notes:
+    - "The trail is not directly accessible by vehicles. The trail is approximately\
+      \ 1 mile west of Oak Tree canyon Trailhead along Forest Road 4072 through the\
+      \ AZT Trail Gate next to the locked vehicle gate marked \u201Croad closed\u201D\
+      ."
+  - type: northern
+    name: Lakes Road
+    coordinates:
+      latitude: 31.9091
+      longitude: -110.67151
+    notes:
+    - "This trailhead is not directly accessible by vehicles. The trailhead is approximately\
+      \ 0.6 miles west of the access point (31.90857\xB0 N, 110.66196\xB0 W) along\
+      \ a two-track road."
+  length_miles: 12.8
+  elevation:
+    start_ft: 5209.0
+    end_ft: 4078.0
+    min_ft: 4078.0
+    max_ft: 5248.0
+    total_gain_ft: 1647.0
+    total_loss_ft: 2778.0
+    avg_grade_pct: 8.5
+    max_grade_pct: 49.1
+    per_mile_ft: 88.4
+  coordinates:
+    start:
+      lat: 31.81055
+      lon: -110.72346
+    end:
+      lat: 31.9091
+      lon: -110.67152
+- number: '7'
+  name: Las Cienegas
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-7-las-cienegas
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2019/01/7_Las-Cienegas.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/07-lascienegas.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/Arizona-Trail-History-Passage-7.pdf
+  access_points:
+  - type: southern
+    name: Lakes Road
+    coordinates:
+      latitude: 31.9091
+      longitude: -110.67151
+    notes:
+    - "This trailhead is not directly accessible by vehicles. The trailhead is approximately\
+      \ 0.6 miles west of the access point (31.90857\xB0 N, 110.66196\xB0 W) along\
+      \ a two-track road."
+  - type: northern
+    name: Gabe Zimmerman Trailhead
+    coordinates:
+      latitude: 32.01362
+      longitude: -110.6473
+  length_miles: 12.4
+  elevation:
+    start_ft: 4081.0
+    end_ft: 3432.0
+    min_ft: 3424.0
+    max_ft: 4202.0
+    total_gain_ft: 595.0
+    total_loss_ft: 1243.0
+    avg_grade_pct: 3.8
+    max_grade_pct: 35.3
+    per_mile_ft: 52.4
+  coordinates:
+    start:
+      lat: 31.9091
+      lon: -110.67152
+    end:
+      lat: 32.01362
+      lon: -110.64731
+- number: '8'
+  name: Rincon Valley
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-8-rincon-valley
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/08_RinconValley.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/08-rinconvalley.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/Arizona-Trail-History-Passage-8.pdf
+  access_points:
+  - type: southern
+    name: Gabe Zimmerman Trailhead
+    coordinates:
+      latitude: 32.01362
+      longitude: -110.6473
+  - type: northern
+    name: Saguaro National Park
+    coordinates:
+      latitude: 32.12964
+      longitude: -110.64472
+    notes:
+    - "This trailhead is not directly accessible by vehicles. The nearest vehicle\
+      \ access is 2.8 miles west on the Hope Camp Trail at the Loma Alta Trailhead\
+      \ at\_32.13294\xB0 N, 110.68700\xB0 W. There is limited parking with trailer\
+      \ parking 0.25 miles south."
+  length_miles: 13.6
+  elevation:
+    start_ft: 3429.0
+    end_ft: 3117.0
+    min_ft: 3084.0
+    max_ft: 3679.0
+    total_gain_ft: 1240.0
+    total_loss_ft: 1552.0
+    avg_grade_pct: 5.4
+    max_grade_pct: 32.5
+    per_mile_ft: 23.0
+  coordinates:
+    start:
+      lat: 32.01363
+      lon: -110.64732
+    end:
+      lat: 32.12963
+      lon: -110.64473
+- number: '9'
+  name: Rincon Mountains
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-9-rincon-mountains
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/09_RinconMountains.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/09-rinconmountains.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/Arizona-Trail-History-Passage-9.pdf
+  access_points:
+  - type: southern
+    name: Saguaro National Park
+    coordinates:
+      latitude: 32.12964
+      longitude: -110.64472
+    notes:
+    - "This trailhead is not directly accessible by vehicles. The nearest vehicle\
+      \ access is 2.8 miles west on the Hope Camp Trail at the Loma Alta Trailhead\
+      \ at\_32.13294\xB0 N, 110.68700\xB0 W. There is limited parking with trailer\
+      \ parking 0.25 miles south."
+  - type: northern
+    name: Redington Road
+    coordinates:
+      latitude: 32.3063
+      longitude: -110.57428
+  length_miles: 23.9
+  elevation:
+    start_ft: 3117.0
+    end_ft: 4351.0
+    min_ft: 3085.0
+    max_ft: 8581.0
+    total_gain_ft: 6620.0
+    total_loss_ft: 5386.0
+    avg_grade_pct: 11.2
+    max_grade_pct: 51.6
+    per_mile_ft: 51.6
+  coordinates:
+    start:
+      lat: 32.12963
+      lon: -110.64473
+    end:
+      lat: 32.3063
+      lon: -110.57428
+- number: '10'
+  name: Redington Pass
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-10-redington-pass
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/10_RedingtonPass.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/10-redingtonpass.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/02/passage-10.pdf
+  access_points:
+  - type: southern
+    name: Redington Road
+    coordinates:
+      latitude: 32.3063
+      longitude: -110.57428
+  - type: northern
+    name: Gordon Hirabayashi Campground
+    coordinates:
+      latitude: 32.33581
+      longitude: -110.71972
+  length_miles: 12.8
+  elevation:
+    start_ft: 4350.0
+    end_ft: 4849.0
+    min_ft: 3866.0
+    max_ft: 4917.0
+    total_gain_ft: 2562.0
+    total_loss_ft: 2063.0
+    avg_grade_pct: 8.8
+    max_grade_pct: 59.1
+    per_mile_ft: 38.9
+  coordinates:
+    start:
+      lat: 32.3063
+      lon: -110.57428
+    end:
+      lat: 32.33602
+      lon: -110.71992
+- number: '11'
+  name: Santa Catalina Mountains
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-11-santa-catalina-mountains
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/11_SantaCatalinaMountains.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/11-santacatalinamountains.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/02/passage-11.pdf
+  access_points:
+  - type: southern
+    name: Gordon Hirabayashi Campground
+    coordinates:
+      latitude: 32.33581
+      longitude: -110.71972
+  - type: northern
+    name: Marshall Gulch Trailhead
+    coordinates:
+      latitude: 32.42834
+      longitude: -110.75569
+  length_miles: 18.3
+  elevation:
+    start_ft: 4852.0
+    end_ft: 7442.0
+    min_ft: 3642.0
+    max_ft: 7972.0
+    total_gain_ft: 5928.0
+    total_loss_ft: 3338.0
+    avg_grade_pct: 12.9
+    max_grade_pct: 80.1
+    per_mile_ft: 141.9
+  coordinates:
+    start:
+      lat: 32.33602
+      lon: -110.71992
+    end:
+      lat: 32.42834
+      lon: -110.75569
+- number: '12'
+  name: Red Ridge
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-12-oracle-ridge
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/12-red-ridge.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/12-oracleridge.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/02/passage-12.pdf
+  access_points:
+  - type: southern
+    name: Marshall Gulch Trailhead
+    coordinates:
+      latitude: 32.42834
+      longitude: -110.75569
+  - type: northern
+    name: American Flag Ranch Trailhead
+    coordinates:
+      latitude: 32.5809
+      longitude: -110.72039
+    notes:
+    - This trailhead is not visible from Mt. Lemmon Road. There is a sign directing
+      you to the trailhead, which is a dead end.
+  length_miles: 17.5
+  elevation:
+    start_ft: 7447.0
+    end_ft: 4423.0
+    min_ft: 4423.0
+    max_ft: 8095.0
+    total_gain_ft: 3250.0
+    total_loss_ft: 6275.0
+    avg_grade_pct: 12.1
+    max_grade_pct: 57.5
+    per_mile_ft: 173.3
+  coordinates:
+    start:
+      lat: 32.42833
+      lon: -110.75568
+    end:
+      lat: 32.58083
+      lon: -110.72027
+- number: '13'
+  name: Oracle
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-13-oracle
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/13_Oracle.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/13-oracle.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/02/passage-13.pdf
+  access_points:
+  - type: southern
+    name: American Flag Ranch Trailhead
+    coordinates:
+      latitude: 32.58079
+      longitude: -110.72015
+    notes:
+    - This trailhead is not visible from Mt. Lemmon Road. There is a sign directing
+      you to the trailhead, which is a dead end.
+  - type: northern
+    name: Tiger Mine Trailhead
+    coordinates:
+      latitude: 32.65044
+      longitude: -110.7315
+  length_miles: 8.4
+  elevation:
+    start_ft: 4421.0
+    end_ft: 4080.0
+    min_ft: 3981.0
+    max_ft: 4439.0
+    total_gain_ft: 761.0
+    total_loss_ft: 1102.0
+    avg_grade_pct: 5.1
+    max_grade_pct: 17.4
+    per_mile_ft: 40.7
+  coordinates:
+    start:
+      lat: 32.58083
+      lon: -110.72027
+    end:
+      lat: 32.65039
+      lon: -110.73153
+- number: '14'
+  name: Black Hills
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-14-black-hills
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/14_BlackHills.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/14-blackhills.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2021/05/Arizona-History-Passage-14.pdf
+  access_points:
+  - type: southern
+    name: Tiger Mine Trailhead
+    coordinates:
+      latitude: 32.65044
+      longitude: -110.7315
+  - type: northern
+    name: Freeman Road Trailhead
+    coordinates:
+      latitude: 32.87109
+      longitude: -110.88256
+  length_miles: 27.1
+  elevation:
+    start_ft: 4079.0
+    end_ft: 4015.0
+    min_ft: 2791.0
+    max_ft: 4232.0
+    total_gain_ft: 4197.0
+    total_loss_ft: 4261.0
+    avg_grade_pct: 7.8
+    max_grade_pct: 48.1
+    per_mile_ft: 2.4
+  coordinates:
+    start:
+      lat: 32.6504
+      lon: -110.73154
+    end:
+      lat: 32.87116
+      lon: -110.88274
+- number: '15'
+  name: Tortilla Mountains
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-15-tortilla-mountains
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2019/01/15_Tortilla-Mountains.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/15-tortillamountains.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/Arizona-Trail-History-Passage-15.pdf
+  access_points:
+  - type: southern
+    name: Freeman Road Trailhead
+    coordinates:
+      latitude: 32.87109
+      longitude: -110.88256
+  - type: northern
+    name: Kelvin-Riverside Bridge
+    coordinates:
+      latitude: 33.10228
+      longitude: -110.97494
+  length_miles: 27.3
+  elevation:
+    start_ft: 4015.0
+    end_ft: 1778.0
+    min_ft: 1762.0
+    max_ft: 4017.0
+    total_gain_ft: 2196.0
+    total_loss_ft: 4434.0
+    avg_grade_pct: 6.7
+    max_grade_pct: 66.6
+    per_mile_ft: 81.9
+  coordinates:
+    start:
+      lat: 32.87116
+      lon: -110.88274
+    end:
+      lat: 33.10222
+      lon: -110.97492
+- number: '16'
+  name: Gila River Canyons
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-16-gila-river-canyons
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/16_GilaRiverCanyons.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/16-gilarivercanyons.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/Arizona-Trail-History-Passage-16.pdf
+  access_points:
+  - type: southern
+    name: Kelvin-Riverside Bridge
+    coordinates:
+      latitude: 33.10228
+      longitude: -110.97494
+  - type: northern
+    name: Tonto National Forest Boundary
+    coordinates:
+      latitude: 33.18106
+      longitude: -111.13717
+    notes:
+    - This trailhead is not directly accessible by vehicles. See adjoining passages
+      for access.
+  length_miles: 25.1
+  elevation:
+    start_ft: 1770.0
+    end_ft: 3687.0
+    min_ft: 1638.0
+    max_ft: 3697.0
+    total_gain_ft: 5148.0
+    total_loss_ft: 3231.0
+    avg_grade_pct: 9.9
+    max_grade_pct: 102.6
+    per_mile_ft: 76.4
+  coordinates:
+    start:
+      lat: 33.10222
+      lon: -110.97492
+    end:
+      lat: 33.18108
+      lon: -111.1372
+- number: '17'
+  name: Alamo Canyon
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-17-alamo-canyon
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/17_AlamoCanyon.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/17-alamocanyon.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2021/05/Arizona-Trail-History-Passage-17.pdf
+  access_points:
+  - type: southern
+    name: Tonto National Forest Boundary
+    coordinates:
+      latitude: 33.18106
+      longitude: -111.13717
+    notes:
+    - This trailhead is not directly accessible by vehicles. See adjoining passages
+      for access.
+  - type: northern
+    name: Picketpost Trailhead
+    coordinates:
+      latitude: 33.27184
+      longitude: -111.17643
+  length_miles: 11.3
+  elevation:
+    start_ft: 3681.0
+    end_ft: 2397.0
+    min_ft: 2386.0
+    max_ft: 3758.0
+    total_gain_ft: 1329.0
+    total_loss_ft: 2614.0
+    avg_grade_pct: 9.6
+    max_grade_pct: 44.4
+    per_mile_ft: 113.2
+  coordinates:
+    start:
+      lat: 33.18108
+      lon: -111.1372
+    end:
+      lat: 33.272
+      lon: -111.17628
+- number: '18'
+  name: Reavis Canyon
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-18-reavis-canyon
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/18_ReavisCanyon.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/18-reaviscanyon.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/Arizona-Trail-History-Passage-18.pdf
+  access_points:
+  - type: southern
+    name: Picketpost Trailhead
+    coordinates:
+      latitude: 33.27184
+      longitude: -111.17643
+  - type: northern
+    name: Rogers Trough Trailhead
+    coordinates:
+      latitude: 33.42223
+      longitude: -111.17325
+  length_miles: 17.4
+  elevation:
+    start_ft: 2396.0
+    end_ft: 4837.0
+    min_ft: 2316.0
+    max_ft: 5440.0
+    total_gain_ft: 4189.0
+    total_loss_ft: 1747.0
+    avg_grade_pct: 8.6
+    max_grade_pct: 56.8
+    per_mile_ft: 139.9
+  coordinates:
+    start:
+      lat: 33.272
+      lon: -111.17628
+    end:
+      lat: 33.42218
+      lon: -111.17331
+- number: '19'
+  name: Superstition Wilderness
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-19-superstition-wilderness
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/19_SuperstitionWilderness.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/19-superstitionwilderness.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2021/07/Arizona-Trail-History-Passage-19.pdf
+  access_points:
+  - type: southern
+    name: Rogers Trough Trailhead
+    coordinates:
+      latitude: 33.42223
+      longitude: -111.17325
+  - type: northern
+    name: Vineyard Trailhead
+    coordinates:
+      latitude: 33.6765
+      longitude: -111.16104
+  length_miles: 28.5
+  elevation:
+    start_ft: 4838.0
+    end_ft: 2243.0
+    min_ft: 2144.0
+    max_ft: 5324.0
+    total_gain_ft: 5224.0
+    total_loss_ft: 7819.0
+    avg_grade_pct: 11.0
+    max_grade_pct: 72.6
+    per_mile_ft: 91.2
+  coordinates:
+    start:
+      lat: 33.42218
+      lon: -111.17331
+    end:
+      lat: 33.67654
+      lon: -111.161
+- number: '20'
+  name: Four Peaks
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-20-four-peaks
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/20_FourPeaks.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/20-fourpeaks.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/Arizona-Trail-History-Chapter-20.pdf
+  access_points:
+  - type: southern
+    name: Vineyard Trailhead
+    coordinates:
+      latitude: 33.6765
+      longitude: -111.16104
+  - type: northern
+    name: Pigeon Spring/Lone Pine Saddle Trailhead
+    coordinates:
+      latitude: 33.71095
+      longitude: -111.33618
+  length_miles: 18.4
+  elevation:
+    start_ft: 2232.0
+    end_ft: 5613.0
+    min_ft: 2230.0
+    max_ft: 5943.0
+    total_gain_ft: 6596.0
+    total_loss_ft: 3216.0
+    avg_grade_pct: 14.6
+    max_grade_pct: 81.0
+    per_mile_ft: 183.8
+  coordinates:
+    start:
+      lat: 33.67654
+      lon: -111.161
+    end:
+      lat: 33.71078
+      lon: -111.33635
+- number: '21'
+  name: Pine Mountain
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-21-pine-mountain
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/21_PineMountain.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/21-pinemountain.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/Arizona-Trail-History-Passage-21.pdf
+  access_points:
+  - type: southern
+    name: Pigeon Spring/Lone Pine Saddle Trailhead
+    coordinates:
+      latitude: 33.71095
+      longitude: -111.33618
+  - type: northern
+    name: Sunflower
+    coordinates:
+      latitude: 33.8625
+      longitude: -111.47278
+  length_miles: 19.2
+  elevation:
+    start_ft: 5612.0
+    end_ft: 3475.0
+    min_ft: 3315.0
+    max_ft: 6045.0
+    total_gain_ft: 2275.0
+    total_loss_ft: 4412.0
+    avg_grade_pct: 8.6
+    max_grade_pct: 64.3
+    per_mile_ft: 111.5
+  coordinates:
+    start:
+      lat: 33.71078
+      lon: -111.33635
+    end:
+      lat: 33.86248
+      lon: -111.4735
+- number: '22'
+  name: Saddle Mountain
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-22-saddle-mountain
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/22_SaddleMountain.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/22-saddlemountain.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2021/07/Arizona-Trail-History-Passage-22.pdf
+  access_points:
+  - type: southern
+    name: Sunflower
+    coordinates:
+      latitude: 33.8625
+      longitude: -111.47278
+  - type: northern
+    name: Mount Peeley Trailhead
+    coordinates:
+      latitude: 34.00219
+      longitude: -111.47724
+  length_miles: 16.3
+  elevation:
+    start_ft: 3479.0
+    end_ft: 5774.0
+    min_ft: 3477.0
+    max_ft: 5774.0
+    total_gain_ft: 4180.0
+    total_loss_ft: 1884.0
+    avg_grade_pct: 8.7
+    max_grade_pct: 49.3
+    per_mile_ft: 140.6
+  coordinates:
+    start:
+      lat: 33.86248
+      lon: -111.4735
+    end:
+      lat: 34.00199
+      lon: -111.47734
+- number: '23'
+  name: Mazatzal Divide
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-23-mazatzal-divide
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/23_MazatzalDivide.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/23-mazatzaldivide.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/arizona-trail-history-passage-23.pdf
+  access_points:
+  - type: southern
+    name: Mt Peeley Trailhead
+    coordinates:
+      latitude: 34.00219
+      longitude: -111.47724
+  - type: northern
+    name: Red Hills Trail Junction
+    coordinates:
+      latitude: 34.18046
+      longitude: -111.50359
+    notes:
+    - There is no vehicle access to this wilderness trailhead. See adjoining passages
+      for additional information.
+  length_miles: 23.8
+  elevation:
+    start_ft: 5782.0
+    end_ft: 6086.0
+    min_ft: 5637.0
+    max_ft: 7140.0
+    total_gain_ft: 4995.0
+    total_loss_ft: 4691.0
+    avg_grade_pct: 10.7
+    max_grade_pct: 57.1
+    per_mile_ft: 12.8
+  coordinates:
+    start:
+      lat: 34.00199
+      lon: -111.47734
+    end:
+      lat: 34.17846
+      lon: -111.50526
+- number: '24'
+  name: Red Hills
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-24-red-hills
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/24_RedHills.pdf
+    profile_url: https://aztrail.org/wp-content/uploads/2018/01/24-redhills.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/arizona-trail-history-passage-24.pdf
+  access_points:
+  - type: southern
+    name: Red Hills Trail Junction
+    coordinates:
+      latitude: 34.18046
+      longitude: -111.50359
+    notes:
+    - There is no vehicle access to this wilderness trailhead. See adjoining passages
+      for additional information.
+  - type: northern
+    name: The East Verde River
+    coordinates:
+      latitude: 34.22915
+      longitude: -111.51299
+    notes:
+    - "This trailhead is not directly accessible by vehicles. The nearest vehicle\
+      \ access point (34.21468\xB0 N, 111.48250\xB0 W) is 4 miles east of the trail\
+      \ at the wilderness boundary."
+  length_miles: 10.6
+  elevation:
+    start_ft: 6089.0
+    end_ft: 3275.0
+    min_ft: 3275.0
+    max_ft: 6095.0
+    total_gain_ft: 1351.0
+    total_loss_ft: 4164.0
+    avg_grade_pct: 13.0
+    max_grade_pct: 68.9
+    per_mile_ft: 265.5
+  coordinates:
+    start:
+      lat: 34.17846
+      lon: -111.50526
+    end:
+      lat: 34.22947
+      lon: -111.51317
+- number: '25'
+  name: Whiterock Mesa
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-25-whiterock-mesa
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/25_WhiterockMesa.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/25-whiterockmesa.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/arizona-trail-history-passage-25.pdf
+  access_points:
+  - type: southern
+    name: The East Verde River
+    coordinates:
+      latitude: 34.22915
+      longitude: -111.51299
+    notes:
+    - "This trailhead is not directly accessible by vehicles. The nearest vehicle\
+      \ access point (34.21468\xB0 N, 111.48250\xB0 W) is 4 miles east of the trail\
+      \ at the wilderness boundary."
+  - type: northern
+    name: Pine Trailhead
+    coordinates:
+      latitude: 34.37432
+      longitude: -111.4431
+  length_miles: 20.2
+  elevation:
+    start_ft: 3276.0
+    end_ft: 5385.0
+    min_ft: 3276.0
+    max_ft: 6014.0
+    total_gain_ft: 4101.0
+    total_loss_ft: 1992.0
+    avg_grade_pct: 7.0
+    max_grade_pct: 40.7
+    per_mile_ft: 104.3
+  coordinates:
+    start:
+      lat: 34.22947
+      lon: -111.51316
+    end:
+      lat: 34.37431
+      lon: -111.44317
+- number: '26'
+  name: Highline
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-26-highline
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2019/01/26_Highline.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/26-highline.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/arizona-trail-history-passage-26.pdf
+  access_points:
+  - type: southern
+    name: Pine Trailhead
+    coordinates:
+      latitude: 34.37432
+      longitude: -111.4431
+  - type: northern
+    name: FR 300 Trailhead
+    coordinates:
+      latitude: 34.45368
+      longitude: -111.25088
+  length_miles: 23.3
+  elevation:
+    start_ft: 5384.0
+    end_ft: 7262.0
+    min_ft: 5384.0
+    max_ft: 7262.0
+    total_gain_ft: 4072.0
+    total_loss_ft: 2194.0
+    avg_grade_pct: 6.4
+    max_grade_pct: 47.9
+    per_mile_ft: 80.5
+  coordinates:
+    start:
+      lat: 34.37431
+      lon: -111.44317
+    end:
+      lat: 34.45381
+      lon: -111.25082
+- number: '27'
+  name: Blue Ridge
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-27-blue-ridge
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/27_BlueRidge-1.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/27-blueridge.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/arizona-trail-history-passage-27.pdf
+  access_points:
+  - type: southern
+    name: FR 300 Trailhead
+    coordinates:
+      latitude: 34.45396
+      longitude: -111.25078
+  - type: northern
+    name: Highway 87
+    coordinates:
+      latitude: 34.60751
+      longitude: -111.20061
+  length_miles: 15.2
+  elevation:
+    start_ft: 7247.0
+    end_ft: 6839.0
+    min_ft: 6740.0
+    max_ft: 7419.0
+    total_gain_ft: 1532.0
+    total_loss_ft: 1940.0
+    avg_grade_pct: 6.6
+    max_grade_pct: 51.9
+    per_mile_ft: 26.8
+  coordinates:
+    start:
+      lat: 34.45382
+      lon: -111.25083
+    end:
+      lat: 34.6076
+      lon: -111.19968
+- number: '28'
+  name: Happy Jack
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-28-happy-jack
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/28_HappyJack.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/28-happyjack.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/arizona-trail-history-passage-28.pdf
+  access_points:
+  - type: southern
+    name: Highway 87
+    coordinates:
+      latitude: 34.60751
+      longitude: -111.20061
+  - type: northern
+    name: Gooseberry Springs Trailhead
+    coordinates:
+      latitude: 34.8213
+      longitude: -111.43177
+  length_miles: 29.1
+  elevation:
+    start_ft: 6839.0
+    end_ft: 7472.0
+    min_ft: 6592.0
+    max_ft: 7705.0
+    total_gain_ft: 2550.0
+    total_loss_ft: 1917.0
+    avg_grade_pct: 3.7
+    max_grade_pct: 29.8
+    per_mile_ft: 21.7
+  coordinates:
+    start:
+      lat: 34.6076
+      lon: -111.19968
+    end:
+      lat: 34.8213
+      lon: -111.43182
+- number: '29'
+  name: Mormon Lake
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-29-mormon-lake
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/29_MormonLake.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/29-mormonlake.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/arizona-trail-history-passage-29.pdf
+  access_points:
+  - type: southern
+    name: Gooseberry Springs Trailhead
+    coordinates:
+      latitude: 34.8213
+      longitude: -111.43177
+  - type: northern
+    name: Mayflower Spring
+    coordinates:
+      latitude: 34.96637
+      longitude: -111.48621
+  length_miles: 14.7
+  elevation:
+    start_ft: 7471.0
+    end_ft: 7281.0
+    min_ft: 7163.0
+    max_ft: 7599.0
+    total_gain_ft: 1141.0
+    total_loss_ft: 1332.0
+    avg_grade_pct: 4.0
+    max_grade_pct: 24.1
+    per_mile_ft: 13.0
+  coordinates:
+    start:
+      lat: 34.8213
+      lon: -111.43182
+    end:
+      lat: 34.96636
+      lon: -111.48622
+- number: '30'
+  name: Anderson Mesa
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-30-anderson-mesa
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/30_AndersonMesa.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/30-andersonmesa.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2025/02/passage-30.pdf
+  access_points:
+  - type: southern
+    name: Mayflower Spring
+    coordinates:
+      latitude: 34.96637
+      longitude: -111.48621
+  - type: northern
+    name: Marshall Lake Trailhead
+    coordinates:
+      latitude: 35.11125
+      longitude: -111.54138
+  length_miles: 17.8
+  elevation:
+    start_ft: 7284.0
+    end_ft: 7138.0
+    min_ft: 6859.0
+    max_ft: 7356.0
+    total_gain_ft: 696.0
+    total_loss_ft: 842.0
+    avg_grade_pct: 1.9
+    max_grade_pct: 27.2
+    per_mile_ft: 8.2
+  coordinates:
+    start:
+      lat: 34.96636
+      lon: -111.48622
+    end:
+      lat: 35.11123
+      lon: -111.54137
+- number: '31'
+  name: Walnut Canyon
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-31-walnut-canyon
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/31_WalnutCanyon.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/31-walnutcanyon.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/arizona-trail-history-passage-31.pdf
+  access_points:
+  - type: southern
+    name: Marshall Lake Trailhead
+    coordinates:
+      latitude: 35.11125
+      longitude: -111.54138
+  - type: northern
+    name: I-40, Cosnino Road Exit
+    notes:
+    - Moderate
+  length_miles: 20.4
+  elevation:
+    start_ft: 7137.0
+    end_ft: 6502.0
+    min_ft: 6493.0
+    max_ft: 7191.0
+    total_gain_ft: 1569.0
+    total_loss_ft: 2205.0
+    avg_grade_pct: 5.1
+    max_grade_pct: 47.7
+    per_mile_ft: 31.2
+  coordinates:
+    start:
+      lat: 35.11123
+      lon: -111.54137
+    end:
+      lat: 35.20251
+      lon: -111.48563
+- number: '32'
+  name: Elden Mountain
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-32-elden-mountain
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/32_EldenMountain.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/32-eldenmountain.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/arizona-trail-history-passage-32.pdf
+  access_points:
+  - type: southern
+    name: I-40, Cosnino Road Exit
+    coordinates:
+      latitude: 35.20249
+      longitude: -111.48559
+  - type: northern
+    name: Schultz Pass
+    coordinates:
+      latitude: 35.28684
+      longitude: -111.62627
+  length_miles: 14.6
+  elevation:
+    start_ft: 6482.0
+    end_ft: 8029.0
+    min_ft: 6473.0
+    max_ft: 8029.0
+    total_gain_ft: 2234.0
+    total_loss_ft: 687.0
+    avg_grade_pct: 4.4
+    max_grade_pct: 27.5
+    per_mile_ft: 106.0
+  coordinates:
+    start:
+      lat: 35.2025
+      lon: -111.48562
+    end:
+      lat: 35.28682
+      lon: -111.62629
+- number: '33'
+  name: Flagstaff Urban Route
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-33-flagstaff
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/33_Flagstaff.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/33-flagstaff.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/arizona-trail-history-passage-33.pdf
+  access_points:
+  - type: southern
+    name: Fisher Point
+    coordinates:
+      latitude: 35.15093
+      longitude: -111.59998
+    notes:
+    - "This trailhead is not directly accessible by vehicles. The nearest vehicle\
+      \ access point is on Babbitt Drive near the I-40 underpass at\_35.188155\xB0\
+      \ N, 111.631395\xB0 W."
+  - type: northern
+    name: Schultz Pass
+    coordinates:
+      latitude: 35.27279
+      longitude: -111.65262
+    notes:
+    - "This trailhead is not directly accessible by vehicles. The nearest vehicle\
+      \ access point is on FR 420 (Schultz Pass Road) at\_35.272490\xB0 N, 111.647840\xB0\
+      \ W."
+  length_miles: 15.2
+  elevation:
+    start_ft: 6624.0
+    end_ft: 7812.0
+    min_ft: 6624.0
+    max_ft: 7812.0
+    total_gain_ft: 2239.0
+    total_loss_ft: 1051.0
+    avg_grade_pct: 5.7
+    max_grade_pct: 33.4
+    per_mile_ft: 78.0
+  coordinates:
+    start:
+      lat: 35.15086
+      lon: -111.59997
+    end:
+      lat: 35.27288
+      lon: -111.65273
+- number: '34'
+  name: San Francisco Peaks
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-34-san-francisco-peaks
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2020/02/Access-Map-Passage_34_San-Francisco-Peaks-North.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/34-sanfranciscopeaksnorth.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/arizona-trail-history-passage-34.pdf
+  access_points:
+  - type: southern
+    name: Schultz Pass
+    coordinates:
+      latitude: 35.28684
+      longitude: -111.62627
+  - type: northern
+    name: Cedar Ranch
+    coordinates:
+      latitude: 35.54733
+      longitude: -111.78292
+  length_miles: 35.2
+  elevation:
+    start_ft: 8019.0
+    end_ft: 6376.0
+    min_ft: 6304.0
+    max_ft: 9020.0
+    total_gain_ft: 2340.0
+    total_loss_ft: 3983.0
+    avg_grade_pct: 4.3
+    max_grade_pct: 30.4
+    per_mile_ft: 46.7
+  coordinates:
+    start:
+      lat: 35.28685
+      lon: -111.62635
+    end:
+      lat: 35.54735
+      lon: -111.78305
+- number: '35'
+  name: Babbitt Ranch
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-35-babbitt-ranch
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/35_BabbittRanch.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/35-babbittranch.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/arizona-trail-history-passage-35.pdf
+  access_points:
+  - type: southern
+    name: Cedar Ranch
+    coordinates:
+      latitude: 35.54733
+      longitude: -111.78292
+  - type: northern
+    name: Moqui Stage Station
+    coordinates:
+      latitude: 35.78743
+      longitude: -111.87562
+  length_miles: 27.3
+  elevation:
+    start_ft: 6375.0
+    end_ft: 6643.0
+    min_ft: 6262.0
+    max_ft: 6682.0
+    total_gain_ft: 1285.0
+    total_loss_ft: 1017.0
+    avg_grade_pct: 2.0
+    max_grade_pct: 13.4
+    per_mile_ft: 9.8
+  coordinates:
+    start:
+      lat: 35.54735
+      lon: -111.78305
+    end:
+      lat: 35.78744
+      lon: -111.87563
+- number: '36'
+  name: Coconino Rim
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-36-coconino-rim
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/36_CoconinoRim.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/36-coconinorim.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/arizona-trail-history-passage-36.pdf
+  access_points:
+  - type: southern
+    name: Moqui Stage Station
+    coordinates:
+      latitude: 35.78743
+      longitude: -111.87562
+  - type: northern
+    name: Grandview Lookout Tower
+    coordinates:
+      latitude: 35.95746
+      longitude: -111.95547
+  length_miles: 17.8
+  elevation:
+    start_ft: 6644.0
+    end_ft: 7528.0
+    min_ft: 6600.0
+    max_ft: 7529.0
+    total_gain_ft: 1948.0
+    total_loss_ft: 1064.0
+    avg_grade_pct: 5.3
+    max_grade_pct: 42.6
+    per_mile_ft: 49.6
+  coordinates:
+    start:
+      lat: 35.78744
+      lon: -111.87563
+    end:
+      lat: 35.95747
+      lon: -111.95548
+- number: '37'
+  name: "Grand Canyon \u2013 South Rim"
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-37-grand-canyon-south-rim
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2019/01/37_Grand-Canyon-South-Rim.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/37-grandcanyonsouthrim.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/arizona-trail-history-passage-37.pdf
+  access_points:
+  - type: southern
+    name: Grandview Lookout Tower
+    coordinates:
+      latitude: 35.95746
+      longitude: -111.95547
+  - type: northern
+    name: South Kaibab Trailhead
+    coordinates:
+      latitude: 36.05335
+      longitude: -112.08344
+  length_miles: 22.3
+  elevation:
+    start_ft: 7529.0
+    end_ft: 7207.0
+    min_ft: 6599.0
+    max_ft: 7529.0
+    total_gain_ft: 1045.0
+    total_loss_ft: 1368.0
+    avg_grade_pct: 2.5
+    max_grade_pct: 22.3
+    per_mile_ft: 14.5
+  coordinates:
+    start:
+      lat: 35.95747
+      lon: -111.95537
+    end:
+      lat: 36.05338
+      lon: -112.08348
+- number: '38'
+  name: "Grand Canyon \u2013 Inner Gorge"
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-38-grand-canyon-inner-gorge
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/38_GrandCanyonInnerGorge.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/38-grandcanyoninnergorge.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/arizona-trail-history-passage-38.pdf
+  access_points:
+  - type: southern
+    name: South Kaibab Trailhead
+    coordinates:
+      latitude: 36.05335
+      longitude: -112.08344
+  - type: northern
+    name: North Kaibab Trailhead
+    coordinates:
+      latitude: 36.21699
+      longitude: -112.05666
+  length_miles: 20.3
+  elevation:
+    start_ft: 7207.0
+    end_ft: 8229.0
+    min_ft: 2457.0
+    max_ft: 8229.0
+    total_gain_ft: 7332.0
+    total_loss_ft: 6310.0
+    avg_grade_pct: 21.4
+    max_grade_pct: 172.6
+    per_mile_ft: 50.2
+  coordinates:
+    start:
+      lat: 36.05338
+      lon: -112.08347
+    end:
+      lat: 36.21697
+      lon: -112.05668
+- number: '39'
+  name: "Grand Canyon \u2013 North Rim"
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-39-grand-canyon-north-rim
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/39_GrandCanyonNorthRim.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/39-grandcanyonnorthrim.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/arizona-trail-history-passage-39.pdf
+  access_points:
+  - type: southern
+    name: North Kaibab Trailhead
+    coordinates:
+      latitude: 36.21722
+      longitude: -112.05686
+  - type: northern
+    name: Kaibab National Forest boundary
+    coordinates:
+      latitude: 36.33775
+      longitude: -112.10248
+  length_miles: 12.0
+  elevation:
+    start_ft: 8235.0
+    end_ft: 9005.0
+    min_ft: 8061.0
+    max_ft: 9143.0
+    total_gain_ft: 1546.0
+    total_loss_ft: 777.0
+    avg_grade_pct: 5.0
+    max_grade_pct: 21.6
+    per_mile_ft: 64.3
+  coordinates:
+    start:
+      lat: 36.21697
+      lon: -112.05668
+    end:
+      lat: 36.33774
+      lon: -112.09331
+- number: '40'
+  name: Kaibab Plateau South
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-40-kaibab-plateau-south
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2019/01/40_Kaibab-Plateau-South.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/40-kaibabplateausouth.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/arizona-trail-history-passage-40.pdf
+  access_points:
+  - type: southern
+    name: Kaibab National Forest boundary
+    coordinates:
+      latitude: 36.33775
+      longitude: -112.10248
+  - type: northern
+    name: Telephone Hill Trailhead
+    coordinates:
+      latitude: 36.55147
+      longitude: -112.1756
+  length_miles: 20.6
+  elevation:
+    start_ft: 9003.0
+    end_ft: 8851.0
+    min_ft: 8494.0
+    max_ft: 9013.0
+    total_gain_ft: 2098.0
+    total_loss_ft: 2251.0
+    avg_grade_pct: 5.2
+    max_grade_pct: 27.0
+    per_mile_ft: 7.4
+  coordinates:
+    start:
+      lat: 36.33774
+      lon: -112.09331
+    end:
+      lat: 36.55148
+      lon: -112.17561
+- number: '41'
+  name: Kaibab Plateau Central
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-41-kaibab-plateau-central
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/41_KaibabPlateauCentral.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/41-kaibabplateaucentral.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/arizona-trail-history-passage-41.pdf
+  access_points:
+  - type: southern
+    name: Telephone Hill Trailhead
+    coordinates:
+      latitude: 36.55147
+      longitude: -112.1756
+  - type: northern
+    name: Orderville Trailhead
+    coordinates:
+      latitude: 36.73646
+      longitude: -112.18889
+  length_miles: 16.6
+  elevation:
+    start_ft: 8850.0
+    end_ft: 7527.0
+    min_ft: 7519.0
+    max_ft: 8850.0
+    total_gain_ft: 1007.0
+    total_loss_ft: 2330.0
+    avg_grade_pct: 4.7
+    max_grade_pct: 35.5
+    per_mile_ft: 79.6
+  coordinates:
+    start:
+      lat: 36.55148
+      lon: -112.17561
+    end:
+      lat: 36.73646
+      lon: -112.18889
+- number: '42'
+  name: Kaibab Plateau North
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-42-kaibab-plateau-north
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/42_KaibabPlateauNorth.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/42-kaibabplateaunorth.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/arizona-trail-history-passage-42.pdf
+  access_points:
+  - type: southern
+    name: Orderville Trailhead
+    coordinates:
+      latitude: 36.73646
+      longitude: -112.18889
+  length_miles: 17.0
+  elevation:
+    start_ft: 7523.0
+    end_ft: 6532.0
+    min_ft: 6531.0
+    max_ft: 7653.0
+    total_gain_ft: 586.0
+    total_loss_ft: 1577.0
+    avg_grade_pct: 3.3
+    max_grade_pct: 23.8
+    per_mile_ft: 58.3
+  coordinates:
+    start:
+      lat: 36.73646
+      lon: -112.18889
+    end:
+      lat: 36.9178
+      lon: -112.10709
+- number: '43'
+  name: Buckskin Mountain
+  resources:
+    info_page: https://aztrail.org/explore/passages/passage-43-buckskin-mountain
+    map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/43_BuckskinMountain.pdf
+    profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/43-buckskinmountain.png
+    track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/arizona-trail-history-passage-43.pdf
+  access_points:
+  - type: southern
+    name: Winter Road Trailhead
+    coordinates:
+      latitude: 36.91775
+      longitude: -112.10707
+  - type: northern
+    name: Stateline Trailhead & Campground
+    coordinates:
+      latitude: 37.00112
+      longitude: -112.03499
+  length_miles: 10.4
+  elevation:
+    start_ft: 6533.0
+    end_ft: 4991.0
+    min_ft: 4991.0
+    max_ft: 6543.0
+    total_gain_ft: 677.0
+    total_loss_ft: 2218.0
+    avg_grade_pct: 5.8
+    max_grade_pct: 46.1
+    per_mile_ft: 147.7
+  coordinates:
+    start:
+      lat: 36.91781
+      lon: -112.10709
+    end:
+      lat: 37.00112
+      lon: -112.035
