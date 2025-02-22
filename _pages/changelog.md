@@ -9,7 +9,55 @@ permalink: /changelog/
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
 ## Recent Changes
-- February 21, 2025 12:50 - refactor: migrate to AZGEO data source - Remove old GPS analysis scripts, update dependencies, add documentation for MultiLineString and Passage 11 handling
+- February 21, 2025 18:03 - refactor: consolidate trail data processing and cleanup deprecated code
+
+Major changes:
+
+- Remove deprecated validate_gpx_files.py as functionality is now in azt_official_data
+
+- Add comprehensive documentation for GPX track files in README
+
+  * Location: scripts/azt_official_data/data/gpx/
+
+  * Size: ~12MB total
+
+  * Regeneration instructions
+
+  * Not included in git repo
+
+Dependencies:
+
+- Update azt_official_data/requirements.txt with complete dependency list
+
+  * Add geopandas and related dependencies
+
+  * Add scipy for elevation smoothing
+
+  * Specify version requirements
+
+Documentation:
+
+- Rewrite azt_official_data/README.md with current architecture
+
+  * Clear workflow instructions
+
+  * Detailed data sources
+
+  * Example YAML structure
+
+  * Development guidelines
+
+Git:
+
+- Update .gitignore to exclude:
+
+  * GPX track files
+
+  * Cache directories
+
+  * Python build artifacts
+
+  * Virtual environments
 - Update total base weight to 207.73 oz (12.98 lbs)
 - Update base weight to 13.36 lbs
 - Update Still Need section
@@ -19,6 +67,7 @@ This page tracks significant changes and updates to the AZT 2025 planning docume
 - Remove floss from list
 - Move ordered items to Small Stuff section with weights
 - Mark items already acquired or ordered
+- February 21, 2025 12:50 - refactor: migrate to AZGEO data source - Remove old GPS analysis scripts, update dependencies, add documentation for MultiLineString and Passage 11 handling
 - February 21, 2025 11:17 - feat: Add GPS data analysis script - Create script to analyze AZT passage GPS data - Add requirements file for GPS analysis dependencies
 - February 21, 2025 11:12 - docs: Comprehensive update to README - Add detailed site overview and structure - Document data organization and separation - List key features and scripts - Improve development and deployment instructions
 - February 21, 2025 11:06 - refactor: Remove Books section from resources page - Focus on resources directly used in guide creation
