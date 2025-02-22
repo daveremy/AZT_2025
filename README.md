@@ -138,4 +138,137 @@ This is a personal planning site, but if you notice any errors or have suggestio
 
 ## License
 
-© 2024 Dave Remy. All rights reserved. 
+© 2024 Dave Remy. All rights reserved.
+
+# Arizona Trail 2025 Data Project
+
+This repository contains tools and data for managing Arizona Trail (AZT) passage information from official sources.
+
+## Project Structure
+
+```
+.
+├── README.md                  # This file
+├── _data/
+│   └── passages.yml          # Combined passage data from all sources
+├── data/
+│   ├── cache/                # Cached data from external sources
+│   │   └── azt_polyline.geojson  # AZGEO trail geometry data
+│   └── passages/             # Individual passage data files
+└── scripts/
+    └── azt_official_data/    # Scripts for fetching and combining official data
+        ├── README.md         # Detailed documentation of the data scripts
+        ├── requirements.txt  # Python package dependencies
+        ├── update_passages.py  # Main script to update passages.yml
+        └── utils/            # Utility modules for data processing
+            ├── ata_parser.py   # Parser for ATA website data
+            ├── azgeo_parser.py # Parser for AZGEO geographic data
+            └── yaml_writer.py  # YAML file writer with attribution
+```
+
+## Data Sources
+
+The project combines data from two authoritative sources:
+
+1. **Arizona Trail Association (ATA)**
+   - Official passage information, maps, and resources
+   - Source: https://aztrail.org/explore/passages/
+   - Data includes: passage descriptions, maps, waypoints, etc.
+
+2. **Arizona Geographic Information Council (AZGEO)**
+   - Official trail geometry and passage statistics
+   - Source: https://azgeo-open-data-agic.hub.arcgis.com/
+   - Data includes: trail geometry, elevation data, passage lengths
+
+3. **GPX Track Files**
+   - Generated GPX files for each passage
+   - Located in: `scripts/azt_official_data/data/gpx/`
+   - Not included in git repository (regenerated as needed)
+   - Total size: ~12MB for all passages
+
+To regenerate GPX files:
+```bash
+# Update passages.yml and regenerate GPX files
+python3 -m azt_official_data.update_passages --fetch-details
+```
+
+## Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/AZT_2025.git
+   cd AZT_2025
+   ```
+
+2. Install Python dependencies:
+   ```bash
+   cd scripts/azt_official_data
+   pip install -r requirements.txt
+   ```
+
+3. Ensure the AZGEO data file exists at `data/cache/azt_polyline.geojson`
+
+## Usage
+
+The main workflow is managed by the `azt_official_data` package:
+
+```bash
+# Update passages.yml with latest data
+python3 -m azt_official_data.update_passages
+
+# Include additional passage details
+python3 -m azt_official_data.update_passages --fetch-details
+
+# Specify custom output location
+python3 -m azt_official_data.update_passages --output custom/path.yml
+```
+
+See the [scripts/azt_official_data/README.md](scripts/azt_official_data/README.md) for detailed documentation of the data processing scripts.
+
+## Data Format
+
+The main output is `_data/passages.yml`, which combines data from all sources with proper attribution. Example structure:
+
+```yaml
+metadata:
+  last_updated: "2025-02-21"
+  data_sources:
+    ata:
+      name: "Arizona Trail Association"
+      description: "Official passage information and resources"
+      # ... additional metadata
+    azgeo:
+      name: "Arizona Geographic Information Council"
+      description: "Geographic and elevation data"
+      # ... additional metadata
+
+passages:
+  - number: "1"
+    name: "Huachuca Mountains"
+    # ... passage data with source attribution
+```
+
+## Development
+
+The codebase follows these principles:
+1. Clear separation of concerns between data sources
+2. Proper source attribution for all data
+3. Comprehensive logging and error handling
+4. Type hints and docstrings for all functions
+5. Modular architecture for easy maintenance
+
+When contributing:
+1. Follow the existing code style
+2. Add tests for new functionality
+3. Update documentation as needed
+4. Use meaningful commit messages
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Arizona Trail Association (ATA) for maintaining the official trail resources
+- Arizona Geographic Information Council (AZGEO) for providing geographic data
+- All contributors to the open-source packages used in this project

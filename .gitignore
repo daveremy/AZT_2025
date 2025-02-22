@@ -19,4 +19,21 @@ vendor/
 .idea/
 .vscode/
 
-_config_development.yml 
+# Local development config
+_config_development.yml
+
+# GPX track files (can be regenerated)
+scripts/azt_official_data/data/gpx/*.gpx
+
+# Cache directories
+scripts/azt_official_data/data/cache/
+scripts/azt_official_data/cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/ 

@@ -1,3 +1,11 @@
 requests>=2.31.0
-gpxpy>=1.5.0
-PyYAML>=6.0.1 
+beautifulsoup4>=4.12.0
+pyyaml>=6.0.0
+geopandas>=0.14.0
+numpy>=1.24.0
+shapely>=2.0.0
+pandas>=2.1.0  # Required by geopandas
+pyproj>=3.6.0  # Required by geopandas
+fiona>=1.9.0   # Required by geopandas
+gpxpy>=1.5.0   # For parsing GPX files
+scipy>=1.11.0  # For elevation data smoothing 

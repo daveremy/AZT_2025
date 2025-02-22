@@ -9,7 +9,7 @@ permalink: /changelog/
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
 ## Recent Changes
-- February 21, 2025 11:17 - feat: Add GPS data analysis script - Create script to analyze AZT passage GPS data - Add requirements file for GPS analysis dependencies
+- February 21, 2025 12:50 - refactor: migrate to AZGEO data source - Remove old GPS analysis scripts, update dependencies, add documentation for MultiLineString and Passage 11 handling
 - Update total base weight to 207.73 oz (12.98 lbs)
 - Update base weight to 13.36 lbs
 - Update Still Need section
@@ -19,6 +19,7 @@ This page tracks significant changes and updates to the AZT 2025 planning docume
 - Remove floss from list
 - Move ordered items to Small Stuff section with weights
 - Mark items already acquired or ordered
+- February 21, 2025 11:17 - feat: Add GPS data analysis script - Create script to analyze AZT passage GPS data - Add requirements file for GPS analysis dependencies
 - February 21, 2025 11:12 - docs: Comprehensive update to README - Add detailed site overview and structure - Document data organization and separation - List key features and scripts - Improve development and deployment instructions
 - February 21, 2025 11:06 - refactor: Remove Books section from resources page - Focus on resources directly used in guide creation
 - February 21, 2025 11:04 - feat: Enhance resources page with author information - Add author names for trail guides and blogs - Include publication years for books - Add detailed descriptions of resources - Include recent trail journal examples

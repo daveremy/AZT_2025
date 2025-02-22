@@ -1,112 +1,134 @@
-# AZT Official Data Processor
+# AZT Official Data Scripts
 
-Downloads and processes official Arizona Trail data from AZGEO to generate validated GPX files and update passage data.
+This directory contains scripts for fetching and combining data about the Arizona Trail from official sources:
 
-## Data Source
-Primary data comes from the [Arizona National Scenic Trail Polyline](https://azgeo-open-data-agic.hub.arcgis.com/datasets/azgeo::arizona-national-scenic-trail-polyline) dataset, maintained by the Arizona Geographic Information Council (AGIC) and Arizona Trail Association.
+1. Arizona Trail Association (ATA) website: https://aztrail.org/explore/passages/
+2. Arizona Geographic Information Council (AZGEO): https://azgeo.az.gov/
 
-Last updated: February 14, 2025
+## Directory Structure
 
-## Usage
-
-1. Install requirements:
-```bash
-pip install -r requirements.txt
+```
+azt_official_data/
+├── README.md                 # This file
+├── __init__.py              # Package initialization
+├── update_passages.py       # Main script to update passages.yml
+├── data/                    # Data directory
+│   ├── passages.yml        # Combined passage data
+│   ├── gpx/               # Downloaded GPX track files
+│   └── cache/             # Cache for AZGEO data
+└── utils/
+    ├── __init__.py         # Utils package initialization
+    ├── ata_parser.py       # Parser for ATA website data
+    ├── azgeo_parser.py     # Parser for AZGEO geographic data
+    ├── gpx_downloader.py   # GPX file downloader
+    ├── gpx_parser.py       # GPX file parser
+    └── yaml_writer.py      # YAML file writer
 ```
 
-2. Run the processor:
+## Workflow
+
+The workflow to recreate the data is:
+
+1. Download GPX track files from ATA:
 ```bash
-python process_azt_data.py
+python3 -m azt_official_data.utils.gpx_downloader
+```
+
+2. Update passages.yml with combined data:
+```bash
+python3 -m azt_official_data.update_passages
 ```
 
 This will:
-- Download latest trail data from AZGEO
-- Generate validated GPX files in `../../data/gpx/`
-- Update passage data in `../../data/passages/`
+- Create the data directory structure if it doesn't exist
+- Download GPX track files from the ATA website
+- Parse elevation data from the GPX files
+- Combine all data into passages.yml
 
-## Data Processing Details
+## Data Sources
 
-### MultiLineString Handling
-Some passages in the AZGEO data are represented as MultiLineString geometries rather than single LineStrings. This occurs when:
-1. A passage has natural breaks or discontinuities
-2. The trail has alternate routes or bypasses
-3. The data was collected in segments
+### ATA Website Data
+The following data is fetched from the ATA website:
+- Passage name and number
+- Info page URL
+- History document URL
+- Map PDF URL
+- Elevation profile URL
+- Track (GPX) URL
+- Waypoint files (GPS and MP)
 
-Our approach:
-- Merge all segments into a single continuous LineString
-- Preserve the segment order from the source data
-- Log gaps between segments for verification
-- Generate a single GPX file per passage
+### GPX Track Data
+The following data is extracted from GPX files:
+- Total distance in miles
+- Elevation data (start, end, min, max)
+- Total elevation gain/loss
+- Average and maximum grade
+- Start/end coordinates
 
-Implications:
-- Pros:
-  * Simpler data structure (one GPX per passage)
-  * Maintains compatibility with most GPS devices
-  * Easier to calculate total distances
-  * Consistent with other passage formats
-- Cons:
-  * May create artificial connections between physically separated segments
-  * Could mask natural breaks in the trail
-  * Gap distances need manual verification
+## Output Format
 
-### Passage 11 Handling
-The Santa Catalina Mountains section (Passage 11) has multiple variants in the official data:
-- **Passage 11**: Main route through Pusch Ridge Wilderness
-  * Traditional AZT route
-  * More challenging terrain
-  * Higher elevation gain/loss
-  * Passes through designated wilderness area
+The script generates a YAML file with the following structure:
 
-- **Passage 11a**: Pusch Ridge Wilderness Bypass (West)
-  * Alternative route west of wilderness
-  * Used when wilderness permits unavailable
-  * Lower elevation option
-  * More accessible terrain
+```yaml
+metadata:
+  last_updated: '2025-02-21'
+  data_sources:
+    - name: Arizona Trail Association (ATA)
+      description: Official passage information, maps, and resources
+      url: https://aztrail.org/explore/passages/
+      last_updated: '2025-02-21'
 
-- **Passage 11e**: Pusch Ridge Wilderness Bypass (East)
-  * Alternative route east of wilderness
-  * Emergency/alternate route
-  * Less commonly used
-  * Connects to different trail systems
+passages:
+  - number: '1'
+    name: Huachuca Mountains
+    resources:
+      info_page: https://aztrail.org/...
+      history_url: https://aztrailmedia.s3...
+      map_url: https://aztrailmedia.s3...
+      profile_url: https://aztrailmedia.s3...
+      track_url: https://aztrailmedia.s3...
+      waypoints_gps_url: https://aztrailmedia.s3...
+      waypoints_mp_url: https://aztrailmedia.s3...
+    length_miles: 20.3
+    elevation:
+      start_ft: 5905.0
+      end_ft: 5667.0
+      min_ft: 5517.0
+      max_ft: 9098.0
+      total_gain_ft: 4682.0
+      total_loss_ft: 4919.0
+      avg_grade_pct: 11.5
+      max_grade_pct: 74.8
+      per_mile_ft: 11.7
+    coordinates:
+      start:
+        lat: 31.33361
+        lon: -110.28276
+      end:
+        lat: 31.41941
+        lon: -110.4419
+```
 
-Our Processing Approach:
-1. Process only the main Passage 11 route
-2. Skip both 11a and 11e bypass variants
-3. Generate single GPX file for Passage 11
-4. Maintain consistent passage numbering
+## Dependencies
 
-Rationale for this approach:
-- **Simplicity**: Single clear route for planning
-- **Authenticity**: Follows traditional AZT alignment
-- **Consistency**: Matches typical thru-hiker experience
-- **Data Management**: Cleaner data structure
-- **Planning**: Easier to calculate distances and timelines
+Required Python packages:
+- requests
+- beautifulsoup4
+- geopandas
+- numpy
+- pyyaml
+- shapely
 
-Implications:
-- Users need wilderness permits for Pusch Ridge
-- Bypass variants not included in generated data
-- Distance calculations based on main route
-- Section planning assumes wilderness traverse
+Install dependencies with:
+```bash
+pip install requests beautifulsoup4 geopandas numpy pyyaml shapely
+```
 
-Note: While bypass options exist and may be necessary in some cases (fire closures, permit issues, etc.), our data processing focuses on the primary AZT route. Users should consult the Arizona Trail Association website for current conditions and bypass information when needed.
+## Development
 
-### Data Structure
-The processor generates three types of files:
-1. GPX files in `data/gpx/`
-   - One file per passage
-   - Continuous track representation
-   - Compatible with most GPS devices
-
-2. YAML files in `data/passages/`
-   - Passage metadata
-   - Start/end coordinates
-   - Official and calculated distances
-   - Last update timestamp
-
-3. Summary JSON in `data/metadata/`
-   - Processing timestamp
-   - Passage statistics
-   - Gap analysis results
-
-## Attribution
-   - Gap analysis results 
+When modifying the code:
+1. Each module should have comprehensive docstrings
+2. Use type hints for function parameters and return values
+3. Handle errors gracefully with appropriate logging
+4. Update tests when adding new functionality
+5. Keep the README updated with any architectural changes 
