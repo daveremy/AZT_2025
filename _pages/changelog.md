@@ -9,11 +9,29 @@ permalink: /changelog/
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
 ## Recent Changes
-- February 21, 2025 18:04 - chore: remove unused dependencies and old scripts
+- February 21, 2025 18:05 - feat: add AZT official data processing package
 
-- Remove selenium and webdriver-manager from requirements.txt
+Add new azt_official_data package for managing trail data:
 
-- Remove old generate_elevation_profiles.py script (replaced by azt_official_data)
+- Passage data parser from ATA website
+
+- GPX track file downloader and parser
+
+- Elevation statistics calculator
+
+- Trail segment analyzer
+
+- YAML data writer with proper attribution
+
+Add initial passages.yml with:
+
+- Complete passage data from ATA
+
+- Access points with GPS coordinates
+
+- Elevation profiles and statistics
+
+- Trail resources and URLs
 Major changes:
 Git:
 Documentation:
@@ -26,11 +44,14 @@ Dependencies:
 - Update .gitignore to exclude:
 - Simplify document requirements
 - Rewrite azt_official_data/README.md with current architecture
+- Remove selenium and webdriver-manager from requirements.txt
 - Remove redundant navigation items given existing gear
+- Remove old generate_elevation_profiles.py script (replaced by azt_official_data)
 - Remove floss from list
 - Remove deprecated validate_gpx_files.py as functionality is now in azt_official_data
 - Move ordered items to Small Stuff section with weights
 - Mark items already acquired or ordered
+- February 21, 2025 18:04 - chore: remove unused dependencies and old scripts
 - February 21, 2025 18:03 - refactor: consolidate trail data processing and cleanup deprecated code
 - February 21, 2025 12:50 - refactor: migrate to AZGEO data source - Remove old GPS analysis scripts, update dependencies, add documentation for MultiLineString and Passage 11 handling
 - February 21, 2025 11:17 - feat: Add GPS data analysis script - Create script to analyze AZT passage GPS data - Add requirements file for GPS analysis dependencies
