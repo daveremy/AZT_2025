@@ -9,7 +9,7 @@ permalink: /changelog/
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
 ## Recent Changes
-- February 23, 2025 11:26 - Add Google Maps link and update drive time for Oak Tree Canyon Trailhead
+- February 23, 2025 11:28 - Fix Beth's Grand Canyon rim-to-rim date to May 15
 Major changes:
 Git:
 Documentation:
@@ -36,6 +36,7 @@ Add initial passages.yml with:
 - Move ordered items to Small Stuff section with weights
 - Mark items already acquired or ordered
 - GPX track file downloader and parser
+- February 23, 2025 11:26 - Add Google Maps link and update drive time for Oak Tree Canyon Trailhead
 - February 23, 2025 11:24 - Add links to shakedown hikes page from index and pre-departure checklist
 - February 23, 2025 09:56 - Add shakedown hike plan for Santa Rita Mountains overnight
 - February 23, 2025 09:32 - Clarify Platypus bladder usage: contains dirty water that needs filtering
