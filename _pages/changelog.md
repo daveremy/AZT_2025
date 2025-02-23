@@ -9,39 +9,22 @@ permalink: /changelog/
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
 ## Recent Changes
-- February 21, 2025 18:05 - feat: add AZT official data processing package
-
-Add new azt_official_data package for managing trail data:
-
-- Passage data parser from ATA website
-
-- GPX track file downloader and parser
-
-- Elevation statistics calculator
-
-- Trail segment analyzer
-
-- YAML data writer with proper attribution
-
-Add initial passages.yml with:
-
-- Complete passage data from ATA
-
-- Access points with GPS coordinates
-
-- Elevation profiles and statistics
-
-- Trail resources and URLs
+- February 21, 2025 18:05 - docs: update changelog with recent changes
 Major changes:
 Git:
 Documentation:
 Dependencies:
+Add new azt_official_data package for managing trail data:
+Add initial passages.yml with:
+- YAML data writer with proper attribution
 - Update total base weight to 207.73 oz (12.98 lbs)
 - Update base weight to 13.36 lbs
 - Update azt_official_data/requirements.txt with complete dependency list
 - Update Still Need section
 - Update Kitchen & Water total to 28.1 oz
 - Update .gitignore to exclude:
+- Trail segment analyzer
+- Trail resources and URLs
 - Simplify document requirements
 - Rewrite azt_official_data/README.md with current architecture
 - Remove selenium and webdriver-manager from requirements.txt
@@ -49,8 +32,11 @@ Dependencies:
 - Remove old generate_elevation_profiles.py script (replaced by azt_official_data)
 - Remove floss from list
 - Remove deprecated validate_gpx_files.py as functionality is now in azt_official_data
+- Passage data parser from ATA website
 - Move ordered items to Small Stuff section with weights
 - Mark items already acquired or ordered
+- GPX track file downloader and parser
+- February 21, 2025 18:05 - feat: add AZT official data processing package
 - February 21, 2025 18:04 - chore: remove unused dependencies and old scripts
 - February 21, 2025 18:03 - refactor: consolidate trail data processing and cleanup deprecated code
 - February 21, 2025 12:50 - refactor: migrate to AZGEO data source - Remove old GPS analysis scripts, update dependencies, add documentation for MultiLineString and Passage 11 handling
@@ -110,7 +96,10 @@ Dependencies:
 - February 15, 2025 22:35 - Improve development setup: Add start script, remove duplicate workflow, update config for GitHub Pages
 - February 15, 2025 21:41 - Initial commit: AZT 2025 Planning Site
 - Expand Still Need into organized categories
+- Elevation statistics calculator
+- Elevation profiles and statistics
 - Create dedicated Repair Kit section with estimated weights\n- Update total base weight to include repair kit\n- Mark Tenacious Tape as ordered
+- Complete passage data from ATA
 - Add zip-lock strategy note for organization
 - Add waterproof matches (0.2 oz) to Kitchen section
 - Add water source scoop to toiletries section
@@ -120,6 +109,7 @@ Dependencies:
 - Add note about Smart water bottle modification
 - Add comprehensive documentation for GPX track files in README
 - Add 3 gallon bags (0.6 oz) and 2 quart bags (0.2 oz) to Small Stuff section
+- Access points with GPS coordinates
 *Note: All times are Pacific Time (PT)*
   * Virtual environments
   * Specify version requirements

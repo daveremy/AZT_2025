@@ -172,6 +172,10 @@ title: My AZT 2025 Plan
       <h3>✅ Pre-Departure</h3>
       <p>Final preparations</p>
     </a>
+    <a href="{{ site.baseurl }}/passages" class="link-card">
+      <h3>🗺️ Trail Passages</h3>
+      <p>{{ site.data.passages.passages.size }} official passages</p>
+    </a>
   </div>
 </div>
 
