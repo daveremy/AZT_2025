@@ -97,29 +97,29 @@ permalink: /pack-checklist/
 </div>
 <div class="progress-text" id="progress-text">0% Complete</div>
 
-# Pack Checklist
+<h1>Pack Checklist</h1>
 
-A detailed, step-by-step guide for packing my backpack. This ensures consistent packing and helps verify I haven't forgotten anything.
+<p>A detailed, step-by-step guide for packing my backpack. This ensures consistent packing and helps verify I haven't forgotten anything.</p>
 
 <div class="section">
-## Before Starting
+<h2>Before Starting</h2>
 
-1. Lay out all gear on a flat surface
-2. Check weather forecast
-3. Have 3 gallon ziplocks and 2 quart ziplocks ready
-4. Ensure pack is completely empty
+<div class="checklist-item">1. <input type="checkbox" class="pack-item"> Lay out all gear on a flat surface</div>
+<div class="checklist-item">2. <input type="checkbox" class="pack-item"> Check weather forecast</div>
+<div class="checklist-item">3. <input type="checkbox" class="pack-item"> Have 3 gallon ziplocks and 2 quart ziplocks ready</div>
+<div class="checklist-item">4. <input type="checkbox" class="pack-item"> Ensure pack is completely empty</div>
 </div>
 
 <div class="section">
-## Organized Bags
+<h2>Organized Bags</h2>
 
-### Electronics Bag (Quart Ziplock #1)
+<h3>Electronics Bag (Quart Ziplock #1)</h3>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> 2x Nitecore NB10000 batteries</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> 2x USB-C cables</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> RovyVon Aurora A5 G4 light</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Insta360 X4 extra battery</div>
 
-### Toiletries Bag (Quart Ziplock #2)
+<h3>Toiletries Bag (Quart Ziplock #2)</h3>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> VIVAGO bamboo toothbrush</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Crest travel toothpaste</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Medications in pill pocket</div>
@@ -128,29 +128,29 @@ A detailed, step-by-step guide for packing my backpack. This ensures consistent 
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Sunscreen (small)</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Lip balm</div>
 
-### Sleep Clothes Bag (Gallon Ziplock #1)
+<h3>Sleep Clothes Bag (Gallon Ziplock #1)</h3>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Helly Hansen long sleeve</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> New Balance running shorts</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Injinji liner crew socks</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Uniqlo Airism boxers (sleep pair)</div>
 
-### Bathroom Kit (Gallon Ziplock #2)
+<h3>Bathroom Kit (Gallon Ziplock #2)</h3>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> TheTentLab Deuce trowel</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Pre-dried wipes</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> TP</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Hand sanitizer (dedicated)</div>
 
-### Wet Weather Bag (Gallon Ziplock #3)
-*Only when rain expected:*
+<h3>Wet Weather Bag (Gallon Ziplock #3)</h3>
+<em>Only when rain expected:</em>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Pack liner (garbage bag)</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Rain jacket</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Rain pants</div>
 </div>
 
 <div class="section">
-## Packing Order (Bottom to Top)
+<h2>Packing Order (Bottom to Top)</h2>
 
-### Bottom Section (Sleep System)
+<h3>Bottom Section (Sleep System)</h3>
 <div class="checklist-item">1. <input type="checkbox" class="pack-item"> Line with garbage bag if rain expected</div>
 <div class="checklist-item">2. <input type="checkbox" class="pack-item"> Zpacks Solo quilt (in stuff sack)</div>
 <div class="checklist-item">3. <input type="checkbox" class="pack-item"> Thermarest NeoAir XLite NXT</div>
@@ -158,7 +158,7 @@ A detailed, step-by-step guide for packing my backpack. This ensures consistent 
 <div class="checklist-item">5. <input type="checkbox" class="pack-item"> Camp flips</div>
 <div class="checklist-item">6. <input type="checkbox" class="pack-item"> Groundsheet</div>
 
-### Middle Section (Heavy Items)
+<h3>Middle Section (Heavy Items)</h3>
 <div class="checklist-item">1. <input type="checkbox" class="pack-item"> Ursack with food (against back)</div>
 <div class="checklist-item">2. <input type="checkbox" class="pack-item"> Firemaple cook system:</div>
    <div class="checklist-item" style="margin-left: 20px">- <input type="checkbox" class="pack-item"> Pot with stove inside</div>
@@ -169,7 +169,7 @@ A detailed, step-by-step guide for packing my backpack. This ensures consistent 
 <div class="checklist-item">4. <input type="checkbox" class="pack-item"> Patagonia Nano Puff (when not wearing)</div>
 <div class="checklist-item">5. <input type="checkbox" class="pack-item"> Brynje base layer</div>
 
-### Top Section (Quick Access)
+<h3>Top Section (Quick Access)</h3>
 <div class="checklist-item">1. <input type="checkbox" class="pack-item"> Electronics bag</div>
 <div class="checklist-item">2. <input type="checkbox" class="pack-item"> Toiletries bag</div>
 <div class="checklist-item">3. <input type="checkbox" class="pack-item"> Bathroom kit</div>
@@ -178,7 +178,7 @@ A detailed, step-by-step guide for packing my backpack. This ensures consistent 
 <div class="checklist-item">6. <input type="checkbox" class="pack-item"> Bike gloves</div>
 <div class="checklist-item">7. <input type="checkbox" class="pack-item"> Alternate socks/underwear</div>
 
-### Outside Mesh Pocket
+<h3>Outside Mesh Pocket</h3>
 <div class="checklist-item">1. <input type="checkbox" class="pack-item"> Tent body and poles (if wet)</div>
 <div class="checklist-item">2. <input type="checkbox" class="pack-item"> Wet gear that needs to dry</div>
 <div class="checklist-item">3. <input type="checkbox" class="pack-item"> Trekology pillow</div>
@@ -186,9 +186,9 @@ A detailed, step-by-step guide for packing my backpack. This ensures consistent 
 </div>
 
 <div class="section">
-## Specific Pocket Setup
+<h2>Specific Pocket Setup</h2>
 
-### Hip Belt Pockets
+<h3>Hip Belt Pockets</h3>
 Left:
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Snacks</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Lip balm</div>
@@ -199,7 +199,7 @@ Right:
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Victorinox Classic SD</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Small hand sanitizer</div>
 
-### Shoulder Strap Setup
+<h3>Shoulder Strap Setup</h3>
 Left:
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Water bottle pocket with Smartwater bottle</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> InReach Mini 2 on attachment</div>
@@ -208,14 +208,14 @@ Right:
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Insta360 mount</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Second Smartwater bottle in side pocket</div>
 
-### Side Pockets
+<h3>Side Pockets</h3>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Trekking poles (when not in use)</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Wet items to dry</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Easy access snacks</div>
 </div>
 
 <div class="section">
-## Final Checks
+<h2>Final Checks</h2>
 
 <div class="checklist-item">1. <input type="checkbox" class="pack-item"> Bounce test - everything secure?</div>
 <div class="checklist-item">2. <input type="checkbox" class="pack-item"> All zippers closed?</div>
@@ -226,21 +226,21 @@ Right:
 </div>
 
 <div class="section">
-## Weather-Specific Adjustments
+<h2>Weather-Specific Adjustments</h2>
 
-### For Rain
+<h3>For Rain</h3>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Pack liner installed</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Rain gear at top</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Electronics double-bagged</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Dry bags for critical items</div>
 
-### For Cold
+<h3>For Cold</h3>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Puffy accessible</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Gloves handy</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Warm layers near top</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Brynje base layer available</div>
 
-### For Desert
+<h3>For Desert</h3>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Extra water capacity ready</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Sun protection accessible</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Filter easy to reach</div>
@@ -248,7 +248,7 @@ Right:
 </div>
 
 <div class="section">
-## Pre-Hike Verification
+<h2>Pre-Hike Verification</h2>
 
 <div class="checklist-item">1. <input type="checkbox" class="pack-item"> Weigh fully packed bag</div>
 <div class="checklist-item">2. <input type="checkbox" class="pack-item"> Walk test for 5 minutes</div>
@@ -299,4 +299,4 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-*Remember: A well-packed bag makes for easier hiking. Take time to pack deliberately and consistently.* 
+<em>Remember: A well-packed bag makes for easier hiking. Take time to pack deliberately and consistently.</em> 
