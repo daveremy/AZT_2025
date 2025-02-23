@@ -22,6 +22,7 @@ permalink: /pre-departure-checklist/
 
 ## Gear Prep
 - [ ] Test Everything
+  - [ ] Complete [shakedown hike](/shakedown-hikes/) to test full system
   - [ ] Set up tent 5x
   - [ ] Pack/unpack system dialed
   - [ ] Filter flow rate good

@@ -176,6 +176,10 @@ title: My AZT 2025 Plan
       <h3>🗺️ Trail Passages</h3>
       <p>{{ site.data.passages.passages.size }} official passages</p>
     </a>
+    <a href="{{ site.baseurl }}/shakedown-hikes" class="link-card">
+      <h3>🏃‍♂️ Shakedown Hikes</h3>
+      <p>Test runs and gear checks</p>
+    </a>
   </div>
 </div>
 
