@@ -123,9 +123,7 @@ permalink: /pack-checklist/
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> VIVAGO bamboo toothbrush</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Crest travel toothpaste</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Medications in pill pocket</div>
-<div class="checklist-item">- <input type="checkbox" class="pack-item"> Leukotape strip</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Hand sanitizer (small)</div>
-<div class="checklist-item">- <input type="checkbox" class="pack-item"> Sunscreen (small)</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Lip balm</div>
 
 <h3>Sleep Clothes Bag (Gallon Ziplock #1)</h3>
@@ -189,21 +187,20 @@ permalink: /pack-checklist/
 <h2>Specific Pocket Setup</h2>
 
 <h3>Hip Belt Pockets</h3>
-<div class="checklist-item">- <input type="checkbox" class="pack-item"> Left pocket: snacks and small items</div>
+<div class="checklist-item">- <input type="checkbox" class="pack-item"> Left pocket: snacks, sunscreen, and small items</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Right pocket: phone and essentials</div>
 
 <h3>Shoulder Strap Setup</h3>
-<div class="checklist-item">- <input type="checkbox" class="pack-item"> Left strap bottle holder: Smartwater bottle</div>
-<div class="checklist-item">- <input type="checkbox" class="pack-item"> Right strap bottle holder: Second Smartwater bottle</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Magnetic selfie stick holster on left strap</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Insta360 X4 mounted in magnetic holster</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Verify Insta360 lens cap is secure</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> InReach Mini 2 on right strap mount</div>
+<div class="checklist-item">- <input type="checkbox" class="pack-item"> 1L Smartwater bottle in right strap holder</div>
 
 <h3>Side Pockets</h3>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Left side QuickPocket: easy access to larger items</div>
-<div class="checklist-item">- <input type="checkbox" class="pack-item"> Left side main pocket: trekking poles when not in use</div>
-<div class="checklist-item">- <input type="checkbox" class="pack-item"> Right side pocket: additional water storage or wet items</div>
+<div class="checklist-item">- <input type="checkbox" class="pack-item"> Left side main pocket: 1L Smartwater bottle and trekking poles when not in use</div>
+<div class="checklist-item">- <input type="checkbox" class="pack-item"> Right side pocket: 1L Smartwater bottle</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Small zippered pocket behind right side pocket: valuables</div>
 
 <h3>Front Mesh Pocket</h3>
@@ -211,6 +208,18 @@ permalink: /pack-checklist/
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Wet tent when needed</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Items needed during the day</div>
 <div class="checklist-item">- <input type="checkbox" class="pack-item"> Wet gear that needs to dry</div>
+</div>
+
+<div class="section">
+<h2>First Aid</h2>
+<div class="checklist-item">- <input type="checkbox" class="pack-item"> Leukotape P strip (for blister prevention/treatment)</div>
+<div class="checklist-item">- <input type="checkbox" class="pack-item"> Medications in pill pockets:</div>
+<div class="checklist-item" style="margin-left: 20px">- <input type="checkbox" class="pack-item"> Ibuprofen</div>
+<div class="checklist-item" style="margin-left: 20px">- <input type="checkbox" class="pack-item"> Acetaminophen</div>
+<div class="checklist-item" style="margin-left: 20px">- <input type="checkbox" class="pack-item"> Benadryl</div>
+<div class="checklist-item" style="margin-left: 20px">- <input type="checkbox" class="pack-item"> Imodium</div>
+<div class="checklist-item" style="margin-left: 20px">- <input type="checkbox" class="pack-item"> Pepto</div>
+<div class="checklist-item" style="margin-left: 20px">- <input type="checkbox" class="pack-item"> Melatonin</div>
 </div>
 
 <div class="section">
