@@ -189,29 +189,28 @@ permalink: /pack-checklist/
 <h2>Specific Pocket Setup</h2>
 
 <h3>Hip Belt Pockets</h3>
-Left:
-<div class="checklist-item">- <input type="checkbox" class="pack-item"> Snacks</div>
-<div class="checklist-item">- <input type="checkbox" class="pack-item"> Lip balm</div>
-<div class="checklist-item">- <input type="checkbox" class="pack-item"> Small sunscreen</div>
-
-Right:
-<div class="checklist-item">- <input type="checkbox" class="pack-item"> Phone</div>
-<div class="checklist-item">- <input type="checkbox" class="pack-item"> Victorinox Classic SD</div>
-<div class="checklist-item">- <input type="checkbox" class="pack-item"> Small hand sanitizer</div>
+<div class="checklist-item">- <input type="checkbox" class="pack-item"> Left pocket: snacks and small items</div>
+<div class="checklist-item">- <input type="checkbox" class="pack-item"> Right pocket: phone and essentials</div>
 
 <h3>Shoulder Strap Setup</h3>
-Left:
-<div class="checklist-item">- <input type="checkbox" class="pack-item"> Water bottle pocket with Smartwater bottle</div>
-<div class="checklist-item">- <input type="checkbox" class="pack-item"> InReach Mini 2 on attachment</div>
-
-Right:
-<div class="checklist-item">- <input type="checkbox" class="pack-item"> Insta360 mount</div>
-<div class="checklist-item">- <input type="checkbox" class="pack-item"> Second Smartwater bottle in side pocket</div>
+<div class="checklist-item">- <input type="checkbox" class="pack-item"> Left strap bottle holder: Smartwater bottle</div>
+<div class="checklist-item">- <input type="checkbox" class="pack-item"> Right strap bottle holder: Second Smartwater bottle</div>
+<div class="checklist-item">- <input type="checkbox" class="pack-item"> Magnetic selfie stick holster on left strap</div>
+<div class="checklist-item">- <input type="checkbox" class="pack-item"> Insta360 X4 mounted in magnetic holster</div>
+<div class="checklist-item">- <input type="checkbox" class="pack-item"> Verify Insta360 lens cap is secure</div>
+<div class="checklist-item">- <input type="checkbox" class="pack-item"> InReach Mini 2 on right strap mount</div>
 
 <h3>Side Pockets</h3>
-<div class="checklist-item">- <input type="checkbox" class="pack-item"> Trekking poles (when not in use)</div>
-<div class="checklist-item">- <input type="checkbox" class="pack-item"> Wet items to dry</div>
-<div class="checklist-item">- <input type="checkbox" class="pack-item"> Easy access snacks</div>
+<div class="checklist-item">- <input type="checkbox" class="pack-item"> Left side QuickPocket: easy access to larger items</div>
+<div class="checklist-item">- <input type="checkbox" class="pack-item"> Left side main pocket: trekking poles when not in use</div>
+<div class="checklist-item">- <input type="checkbox" class="pack-item"> Right side pocket: additional water storage or wet items</div>
+<div class="checklist-item">- <input type="checkbox" class="pack-item"> Small zippered pocket behind right side pocket: valuables</div>
+
+<h3>Front Mesh Pocket</h3>
+<div class="checklist-item">- <input type="checkbox" class="pack-item"> Rain gear for quick access</div>
+<div class="checklist-item">- <input type="checkbox" class="pack-item"> Wet tent when needed</div>
+<div class="checklist-item">- <input type="checkbox" class="pack-item"> Items needed during the day</div>
+<div class="checklist-item">- <input type="checkbox" class="pack-item"> Wet gear that needs to dry</div>
 </div>
 
 <div class="section">
