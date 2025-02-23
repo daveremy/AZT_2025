@@ -145,7 +145,7 @@ title: My AZT 2025 Plan
 
 <div class="trail-overview">
   <h2>The Plan</h2>
-  <p>Beginning {{ site.data.trail_stats.timeline.start_date | date: "%B %-d" }}, I'll be hiking northbound from Mexico to Utah. The journey covers {{ site.data.trail_stats.total_distance }} miles through Arizona's diverse landscapes - from desert lowlands to alpine forests, through canyons and mountain ranges. My wife Beth will join me for the Grand Canyon rim-to-rim section on {{ site.data.trail_stats.timeline.rim_to_rim | date: "%B %-d" }}, which will be a special highlight of the trek.</p>
+  <p>Beginning {{ site.data.trail_stats.timeline.start_date | date: "%B %-d" }}, I'll be hiking northbound from Mexico to Utah. The journey covers {{ site.data.trail_stats.total_distance }} miles through Arizona's diverse landscapes - from desert lowlands to alpine forests, through canyons and mountain ranges. My wife Beth will join me for the Grand Canyon rim-to-rim section on May 15, which will be a special highlight of the trek.</p>
 </div>
 
 <div class="elevation-overview">
