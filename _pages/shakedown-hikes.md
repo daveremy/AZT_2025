@@ -23,8 +23,9 @@ From 38093 S Samaniego Dr, Tucson:
 1. Head east on Sahuarita Rd
 2. Turn south on SR 83
 3. Turn west on Gardner Canyon Rd
-4. Follow to Oak Tree Canyon Trailhead
-Approximate drive time: 1 hour
+4. Follow to [Oak Tree Canyon Trailhead](https://www.google.com/maps/dir/38093+S+Samaniego+Dr,+Tucson,+AZ+85739/31.81072,-110.7233/@31.9391615,-110.8543621,11z/data=!3m1!4b1!4m9!4m8!1m5!1m1!1s0x86d5df3468838949:0x4b28a0d51b739f05!2m2!1d-110.9253244!2d32.4981766!1m0!3e0)
+
+Approximate drive time: 1 hour 15 minutes (50 miles)
 
 ### Hike Plan
 **Day 1**:
