@@ -96,16 +96,10 @@ categories:
       - "Balance between lightweight and durability"
     items:
       pack:
-        - name: "Hyperlite Mountain Gear Windrider"
-          weight_oz: 30.7
-          notes: "Large size"
-          url: "https://www.hyperlitemountaingear.com/products/3400-windrider"
-        - name: "Shoulder Pocket"
-          weight_oz: 1.4
-          notes: "For snacks and phone"
-        - name: "Shoulder Strap Bottle Pocket"
-          weight_oz: 1.2
-          notes: "For water access"
+        - name: "Durston Kakwa 55"
+          weight_oz: 31.0
+          notes: "2025 model (medium): Larger shoulder strap pockets for phone/bottles, larger hipbelt pockets, ergonomic hipbelt and shoulder straps, QuickPocket in left side pocket, front mesh pocket. Hollow aluminum frame with load lifters rated to 45 lbs."
+          url: "https://durstongear.com/product/kakwa-55-backpack"
       sleep:
         - name: "Thermarest NeoAir XLite NXT"
           weight_oz: 13.0
