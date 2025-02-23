@@ -6,6 +6,41 @@ permalink: gear-list/
 
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/gear-list.css?v=7">
 
+<style>
+.packing-links {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 1em;
+  margin: 2em 0;
+}
+
+.packing-links h2 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.packing-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.packing-links li {
+  margin: 0.5em 0;
+}
+
+.packing-links a {
+  color: #0366d6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.packing-links a:hover {
+  text-decoration: underline;
+}
+</style>
+
 <div class="summary-section">
 <div class="total-weight">
 {% include calculate_base_weight.html %}
@@ -121,7 +156,13 @@ Spring (March-May) • Desert to Alpine • 20°F to 90°F
 </div>
 </div>
 
-[Notes on how to pack the backpack]({{ site.baseurl }}/packing-your-backpack/)
+<div class="packing-links">
+<h2>Packing Resources</h2>
+<ul>
+<li><a href="{{ site.baseurl }}/packing-your-backpack/">General Packing Strategy</a> - Detailed guide on how to pack efficiently</li>
+<li><a href="{{ site.baseurl }}/pack-checklist/">Interactive Packing Checklist</a> - Step-by-step checklist for consistent packing</li>
+</ul>
+</div>
 
 <div class="still-needed">
 <h2>Still Needed</h2>
