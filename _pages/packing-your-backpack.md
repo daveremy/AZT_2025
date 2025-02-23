@@ -70,21 +70,27 @@ Quick access + wet stuff:
 ## Pocket Setup
 
 Hip Belt:
-- Snacks
-- Phone
-- Lip stuff
-- Sunscreen
-- Small essentials
+- Large hip belt pockets for snacks, phone, sunscreen
+- Easy one-handed operation
+- Balanced weight distribution between pockets
 
 Shoulder Straps:
-- Left: Water bottle
-- Right: Insta360 mount
-- Extra pocket: InReach
+- Both straps have large top-opening pockets
+- Perfect for phone, small water bottles
+- Insta360 mount on right strap
+- InReach on left strap
 
 Side Pockets:
-- Smartwater bottles
+- Two large water bottle pockets
+- QuickPocket in left side for quick access to larger items (hat, gloves, snacks)
 - Poles when not using
-- Wet stuff drying
+- Wet items that need to dry
+
+Front Mesh Pocket:
+- Rain gear for quick access
+- Wet tent when needed
+- Items needed during the day
+- Drying gear
 
 ## Important Reminders
 
@@ -93,7 +99,7 @@ Weather Protection:
 - Pack garbage bag if rain likely
 - Electronics in waterproof ziplocks
 - Insta360 - remember the cap
-- Wet tent goes in outside mesh
+- Wet tent goes in front mesh
 - Keep rain gear handy
 - KEEP SLEEP STUFF DRY
 
@@ -152,15 +158,14 @@ Pre-Hike Checklist:
    - Dixie's desert advice: [Desert Hiking Tips](https://www.youtube.com/watch?v=bJ4B4B1bXMY)
    - Darwin's desert setup: [Desert Hiking Gear Organization](https://www.youtube.com/watch?v=6_zVAZUqDRY)
 
-3. My Pack (Hyperlite):
-   - Official HMG video: [Packing a Windrider](https://www.youtube.com/watch?v=J3fGHDKN0Pg)
-   - BPL's fitting guide: [HMG Pack Fitting Guide](https://www.youtube.com/watch?v=h8GtB2UkY_M)
+3. My Pack (Kakwa 55):
+   - [Durston Kakwa 55 Product Page](https://durstongear.com/product/kakwa-55-backpack)
+   - [Pack Fitting Guide](https://durstongear.com/pages/pack-fitting-guide)
 
 Note to self: Good packing = comfortable hiking. Take time to dial in the system and adjust based on what works.
 
 ## Reference Links
 
-- [HMG's fitting guide](https://www.hyperlitemountaingear.com/pages/pack-fitting-guide)
 - [AZT gear recs](https://aztrail.org/prepare/essential-gear/)
 - [BPL's UL guide](https://backpackinglight.com/ultralight-packing-guide/)
 

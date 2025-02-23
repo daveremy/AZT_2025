@@ -9,7 +9,7 @@ permalink: /changelog/
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
 ## Recent Changes
-- February 23, 2025 08:35 - Fix header formatting in pack checklist page
+- February 23, 2025 08:44 - Update Kakwa 55 description with 2025 model features
 Major changes:
 Git:
 Documentation:
@@ -36,6 +36,7 @@ Add initial passages.yml with:
 - Move ordered items to Small Stuff section with weights
 - Mark items already acquired or ordered
 - GPX track file downloader and parser
+- February 23, 2025 08:35 - Fix header formatting in pack checklist page
 - February 23, 2025 08:27 - Add link to interactive pack checklist from gear list
 - February 23, 2025 08:25 - Add interactive pack checklist page
 - February 23, 2025 08:12 - Enhance passage data handling and visualization - Move debug HTML files to system temp directory - Improve coordinate extraction with support for multiple formats (Google Maps links, DMS, decimal degrees) - Add new passages page with detailed trail info and interactive elements - Update coordinate parsing to prioritize Google Maps links over text parsing - Add comprehensive error handling and logging for coordinate extraction - Update index page to include link to passages page - Clean up changelog formatting
