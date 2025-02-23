@@ -45,7 +45,7 @@ Night setup goes here:
 Core weight here:
 - Ursack with food
 - Firemaple cooking setup
-- 2L Platypus (pre-filtered)
+- 2L Platypus (for dirty/pre-strained water that needs filtering)
 - Puffy when not wearing it
 - Spare base layer
 
@@ -75,16 +75,15 @@ Hip Belt:
 - Balanced weight distribution between pockets
 
 Shoulder Straps:
-- Both straps have large top-opening pockets
-- Perfect for phone, small water bottles
-- Insta360 mount on right strap
-- InReach on left strap
+- Left strap has Insta360 X4 in magnetic mount
+- Right strap has 1L Smartwater bottle
+- Quick access to camera and water while hiking
 
 Side Pockets:
-- Two large water bottle pockets
-- QuickPocket in left side for quick access to larger items (hat, gloves, snacks)
-- Poles when not using
-- Wet items that need to dry
+- Two large water bottle pockets, each with 1L Smartwater bottle
+- QuickPocket in left side for quick access to larger items
+- Trekking poles when not using
+- Small zippered pocket behind right side pocket for valuables
 
 Front Mesh Pocket:
 - Rain gear for quick access

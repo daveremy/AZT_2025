@@ -9,7 +9,7 @@ permalink: /changelog/
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
 ## Recent Changes
-- February 23, 2025 08:50 - Update pack checklist for Kakwa 55: pocket layout, strap configuration, and camera placement
+- February 23, 2025 08:57 - Update water bottle configuration: 2x 1L bottles in side pockets, 1L on right strap, Insta360 on left strap
 Major changes:
 Git:
 Documentation:
@@ -36,6 +36,7 @@ Add initial passages.yml with:
 - Move ordered items to Small Stuff section with weights
 - Mark items already acquired or ordered
 - GPX track file downloader and parser
+- February 23, 2025 08:50 - Update pack checklist for Kakwa 55: pocket layout, strap configuration, and camera placement
 - February 23, 2025 08:46 - Update packing strategy for Kakwa 55 pocket layout
 - February 23, 2025 08:44 - Update Kakwa 55 description with 2025 model features
 - February 23, 2025 08:35 - Fix header formatting in pack checklist page

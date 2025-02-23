@@ -163,7 +163,7 @@ permalink: /pack-checklist/
    <div class="checklist-item" style="margin-left: 20px">- <input type="checkbox" class="pack-item"> Fuel canister</div>
    <div class="checklist-item" style="margin-left: 20px">- <input type="checkbox" class="pack-item"> Spork</div>
    <div class="checklist-item" style="margin-left: 20px">- <input type="checkbox" class="pack-item"> X-mug</div>
-<div class="checklist-item">3. <input type="checkbox" class="pack-item"> Platypus 2L bladder (pre-filtered)</div>
+<div class="checklist-item">3. <input type="checkbox" class="pack-item"> Platypus 2L bladder (for dirty/pre-strained water, needs filtering before use)</div>
 <div class="checklist-item">4. <input type="checkbox" class="pack-item"> Patagonia Nano Puff (when not wearing)</div>
 <div class="checklist-item">5. <input type="checkbox" class="pack-item"> Brynje base layer</div>
 
