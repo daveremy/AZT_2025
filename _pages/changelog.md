@@ -9,7 +9,7 @@ permalink: /changelog/
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
 ## Recent Changes
-- February 24, 2025 06:27 - Update overall plan and Patagonia to Tucson section with supplementary stops at Summerhaven and High Jinks Ranch
+- February 24, 2025 06:32 - Add link to timeline page in index
 Major changes:
 Git:
 Documentation:
@@ -36,6 +36,7 @@ Add initial passages.yml with:
 - Move ordered items to Small Stuff section with weights
 - Mark items already acquired or ordered
 - GPX track file downloader and parser
+- February 24, 2025 06:27 - Update overall plan and Patagonia to Tucson section with supplementary stops at Summerhaven and High Jinks Ranch
 - February 24, 2025 06:01 - Update README to include recent additions and reflect current project state
 - February 24, 2025 05:57 - Add section on using FarOut app for planning in shakedown hikes page
 - February 23, 2025 11:39 - Update passages data with all 43 passages
