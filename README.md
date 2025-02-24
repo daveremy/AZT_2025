@@ -14,6 +14,10 @@ This site serves as a comprehensive planning tool for my upcoming Arizona Trail 
 - Dynamic countdown to start date
 - Mobile-responsive design
 
+### Recent Additions
+
+- **FarOut App Integration**: Added a section on using the FarOut app for planning shakedown hikes, including features for route planning, water source updates, navigation, and community insights. This addition enhances the planning capabilities by providing real-time data and user feedback.
+
 ## Directory Structure
 
 ### Content Pages (`_pages/`)
