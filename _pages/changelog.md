@@ -9,7 +9,7 @@ permalink: /changelog/
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
 ## Recent Changes
-- February 24, 2025 07:21 - Enhance Resources and Index with Resupply Information\n\n- Added new resupply guides to the resources page:\n  - Arizona Trail Resupply Guide by Jeff Garmire\n  - The Ultimate Guide to Resupply and Towns on the Arizona Trail by J. Taylor Bell\n- Updated the index page to include a new section for Resupply Strategy with comprehensive resupply points and logistics.
+- February 24, 2025 13:52 - Add gear list rendering with Liquid template
 Major changes:
 Git:
 Documentation:
@@ -36,6 +36,7 @@ Add initial passages.yml with:
 - Move ordered items to Small Stuff section with weights
 - Mark items already acquired or ordered
 - GPX track file downloader and parser
+- February 24, 2025 07:21 - Enhance Resources and Index with Resupply Information\n\n- Added new resupply guides to the resources page:\n  - Arizona Trail Resupply Guide by Jeff Garmire\n  - The Ultimate Guide to Resupply and Towns on the Arizona Trail by J. Taylor Bell\n- Updated the index page to include a new section for Resupply Strategy with comprehensive resupply points and logistics.
 - February 24, 2025 07:20 - Enhance Resources and Index with Resupply Information\n\n- Added new resupply guides to the resources page:\n  - Arizona Trail Resupply Guide by Jeff Garmire\n  - The Ultimate Guide to Resupply and Towns on the Arizona Trail by J. Taylor Bell\n- Updated the index page to include a new section for Resupply Strategy with comprehensive resupply points and logistics.
 - February 24, 2025 07:16 - Refactor and Update Passage Data\n\n- Updated metadata formatting by switching from single to double quotes for consistency.\n- Removed detailed information for several passages, including:\n  - Passage names, resources, access points, and elevation data.\n- These changes aim to streamline the data structure and improve readability.
 - February 24, 2025 06:32 - Add link to timeline page in index
