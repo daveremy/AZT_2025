@@ -38,6 +38,14 @@ permalink: /resources/
     - Sarah "Desert Rose" Williams (2023)
     - John "AZT Runner" Thompson (2022)
 
+- [Arizona Trail Resupply Guide](https://backpackingroutes.com/arizona-trail-resupply-guide/) by Jeff Garmire
+  - Comprehensive guide to resupply points along the Arizona Trail
+  - Includes tips and strategies for efficient resupply planning
+
+- [The Ultimate Guide to Resupply and Towns on the Arizona Trail](https://thetrek.co/the-ultimate-guide-to-resupply-and-towns-on-the-arizona-trail/) by J. Taylor Bell
+  - Comprehensive guide to resupply points and towns along the Arizona Trail
+  - Includes insights on town amenities and logistics
+
 ## Navigation Resources
 - [FarOut (Guthook) AZT Guide](https://faroutguides.com/arizona-trail-map)
   - Most popular navigation app

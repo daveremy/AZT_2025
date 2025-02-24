@@ -184,6 +184,10 @@ title: My AZT 2025 Plan
       <h3>📅 Estimated Timeline</h3>
       <p>Key dates and milestones</p>
     </a>
+    <a href="{{ site.baseurl }}/resupply" class="link-card">
+      <h3>🛒 Resupply Strategy</h3>
+      <p>Comprehensive resupply points and logistics</p>
+    </a>
   </div>
 </div>
 
