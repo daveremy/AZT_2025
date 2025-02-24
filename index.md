@@ -180,6 +180,10 @@ title: My AZT 2025 Plan
       <h3>🏃‍♂️ Shakedown Hikes</h3>
       <p>Test runs and gear checks</p>
     </a>
+    <a href="{{ site.baseurl }}/timeline" class="link-card">
+      <h3>📅 Estimated Timeline</h3>
+      <p>Key dates and milestones</p>
+    </a>
   </div>
 </div>
 
