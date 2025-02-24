@@ -143,3 +143,7 @@ Areas to avoid:
   - Laundry facilities
   - Home-cooked meals
   - Family time
+
+## Supplementary Stops
+- **Summerhaven**: Plan a brief stop for quick resupply and rest. Utilize the mail drop option if needed.
+- **High Jinks Ranch**: Plan a brief stop for quick resupply. Utilize the mail drop option if needed.

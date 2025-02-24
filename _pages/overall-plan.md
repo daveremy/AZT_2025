@@ -9,7 +9,7 @@ permalink: /overall-plan/
 - Hiker: You (NOBO from Mexican Border to South Rim)
 - Start Date: March 15, 2025
 - First Section End: South Rim (estimated April 24-30)
-- Grand Canyon R2R: May 16 (with Beth, South to North)
+- Grand Canyon R2R: May 15 (with Beth, South to North)
 - Northern Section: Post May 16 (potentially with Beth)
 
 ## Timeline Summary
@@ -168,4 +168,7 @@ Total Trail Time: Approximately 47-54 hiking days + rest days
 ## Emergency Contacts
 - [Add emergency contact information]
 - [Add relevant trail angel contacts]
-- [Add local shuttle services] 
+- [Add local shuttle services]
+
+- **Supplementary Stops**: Brief stops at Summerhaven and High Jinks Ranch for quick resupply and rest without zero days.
+- **Resupply Strategy**: Use these stops to ensure adequate supplies to reach Tucson. 
