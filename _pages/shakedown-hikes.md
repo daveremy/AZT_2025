@@ -25,7 +25,7 @@ Shakedown hikes are crucial for testing gear, getting comfortable with the syste
 From 38093 S Samaniego Dr, Tucson:
 1. Take Oracle Road (SR 77) north toward Oracle
 2. Turn right onto American Flag Ranch Road
-3. Follow to the [American Flag Ranch Trailhead](https://goo.gl/maps/YQZtmZQZQ9Q2)
+3. Follow to the [American Flag Ranch Trailhead](https://www.google.com/maps/place/Arizona+Trail+-+American+Flag+Trailhead/@32.5808538,-110.7228829,17z/data=!3m1!4b1!4m6!3m5!1s0x86d6180f65636841:0xbb89c29f1e88aada!8m2!3d32.5808493!4d-110.720308!16s%2Fg%2F11hb3xjr6w)
 
 Approximate drive time: 30-35 minutes
 

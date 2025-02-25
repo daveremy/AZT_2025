@@ -9,7 +9,7 @@ permalink: /changelog/
 This page tracks significant changes and updates to the AZT 2025 planning documentation.
 
 ## Recent Changes
-- February 25, 2025 09:07 - cleanup: remove intermediate gear list files (gear-list2 through gear-list4)
+- February 25, 2025 12:14 - fix: update gear list permalink to /gear-list/
 Major changes:
 Git:
 Documentation:
@@ -36,6 +36,7 @@ Add initial passages.yml with:
 - Move ordered items to Small Stuff section with weights
 - Mark items already acquired or ordered
 - GPX track file downloader and parser
+- February 25, 2025 09:07 - cleanup: remove intermediate gear list files (gear-list2 through gear-list4)
 - February 25, 2025 09:06 - refactor: make gear-list5 the main gear list page - Rename original gear-list.md to gear-list.md.bak - Make gear-list5.md (with refactored data structure) the new gear-list.md - This completes the gear list refactoring work
 - February 24, 2025 14:20 - Revert gear list to simpler table format without subtotals
 - February 24, 2025 13:52 - Add gear list rendering with Liquid template
