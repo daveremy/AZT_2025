@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Gear List
-permalink: gear-list5/
+permalink: /gear-list/
 ---
 
 <style>
