@@ -1,13 +1,13 @@
-total_distance: 800
+total_distance: 801.8
 total_days: 44
-avg_daily_mileage: 22.2
+avg_daily_mileage: 22.3
 zero_days: 8
 hiking_days: 36
 
 elevation:
-  lowest_point: 2,480
-  highest_point: 9,466
-  total_gain: 110,000
+  lowest_point: 1,638
+  highest_point: 9,143
+  total_gain: 112,091
 
 resupply:
   total_points: 10
@@ -71,7 +71,7 @@ mountain_ranges:
       notable_features:
         ["Mount Wrightson", "Kentucky Camp", "Desert grasslands"]
     - name: "Rincon Mountains"
-      elevation: 8,482
+      elevation: 8,668
       notable_features:
         [
           "Mica Mountain",

@@ -312,12 +312,12 @@ passages:
         coordinates:
           lat: 32.3063
           lon: -110.57428
-    length_miles: 23.9
+    length_miles: 24.3
     elevation:
       start_ft: 3117.0
       end_ft: 4351.0
       min_ft: 3085.0
-      max_ft: 8581.0
+      max_ft: 8668.0
       total_gain_ft: 6620.0
       total_loss_ft: 5386.0
       avg_grade_pct: 11.2
@@ -800,11 +800,12 @@ passages:
         lon: -111.47734
   - number: "23"
     name: Mazatzal Divide
+    length_miles: 23.8
     resources:
-      info_page: https://aztrail.org/explore/passages/passage-23-mazatzal-divide
-      map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/23_MazatzalDivide.pdf
-      profile_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/23-mazatzaldivide.png
-      track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/arizona-trail-history-passage-23.pdf
+      info_page: "https://aztrail.org/explore/passages/passage-23-mazatzal-divide"
+      map_url: "https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/23_MazatzalDivide.pdf"
+      profile_url: "https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/23-mazatzaldivide.png"
+      track_url: "https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/arizona-trail-history-passage-23.pdf"
       access_points:
         - type: southern
           name: Mt Peeley Trailhead
@@ -816,7 +817,6 @@ passages:
           coordinates:
             lat: 34.18046
             lon: -111.50359
-      length_miles: 23.8
       elevation:
         start_ft: 5782.0
         end_ft: 6086.0
@@ -836,11 +836,12 @@ passages:
           lon: -111.50526
   - number: "24"
     name: Red Hills
+    length_miles: 10.6
     resources:
-      info_page: https://aztrail.org/explore/passages/passage-24-red-hills
-      map_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/24_RedHills.pdf
-      profile_url: https://aztrail.org/wp-content/uploads/2018/01/24-redhills.png
-      track_url: https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/arizona-trail-history-passage-24.pdf
+      info_page: "https://aztrail.org/explore/passages/passage-24-red-hills"
+      map_url: "https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2018/01/24_RedHills.pdf"
+      profile_url: "https://aztrail.org/wp-content/uploads/2018/01/24-redhills.png"
+      track_url: "https://aztrailmedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2024/06/arizona-trail-history-passage-24.pdf"
       access_points:
         - type: southern
           name: Red Hills Trail Junction
@@ -852,7 +853,6 @@ passages:
           coordinates:
             lat: 34.22915
             lon: -111.51299
-      length_miles: 10.6
       elevation:
         start_ft: 6089.0
         end_ft: 3275.0
@@ -1320,7 +1320,7 @@ passages:
         coordinates:
           lat: 36.05335
           lon: -112.08344
-    length_miles: 22.3
+    length_miles: 22.4
     elevation:
       start_ft: 7529.0
       end_ft: 7207.0
@@ -1356,7 +1356,7 @@ passages:
         coordinates:
           lat: 36.21699
           lon: -112.05666
-    length_miles: 20.3
+    length_miles: 21.4
     elevation:
       start_ft: 7207.0
       end_ft: 8229.0
