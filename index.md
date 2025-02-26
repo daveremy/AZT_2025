@@ -112,7 +112,7 @@ title: My AZT 2025 Plan
 }
 </style>
 
-{% assign base_weight = site.data.gear.categories %}
+{% assign base_weight = site.data.gear.items %}
 {% include calculate_base_weight.html %}
 
 <div class="hero-section">
