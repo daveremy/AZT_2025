@@ -49,11 +49,15 @@ def validate_passage(passage):
     """Check if a passage has all the required fields."""
     required_fields = ['number', 'name', 'length_miles', 'elevation']
     if not all(field in passage for field in required_fields):
+        missing = [field for field in required_fields if field not in passage]
+        print(f"Passage {passage['number']} ({passage['name']}) is missing fields: {missing}")
         return False
     
     # Check elevation fields
     elevation_fields = ['start_ft', 'end_ft', 'min_ft', 'max_ft', 'total_gain_ft']
     if not all(field in passage['elevation'] for field in elevation_fields):
+        missing = [field for field in elevation_fields if field not in passage['elevation']]
+        print(f"Passage {passage['number']} ({passage['name']}) is missing elevation fields: {missing}")
         return False
     
     return True
@@ -66,7 +70,7 @@ def generate_elevation_data(passages):
         if validate_passage(passage):
             valid_passages.append(passage)
         else:
-            print(f"Skipping passage {i+1} due to missing data: {passage.get('name', 'Unknown')}")
+            print(f"Skipping passage {passage['number']} ({passage.get('name', 'Unknown')}) due to missing data")
     
     # Calculate cumulative miles for each passage
     cumulative_miles = 0
